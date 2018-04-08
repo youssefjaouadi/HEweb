@@ -1,0 +1,11 @@
+.testh{color: #0000F0}
+.testf{color: #66dd66}
+.test{color: #AA3333}
+.bg{background: no-repeat center center fixed   url("../img/bgr2.jpeg")   ;
+    width: 1000px;
+    height: 800px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

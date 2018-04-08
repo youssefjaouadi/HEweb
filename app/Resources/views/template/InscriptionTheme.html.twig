@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inscription Restaurent</title>
+    {% block stylesheets %}
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,300,300italic' rel='stylesheet' type='text/css'>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+        <link href="{{ asset('frontend/css/global.css') }}" rel="stylesheet">
+    {% endblock %}
+
+</head>
+<body>
+<header>
+{% block header %}
+    {% include'template/header.html.twig' %}
+{% endblock %}
+</header>
+<div class="container-fluid margin_60 bg " >
+
+{% block body %}{% endblock %}
+</div>
+<footer>
+{% block footer %}
+    {% include 'template/footer.html.twig' %}
+{% endblock %}
+</footer>
+{% block javascripts %}
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="{{ asset('frontend/js/common_scripts_min.js') }}"></script>
+        <script src="{{ asset('frontend/js/functions.js') }}"></script>
+
+
+        <!-- SPECIFIC SCRIPTS -->
+
+{% endblock %}
+
+</body>
+</html>
+
