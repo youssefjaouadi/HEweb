@@ -17,4 +17,5 @@ class InsRController extends Controller
         ));
     }
 
+
 }
