@@ -1,0 +1,30 @@
+{% extends "template/dashboardTheme.html.twig" %}
+
+{% block title %}RestoBundle:Profil:DisplayProfile{% endblock %}
+{% block stylesheets %}
+    {{ parent() }}
+
+    <link rel="stylesheet" href="{{ asset('frontend/dashboard/assets/css/flag-icon.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/resto-profile.css') }}">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+
+{% endblock %}
+{% block rightside %}
+    {% include 'template/dashboardheader.html.twig' %}
+    <div class="container" style="width:100%;overflow-y: auto;height : 89%;margin-top: -5px">
+    <div class="row">
+        <button class="cover-resto" style="background: url('{{ asset('frontend/img/pizza.jpeg') }}')no-repeat;background-size: cover; "></button>
+
+    </div>
+
+    </div>
+
+
+
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+
+
+{% endblock %}
