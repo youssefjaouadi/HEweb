@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<nav class="navbar navbar-expand-sm navbar-default">
+
+<div class="navbar-header">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars fadesign" ></i>
+    </button>
+    <a class="navbar-brand custom-navbar-brand" href="./"><img src="{{ asset('frontend/img/logo.png') }}" alt="Logo"></a>
+    <a class="navbar-brand hidden" href="./"><img src="images/logo2.png" alt="Logo"></a>
+</div>
+
+<div id="main-menu" class="main-menu collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+
+
+        <li class="menu-item-has-children dropdown">
+         {#   <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Menu</a>#}
+            <a href="#"  class="dropdown-toggle labelinfo"><img src="{{ asset('frontend/img/menu4.png') }}" ><span>Menu</span> </a>
+
+        </li>
+        <li class="menu-item-has-children dropdown">
+          {#  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Commande</a>#}
+            <a href="#"  class="dropdown-toggle labelinfo"><img src="{{ asset('frontend/img/commandes.png') }}" ><span>Comamndes</span> </a>
+        </li>
+        <li class="menu-item-has-children dropdown">
+            <a href="#"  class="dropdown-toggle labelinfo"><img src="{{ asset('frontend/img/listreview.png') }}" ><span>Avis</span> </a>
+
+        </li>
+        <li class="menu-item-has-children dropdown">
+            <a href="#"  class="dropdown-toggle labelinfo"><img src="{{ asset('frontend/img/user.png') }}" ><span>Profile</span> </a>
+
+        </li>
+  <li class="menu-item-has-children dropdown">
+      <a href="#"  class="dropdown-toggle labelinfo"><img src="{{ asset('frontend/img/logout.png') }}" ><span>Deconnexion</span> </a>
+
+        </li>
+
+
+
+    </ul>
+</div><!-- /.navbar-collapse -->
+</nav>
+{% block javascripts %}
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="{{ asset('frontend/dashboard/assets/js/plugins.js') }}"></script>
+
+
+    <!-- SPECIFIC SCRIPTS -->
+
+{% endblock %}
+</html>

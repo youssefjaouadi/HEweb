@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/Resources/views/template/InscriptionTheme.html.twig" description="jq" line="32" />
+    <bookmark url="file://$PROJECT_DIR$/app/Resources/views/template/leftside.html.twig" description="&lt;a href=&quot;#&quot;  class=&quot;dropdown-toggle labelinfo&quot;&gt;&lt;im..." line="32" />
+    <bookmark url="file://$PROJECT_DIR$/web/frontend/css/custom-dashboard.css" description="height: 300px!important;" line="17" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b7a201cb-8ba4-4fa7-8437-d2701dc43f63" name="Default" comment="">
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/androidStudioFirstRun.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/dimensions.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/editor.codeinsight.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/extensionsRootType.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/feature.usage.statistics.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/jdk.table.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/keymap.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/laf.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/options.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/project.default.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/statistics.application.usages.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/stubIndex.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/ui.lnf.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/updates.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/options/usage.statistics.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/port.lock" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/config/user.token" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/.home" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/LocalHistory/changes.storageData" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/LocalHistory/changes.storageRecordIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/attrib.dat.storageData" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/attrib.dat.storageRecordIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/content.dat.storageData" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/content.dat.storageRecordIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/contentHashes.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/contentHashes.dat.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/contentHashes.dat.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/contentHashes.dat.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/contentHashes.dat_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/contentHashes.dat_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/names.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/names.dat.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/names.dat.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/names.dat.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/names.dat_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/names.dat_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/records.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/records.dat.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/caches/vfs_enum_attrib.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/frameworks/detection/detectors-registry.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/hashesWithFileType" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/hashesWithFileType.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/hashesWithFileType.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/hashesWithFileType.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/hashesWithFileType_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/hashesWithFileType_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/idindex/values" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/idindex/values.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/idindex/values.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/idindex/values_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/idindex/values_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/todoindex/values" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/todoindex/values.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/todoindex/values.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/todoindex/values_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/todoindex/values_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/trigram.index/values" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/trigram.index/values.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/trigram.index/values.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/trigram.index/values_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/.persistent/trigram.index/values_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.id.index/android.id.index_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/android.value.resources.index/android.value.resources.index_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/bytecodeanalysis/bytecodeAnalysis_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/domfileindex/DomFileIndex_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/fileincludes/fileIncludes_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex.project" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex.project.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex.project.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex.project.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex.project_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex.project_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filenameindex/FilenameIndex_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/filetypes/filetypes_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/frameworkdetectionindex/FrameworkDetectionIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/frameworkdetectionindex/FrameworkDetectionIndex.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/frameworkdetectionindex/FrameworkDetectionIndex.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/frameworkdetectionindex/FrameworkDetectionIndex.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/frameworkdetectionindex/FrameworkDetectionIndex_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/frameworkdetectionindex/FrameworkDetectionIndex_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/frameworkdetectionindex/FrameworkDetectionIndex_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/frameworkdetectionindex/FrameworkDetectionIndex_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/frameworkdetectionindex/FrameworkDetectionIndex_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/frameworkdetectionindex/FrameworkDetectionIndex_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/frameworkdetectionindex/FrameworkDetectionIndex_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovy.trait.fields/groovy.trait.fields" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovy.trait.fields/groovy.trait.fields.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovy.trait.fields/groovy.trait.fields.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovy.trait.fields/groovy.trait.fields.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovy.trait.fields/groovy.trait.fields_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovy.trait.fields/groovy.trait.fields_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovy.trait.fields/groovy.trait.fields_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovy.trait.fields/groovy.trait.fields_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovy.trait.fields/groovy.trait.fields_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovy.trait.fields/groovy.trait.fields_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovy.trait.fields/groovy.trait.fields_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/groovydslfileindex/GroovyDslFileIndex_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/html5.custom.attributes.index/html5.custom.attributes.index_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/IdIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/IdIndex.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/IdIndex.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/IdIndex.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/IdIndex_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/IdIndex_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/IdIndex_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/IdIndex_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/IdIndex_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/IdIndex_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/IdIndex_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/fileIdToHashId" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/fileIdToHashId.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/fileIdToHashId.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/fileIdToHashId_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/idindex/fileIdToHashId_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/imagefileinfoindex/ImageFileInfoIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/imagefileinfoindex/ImageFileInfoIndex.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/imagefileinfoindex/ImageFileInfoIndex.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/imagefileinfoindex/ImageFileInfoIndex.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/imagefileinfoindex/ImageFileInfoIndex_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/imagefileinfoindex/ImageFileInfoIndex_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/imagefileinfoindex/ImageFileInfoIndex_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/imagefileinfoindex/ImageFileInfoIndex_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/imagefileinfoindex/ImageFileInfoIndex_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/imagefileinfoindex/ImageFileInfoIndex_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/imagefileinfoindex/ImageFileInfoIndex_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/indices.enum" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/java.functional.expression/java.functional.expression_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/refqueueindex/RefQueueIndex_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/registered" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/relaxsymbolindex/RelaxSymbolIndex_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/rep.names" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/rep.names.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/rep.names.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/rep.names.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/rep.names_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/rep.names_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/schematypeinheritance/SchemaTypeInheritance_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/dom.elementClass.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/dom.namespaceKey.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/gr.annot.members.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/gr.annot.method.name.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/gr.anonymous.class.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/gr.class.fqn.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/gr.class.super.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/gr.field.name.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/gr.method.name.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/gr.script.class.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/gr.script.fqn.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/java.annotations.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/java.anonymous.baseref.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/java.class.extlist.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/java.class.fqn.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/java.class.shortname.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/java.field.name.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/java.method.name.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/java.method.parameter.types.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/jvm.static.member.name.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/jvm.static.member.type.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/.versions/properties.index.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/Stubs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/Stubs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/Stubs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/Stubs.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/Stubs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/Stubs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/Stubs_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/Stubs_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/Stubs_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/Stubs_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/Stubs_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.elementclass/dom.elementClass" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.elementclass/dom.elementClass.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.elementclass/dom.elementClass.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.elementclass/dom.elementClass.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.elementclass/dom.elementClass.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.elementclass/dom.elementClass_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.elementclass/dom.elementClass_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.namespacekey/dom.namespaceKey" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.namespacekey/dom.namespaceKey.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.namespacekey/dom.namespaceKey.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.namespacekey/dom.namespaceKey.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.namespacekey/dom.namespaceKey.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.namespacekey/dom.namespaceKey_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/dom.namespacekey/dom.namespaceKey_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.members/gr.annot.members" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.members/gr.annot.members.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.members/gr.annot.members.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.members/gr.annot.members.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.members/gr.annot.members.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.members/gr.annot.members_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.members/gr.annot.members_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.method.name/gr.annot.method.name" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.method.name/gr.annot.method.name.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.method.name/gr.annot.method.name.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.method.name/gr.annot.method.name.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.method.name/gr.annot.method.name.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.method.name/gr.annot.method.name_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.annot.method.name/gr.annot.method.name_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.anonymous.class/gr.anonymous.class" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.anonymous.class/gr.anonymous.class.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.anonymous.class/gr.anonymous.class.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.anonymous.class/gr.anonymous.class.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.anonymous.class/gr.anonymous.class.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.anonymous.class/gr.anonymous.class_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.anonymous.class/gr.anonymous.class_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.class.fqn/gr.class.fqn" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.class.fqn/gr.class.fqn.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.class.fqn/gr.class.fqn.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.class.fqn/gr.class.fqn_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.class.fqn/gr.class.fqn_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.class.super/gr.class.super" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.class.super/gr.class.super.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.class.super/gr.class.super.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.class.super/gr.class.super.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.class.super/gr.class.super.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.class.super/gr.class.super_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.class.super/gr.class.super_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.field.name/gr.field.name" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.field.name/gr.field.name.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.field.name/gr.field.name.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.field.name/gr.field.name.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.field.name/gr.field.name.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.field.name/gr.field.name_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.field.name/gr.field.name_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.method.name/gr.method.name" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.method.name/gr.method.name.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.method.name/gr.method.name.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.method.name/gr.method.name.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.method.name/gr.method.name.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.method.name/gr.method.name_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.method.name/gr.method.name_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.script.class/gr.script.class" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.script.class/gr.script.class.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.script.class/gr.script.class.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.script.class/gr.script.class.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.script.class/gr.script.class.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.script.class/gr.script.class_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.script.class/gr.script.class_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.script.fqn/gr.script.fqn" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.script.fqn/gr.script.fqn.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.script.fqn/gr.script.fqn.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.script.fqn/gr.script.fqn_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/gr.script.fqn/gr.script.fqn_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.annotations/java.annotations" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.annotations/java.annotations.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.annotations/java.annotations.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.annotations/java.annotations.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.annotations/java.annotations.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.annotations/java.annotations_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.annotations/java.annotations_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.anonymous.baseref/java.anonymous.baseref" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.anonymous.baseref/java.anonymous.baseref.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.anonymous.baseref/java.anonymous.baseref.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.anonymous.baseref/java.anonymous.baseref.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.anonymous.baseref/java.anonymous.baseref.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.anonymous.baseref/java.anonymous.baseref_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.anonymous.baseref/java.anonymous.baseref_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.extlist/java.class.extlist" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.extlist/java.class.extlist.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.extlist/java.class.extlist.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.extlist/java.class.extlist.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.extlist/java.class.extlist.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.extlist/java.class.extlist_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.extlist/java.class.extlist_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.fqn/java.class.fqn" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.fqn/java.class.fqn.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.fqn/java.class.fqn.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.fqn/java.class.fqn_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.fqn/java.class.fqn_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname.project" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname.project.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname.project.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname.project.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname.project_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname.project_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.class.shortname/java.class.shortname_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.field.name/java.field.name" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.field.name/java.field.name.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.field.name/java.field.name.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.field.name/java.field.name.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.field.name/java.field.name.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.field.name/java.field.name_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.field.name/java.field.name_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.name/java.method.name" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.name/java.method.name.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.name/java.method.name.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.name/java.method.name.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.name/java.method.name.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.name/java.method.name_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.name/java.method.name_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.parameter.types/java.method.parameter.types" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.parameter.types/java.method.parameter.types.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.parameter.types/java.method.parameter.types.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.parameter.types/java.method.parameter.types.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.parameter.types/java.method.parameter.types.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.parameter.types/java.method.parameter.types_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/java.method.parameter.types/java.method.parameter.types_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.name/jvm.static.member.name" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.name/jvm.static.member.name.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.name/jvm.static.member.name.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.name/jvm.static.member.name.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.name/jvm.static.member.name.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.name/jvm.static.member.name_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.name/jvm.static.member.name_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.type/jvm.static.member.type" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.type/jvm.static.member.type.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.type/jvm.static.member.type.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.type/jvm.static.member.type.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.type/jvm.static.member.type.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.type/jvm.static.member.type_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/jvm.static.member.type/jvm.static.member.type_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/properties.index/properties.index" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/properties.index/properties.index.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/properties.index/properties.index.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/properties.index/properties.index.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/properties.index/properties.index.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/properties.index/properties.index_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/stubs/properties.index/properties.index_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/TodoIndex_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/fileIdToHashId" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/fileIdToHashId.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/fileIdToHashId.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/fileIdToHashId_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/todoindex/fileIdToHashId_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/Trigram.Index" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/Trigram.Index.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/Trigram.Index.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/Trigram.Index.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/Trigram.Index_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/Trigram.Index_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/Trigram.Index_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/Trigram.Index_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/Trigram.Index_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/Trigram.Index_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/Trigram.Index_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/fileIdToHashId" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/fileIdToHashId.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/fileIdToHashId.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/fileIdToHashId_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/trigram.index/fileIdToHashId_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlnamespaces/XmlNamespaces_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmlproperties/xmlProperties_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames.ver" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames_inputs" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames_inputs.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames_inputs.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames_inputs_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/index/xmltagnames/XmlTagNames_inputs_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/jars/javafx-src.zip.9ec7f747c995f9769dd32f0b23091bbf8d6c54a9" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/jars/snapshots_info" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/jars/snapshots_info.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/jars/snapshots_info.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/jars/snapshots_info.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/jars/snapshots_info.values.at" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/jars/snapshots_info.version" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/jars/snapshots_info_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/jars/snapshots_info_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/jars/src.zip.1fa838d630703e8c92acc2bb9d8948585d818028" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/log/idea.log" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/log/threadDumps-20170917-134418-AI-143.3101438/freeze-20170917-134423-15/threadDump-20170917-134423.txt" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/log/threadDumps-20170917-134418-AI-143.3101438/freeze-20170917-134423-15/threadDump-20170917-134428.txt" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/log/threadDumps-20170917-134418-AI-143.3101438/freeze-20170917-134423-15/threadDump-20170917-134433.txt" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/port.lock" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/tmp/jna-76311/jna8632585433741780638.dll" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.1/system/tmp/jna-76311/jna8632585433741780638.dll.x" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/disabled_plugins.txt" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/inspection/Default.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/IntelliLang.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/androidEditors.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/androidStudioFirstRun.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/debugger.renderers.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/debugger.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/diff.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/dimensions.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/editor.codeinsight.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/editor.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/extensionsRootType.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/feature.usage.statistics.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/filetypes.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/find.recents.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/gradle.run.settings.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/images.support.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/jdk.table.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/keymap.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/laf.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/options.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/other.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/project.default.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/proxy.settings.pwd" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/recentProjects.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/runner.layout.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/statistics.application.usages.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/stubIndex.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/ui.lnf.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/updates.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/usage.statistics.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/web-browsers.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/window.manager.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/options/window.state.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/plugins/availables.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/plugins/extensions.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/port.lock" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/2DScroller_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/2DScroller_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/2DScroller_sample.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/2DScroller_sample.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/Android_ScrollBarPanel_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/Android_ScrollBarPanel_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/Cordova_Multiplatform_Template_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/Cordova_Multiplatform_Template_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/CustomKeyboard.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/CustomKeyboard.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/Delimeal.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/Delimeal.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/ECommerce_App_Android_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/ECommerce_App_Android_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/FirebaseStorageExam.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/FirebaseStorageExam.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/HospEat.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/HospEat.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/HospEat1.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/HospEat1.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/HospEat2.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/HospEat2.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/HospEatv3.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/HospEatv3.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/HostEatV1.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/HostEatV1.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/Loginapp_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/Loginapp_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/MovieGuide_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/MovieGuide_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/MyApplication.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/MyApplication.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/MyApplication3.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/MyApplication3.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/My_Application.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/My_Application.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/My_Application2.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/My_Application2.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/PagingListView.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/PagingListView.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/PagingListView_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/PagingListView_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/RxSocialAuth_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/RxSocialAuth_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/TabsWithSwipeGesture.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/TabsWithSwipeGesture.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/Travel_Mate_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/Travel_Mate_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/android_tamilkey.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/android_tamilkey.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/bin.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/bin.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/coujinti.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/coujinti.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/folding_cell_android_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/folding_cell_android_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/moom.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/moom.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/nav.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/nav.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/openshop_io_android_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/openshop_io_android_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/photo_affix_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/photo_affix_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/ribot_app_android_master.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/ribot_app_android_master.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/sample.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/sample.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/templates.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/templates.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/testlist.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/testlist.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/videm18_05_2017.contexts.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/tasks/videm18_05_2017.tasks.zip" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/config/user.token" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/.home" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/LocalHistory/changes.storageData" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/LocalHistory/changes.storageRecordIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/attrib.dat.storageData" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/attrib.dat.storageRecordIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/content.dat.storageData" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/content.dat.storageRecordIndex" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/contentHashes.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/contentHashes.dat.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/contentHashes.dat.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/contentHashes.dat.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/contentHashes.dat_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/contentHashes.dat_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/names.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/names.dat.keystream" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/names.dat.keystream.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/names.dat.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/names.dat_i" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/names.dat_i.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/records.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/records.dat.len" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/caches/vfs_enum_attrib.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/compile-server/delimeal_200cafc8/ustamp" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/compile-server/hospeat2_7dbfff25/ustamp" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/compile-server/hospeat2_8a2a85e1/ustamp" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/compile-server/hospeat_9be128df/ustamp" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/compile-server/loginapp-master_d1f4aa97/ustamp" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/compile-server/movieguide-master_16109dc3/ustamp" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/compile-server/photo-affix-master_b7c7bc2c/ustamp" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/compile-server/ribot-app-android-master_2b1fcadb/ustamp" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/compile-server/travel-mate-master_3eef25a9/ustamp" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/compile-server/videm18-05-2017_a9ef776/ustamp" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/2DScroller-mastera5beed45.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/2DScroller-sample2c486314.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/Android-ScrollBarPanel-master68aaf9f5.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/Cordova-Multiplatform-Template-master210e3625.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/CustomKeyboard217b6336.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/Delimealc961e9bf.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/ECommerce-App-Android-master4c30e3ab.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/ECommerce-App-Android-master8d963db7.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/FirebaseStorageExam27e27ab5.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/HospEat1862742db.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/HospEat24e916ad0.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/HospEat2862742dc.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/HospEat2bbbc8698.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/HospEat77f0c016.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/HospEatv33ec12113.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/HostEatV145947fad.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/Loginapp-master9c55ebce.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/MovieGuide-master5482affa.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/MyApplication1c19369.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/MyApplication2d48ee56c.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/MyApplication3d48ee56d.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/MyApplication4d48ee56e.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/MyApplication5d48ee56f.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/MyApplicationa3c28b86.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/PagingListView-master4dbe7362.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/PagingListView8b331a9b.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/RxSocialAuth-masterd30fb0d6.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/TabsWithSwipeGesturedecdc271.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/Travel-Mate-master9469c60.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/android-tamilkey6a9bfd78.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/bin6480711c.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/coujinti7e0cb0f9.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/folding-cell-android-master5e7147e1.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/moom6533fd1e.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/navb8f12b45.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/openshop_io-android-master91551877.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/photo-affix-master5be71123.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/ribot-app-android-master7b5f8f12.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/sampledfaa9370.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/templates7078a3db.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/testlist2b7adb9c.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/videm18-05-201765ac4e61.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/conversion/videm18-05-201782770bed.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/1c19369/gradle_project_sync_data.bin" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/1c19369/project.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/217b6336/gradle_project_sync_data.bin" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/217b6336/project.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/27e27ab5/gradle_project_sync_data.bin" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/27e27ab5/project.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/2b7adb9c/gradle_project_sync_data.bin" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/2b7adb9c/project.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/3ec12113/gradle_project_sync_data.bin" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/3ec12113/project.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/45947fad/gradle_project_sync_data.bin" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/45947fad/project.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/4c30e3ab/gradle_project_sync_data.bin" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/4c30e3ab/project.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/4e916ad0/gradle_project_sync_data.bin" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/4e916ad0/project.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/5482affa/project.dat" />
+      <change beforePath="" afterPath="$USER_HOME$/.AndroidStudio2.3/system/external_build_system/Projects/5be71123/gradle_project_sync_data.bin" />
+      <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/git.xml" />
+      <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/other.xml" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/src/RestoBundle/Resources/views/ClientGUI/PERE.html.twig" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/admin.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/animate.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/animate.min.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/base.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/blog.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/bootstrap.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/bootstrap3-wysihtml5.min.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/custom.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/date_time_picker.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/dropzone.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/elegant_font/elegant_font.min.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/elegant_font/fonts/ElegantIcons.eot" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/elegant_font/fonts/ElegantIcons.svg" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/elegant_font/fonts/ElegantIcons.ttf" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/elegant_font/fonts/ElegantIcons.woff" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/elegant_font/fonts/ElegantIconsd41d.eot" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/font-awesome.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/fontello/css/fontello.min.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/fontello/font/fontello4508.eot" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/fontello/font/fontello4508.svg" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/fontello/font/fontello4508.ttf" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/fontello/font/fontello4508.woff" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/images/closedhand.123" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/images/openhand.123" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/ion.rangeSlider.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/ion.rangeSlider.skinFlat.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/jquery.cookiebar.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/magnific-popup.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/menu.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/morphext.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/pop_up.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/responsive.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/skins/square/grey.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/skins/square/grey.png" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/skins/square/grey@2x.png" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/slider-pro.min.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/css/style.css" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/bootstrap-datepicker.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/bootstrap-timepicker.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/bootstrap3-wysihtml5.min.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/cat_nav_mobile.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/common_scripts_min.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/dropzone.min.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/functions.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/infobox.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/ion.rangeSlider.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/jquery-2.2.4.min.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/jquery.cookiebar.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/jquery.sliderPro.min.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/map.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/map_listing.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/map_single.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/modernizr.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/morphext.min.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/pop_up.min.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/pop_up_func.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/tabs.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/theia-sticky-sidebar.js" />
+      <change beforePath="" afterPath="$USER_HOME$/Desktop/g4/HEweb/web/js/video_header.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Accueil.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/ClientGUI/Accueil.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PERE.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/ClientGUI/PERE.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="270" column="42" lean-forward="false" selection-start-line="270" selection-start-column="42" selection-end-line="270" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-99">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="twig" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Twig2" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cmdte</find>
+      <find>id=&quot;mo</find>
+      <find>user-ava</find>
+      <find>card-body</find>
+      <find>card</find>
+      <find>sli</find>
+      <find>mem</find>
+      <find>test</find>
+      <find>tit</find>
+      <find>votre</find>
+      <find>con</find>
+      <find>consu</find>
+      <find>aj</find>
+      <find>user-avatar</find>
+      <find>ajm</find>
+      <find>aside.left-panel</find>
+      <find>nice</find>
+      <find>2.</find>
+      <find>plu</find>
+      <find>expan</find>
+      <find>sty</find>
+      <find>vid</find>
+      <find>.header-video</find>
+      <find>coun</find>
+      <find>#85c99d</find>
+      <find>Choose from over 2,000 Restaurants</find>
+      <find>.strip_list</find>
+      <find>#78cfcf</find>
+      <find>h3</find>
+      <find>take</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\HospEatWebV1.0</dir>
+    </dirStrings>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="s generate:bundle" />
+      <command text="c dump-autoload" />
+      <command text="s generate:controller" />
+      <command text="c dump-autoload" />
+      <command text="s generate:controller" />
+      <command text="c dump-autoload" />
+      <command text="c clear-cache" />
+      <command text="s doctrine:mapping:import RestoBundle annotation" />
+      <command text="c clear-cache" />
+      <command text="s cache:clear" />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/frontend/mycss/custom.css" />
+        <option value="$PROJECT_DIR$/web/frontend/mycss/inscription.css" />
+        <option value="$PROJECT_DIR$/web/frontend/css/base.css" />
+        <option value="$PROJECT_DIR$/web/frontend/css/animate.min.css" />
+        <option value="$PROJECT_DIR$/web/frontend/css/footer.css" />
+        <option value="$PROJECT_DIR$/web/frontend/css/header.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/template/footer.html.twig" />
+        <option value="$PROJECT_DIR$/web/frontend/css/global.css" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/InscriptionTheme.html.twig" />
+        <option value="$PROJECT_DIR$/web/frontend/css/fontello/css/fontello.min.css" />
+        <option value="$PROJECT_DIR$/web/frontend/css/menu.css" />
+        <option value="$PROJECT_DIR$/web/frontend/css/custom.css" />
+        <option value="$PROJECT_DIR$/web/frontend/css/responsive.css" />
+        <option value="$PROJECT_DIR$/web/frontend/css/style.css" />
+        <option value="$PROJECT_DIR$/web/frontend/js/maploc.js" />
+        <option value="$PROJECT_DIR$/web/frontend/css/jquery-clockpicker.css" />
+        <option value="$PROJECT_DIR$/web/frontend/js/insr.js" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/InsR/insr.html.twig" />
+        <option value="$PROJECT_DIR$/web/frontend/css/dashboard.scss" />
+        <option value="$PROJECT_DIR$/web/frontend/css/dashboard.css" />
+        <option value="$PROJECT_DIR$/web/frontend/css/style.scss" />
+        <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/scss/variables.scss" />
+        <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/css/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/web/frontend/img/menuicon.svg" />
+        <option value="$PROJECT_DIR$/app/Resources/views/template/InscriptionTheme.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/template/header.html.twig" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Controller/InsRController.php" />
+        <option value="$PROJECT_DIR$/web/frontend/externres/slick-carousel/slick/slick-theme.css" />
+        <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/css/flag-icon.min.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/template/leftside.html.twig" />
+        <option value="$PROJECT_DIR$/web/frontend/css/inscription.css" />
+        <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/template/dashboardTheme.html.twig" />
+        <option value="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/card/mdc-card.scss" />
+        <option value="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/card/dist/mdc.card.css" />
+        <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/scss/bootstrap/bootstrap-grid.css" />
+        <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/scss/style.scss" />
+        <option value="$PROJECT_DIR$/web/frontend/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/scss/style.css" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/DashboardController/resto_home.html.twig" />
+        <option value="$PROJECT_DIR$/web/frontend/css/custom-dashboard.css" />
+        <option value="$PROJECT_DIR$/web/frontend/js/dashboardhome.js" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/ClientGUI/Accueil.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Controller/ClientController.php" />
+        <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/ClientGUI/PERE.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/web/frontend/externres/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/gregwar/captcha" />
+      <path value="$PROJECT_DIR$/vendor/gregwar/captcha-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="44" />
+    <option name="y" value="60" />
+    <option name="width" value="1070" />
+    <option name="height" value="663" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HEweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HEweb" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HEweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HEweb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HEweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HEweb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HEweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HEweb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HEweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HEweb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HEweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HEweb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HEweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HEweb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/g4/HEweb" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\HEweb\web" />
+      <recent name="C:\Users\MHR\Desktop\g4\HEweb\src\RestoBundle\Resources\config" />
+      <recent name="C:\Users\MHR\Desktop\g4\HEweb\src\RestoBundle\Controller" />
+      <recent name="C:\Users\MHR\Desktop\g4\HEweb\web" />
+      <recent name="C:\Users\MHR\Desktop\g4\HEweb" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\HEweb\web\css" />
+      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\dashboard\images" />
+      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\dashboard" />
+      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\css" />
+      <recent name="C:\xampp\htdocs\HospEatWebV1.0\app\Resources\views\template" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\MHR\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7a201cb-8ba4-4fa7-8437-d2701dc43f63" name="Default" comment="" />
+      <created>1522747237535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522747237535</updated>
+      <workItem from="1522747242681" duration="3327000" />
+      <workItem from="1522752547833" duration="2816000" />
+      <workItem from="1522757280464" duration="4698000" />
+      <workItem from="1522832788904" duration="25267000" />
+      <workItem from="1522922793870" duration="27412000" />
+      <workItem from="1523052281592" duration="1369000" />
+      <workItem from="1523108038900" duration="10624000" />
+      <workItem from="1523131845896" duration="2346000" />
+      <workItem from="1523177048536" duration="19839000" />
+      <workItem from="1523201349040" duration="6296000" />
+      <workItem from="1523353887080" duration="25656000" />
+      <workItem from="1523439632698" duration="14764000" />
+      <workItem from="1523527290360" duration="5540000" />
+      <workItem from="1523571548003" duration="1738000" />
+      <workItem from="1523657629621" duration="5225000" />
+      <workItem from="1523741540688" duration="5342000" />
+      <workItem from="1523784372021" duration="13274000" />
+      <workItem from="1523869479393" duration="4520000" />
+      <workItem from="1524045342105" duration="13605000" />
+      <workItem from="1524130917699" duration="16078000" />
+      <workItem from="1524478418969" duration="17313000" />
+      <workItem from="1524566440093" duration="12756000" />
+      <workItem from="1524609442552" duration="13978000" />
+      <workItem from="1524649230645" duration="22837000" />
+      <workItem from="1524741801281" duration="2879000" />
+      <workItem from="1524957542470" duration="2664000" />
+      <workItem from="1524995490965" duration="5540000" />
+      <workItem from="1525005457995" duration="1017000" />
+      <workItem from="1525007032152" duration="1421000" />
+      <workItem from="1525008922556" duration="561000" />
+      <workItem from="1525013336471" duration="8277000" />
+      <workItem from="1525034827723" duration="4454000" />
+      <workItem from="1525440508621" duration="1296000" />
+      <workItem from="1525479968652" duration="283000" />
+      <workItem from="1525805049188" duration="820000" />
+      <workItem from="1525813927670" duration="708000" />
+      <workItem from="1525856730705" duration="2289000" />
+    </task>
+    <task id="LOCAL-00001" summary="momo">
+      <created>1524962137926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524962137926</updated>
+    </task>
+    <task id="LOCAL-00002" summary="momo">
+      <created>1524996872343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524996872343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="308829000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28431374" sideWeight="0.5181543" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28431374" sideWeight="0.48184568" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5408497" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="momo" />
+    <option name="LAST_COMMIT_MESSAGE" value="momo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/typography/mdc-typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/card/mdc-card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="173" column="15" lean-forward="false" selection-start-line="173" selection-start-column="15" selection-end-line="173" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/card/dist/mdc.card.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3814" lean-forward="false" selection-start-line="5" selection-start-column="3814" selection-end-line="5" selection-end-column="3814" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/card/dist/mdc.card.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="134" column="16" lean-forward="false" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/scss/bootstrap/bootstrap-grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/js/insr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/inscription.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15488">
+          <caret line="704" column="16" lean-forward="false" selection-start-line="704" selection-start-column="5" selection-end-line="704" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11968">
+          <caret line="544" column="12" lean-forward="false" selection-start-line="544" selection-start-column="3" selection-end-line="544" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="117469" lean-forward="false" selection-start-line="4" selection-start-column="117469" selection-end-line="4" selection-end-column="117469" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/scss/_widgets.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="5" column="126394" lean-forward="false" selection-start-line="5" selection-start-column="126394" selection-end-line="5" selection-end-column="126394" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/scss/bootstrap/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6343" column="1" lean-forward="false" selection-start-line="6343" selection-start-column="1" selection-end-line="6343" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/scss/bootstrap/_card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="144" column="3" lean-forward="false" selection-start-line="144" selection-start-column="3" selection-end-line="144" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4347" column="1" lean-forward="false" selection-start-line="4347" selection-start-column="1" selection-end-line="4347" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/leftside.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="96" lean-forward="false" selection-start-line="32" selection-start-column="92" selection-end-line="32" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/dashboardTheme.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/scss/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18172">
+          <caret line="826" column="16" lean-forward="false" selection-start-line="826" selection-start-column="0" selection-end-line="826" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/custom-dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/js/dashboardhome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="3" lean-forward="false" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/DashboardController/resto_home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4972">
+          <caret line="226" column="52" lean-forward="false" selection-start-line="226" selection-start-column="52" selection-end-line="226" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="35" column="73" lean-forward="false" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/InscriptionTheme.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="34" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="90" column="87" lean-forward="false" selection-start-line="90" selection-start-column="87" selection-end-line="90" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/animate.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/skins/square/grey.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-942">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/modernizr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/video_header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Entity/Restaurant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Controller/ClientController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="0" column="13019" lean-forward="false" selection-start-line="0" selection-start-column="13019" selection-end-line="0" selection-end-column="13019" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/ClientGUI/Accueil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/ClientGUI/PERE.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="270" column="42" lean-forward="false" selection-start-line="270" selection-start-column="42" selection-end-line="270" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
