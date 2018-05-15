@@ -58,7 +58,7 @@ $('#backb').click(function () {
     }
 if (etap==1) { $('#backb').hide();}
 
-});
+});/*
 $('#confb').click(function () {
     if(verifetap3())
     { alert(etap);}
@@ -66,7 +66,7 @@ $('#confb').click(function () {
 
 
 
-});
+});*/
 $('#nom').on('keypress click',function () {
      $(this).removeClass('ierror');
     $('#nom').attr("placeholder", "")

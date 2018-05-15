@@ -1,0 +1,51 @@
+.review-title-bar{position: relative; padding:0;width:100%;margin: 20px 0 10px 0;}
+/*.block-review-title{display: inline-block}*/
+.review-title-text{margin: 0 10px 0 5px;display: inline-block;}
+.nbrreview {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: #0D47A1;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border:#FFFFFF 2px solid;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: center;
+}
+.block-tri{margin-top: 5px;margin-left:auto; text-align: right;margin-right: 5px;}
+.tri-dropdown{margin-left: 3px}
+.review-card  {
+    width: 100%;
+    margin: 10px 20px 10px 20px;
+    min-height:fit-content!important;
+}
+
+.review-card-content{width: 100%;}
+.review-card-left{left:0;}
+.review-card-right{right: 0;}
+.reviewright{height: 75px;padding-top: 10px}
+.imgcaption{color: #000000}
+.avatarblock{margin-top: 7px;}
+.starsblock{vertical-align: top;margin-top: 10px;margin-left: 15px;}
+.ratingstar{color: #ccc;}
+.info-review-block{margin-left: 15px;}
+.review-date,.review-user{ font-family: 'Montserrat Alternates';font-size: 17px;}
+.block-quto{padding-top: 10px}
+.quto-icon{color: #ccc;font-size: 30px;}
+.block-review-text{padding-top: 30px;padding-bottom: 10px}
+.review-text{font-family: 'Raleway';font-size: 20px;}
+@media only screen and (max-width: 600px) {
+    .block-tri{width: 100%;margin:10px 0 0 3px;text-align: left}
+    .block-review-title{width: 100%}
+    .review-card{min-height:fit-content!important;}
+    .review-card-left{top:0;width: 100%}
+    .review-card-right{bottom: 0;width: 100%}
+    .block-quto{margin-top: 10px;margin-bottom: 0}
+    .block-review-text{padding-top: 2px;padding-bottom: 10px}
+
+}

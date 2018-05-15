@@ -18,7 +18,7 @@
 
 {% block rightside %}
    {% include 'template/dashboardheader.html.twig' %}
-    <div class="container" style="width:100%;overflow-y: scroll;height : 89%">
+    <div class="container" style="width:100%;overflow-y: auto;height : 89%">
         <div class="sufee-alert alert with-close alert-success alert-dismissible fade show "id="sucsess-box" >
             <span class="badge badge-pill badge-success">Success</span>
             Le menu a ete supprimer avec succes.
@@ -56,7 +56,7 @@
         {% for m in 1..5 %}
         <div class="col-md-5 menu-cart container-fluid"  >
             <form>
-         <div class="row">   <div class="menu-info"><button class="menu-img"style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: cover;" ><i class="fa fa-camera" ></i></button><input class="nom-menu" value="Pizza" type="text" disabled><button type="button"  class="dropdown-arrow"><i class="fa fa-caret-down " id="display-plat"></i><i class="fa fa-caret-up " id="hide-plat"></i></button></div></div>
+         <div class="row">   <div class="menu-info"><button class="menu-img"style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: 100% 100%;" ><i class="fa fa-camera" ></i></button><input class="nom-menu" value="Pizza" type="text" disabled><button type="button"  class="dropdown-arrow"><i class="fa fa-caret-down " id="display-plat"></i><i class="fa fa-caret-up " id="hide-plat"></i></button></div></div>
             <div class="row">
                 <div class="new-plat">
                     <form>
@@ -68,7 +68,7 @@
                 {% for p in 1..3 %}
                 <div class="menu-items" >
                     <form>
-                    <button class="plat-img" style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: cover;" ><i class="fa fa-camera" ></i></button><input class="nom-plat"  value="Pizza margeritte"><input class="prix-plat"  value="2000"><button class="del-plat-item btn"><i class="fa fa-trash"></i></button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button>
+                    <button class="plat-img" style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: 100% 100%;" ><i class="fa fa-camera" ></i></button><input class="nom-plat"  value="Pizza margeritte"><input class="prix-plat"  value="2000"><button class="del-plat-item btn"><i class="fa fa-trash"></i></button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button>
                     </form>
                 </div>
                 {% endfor %}

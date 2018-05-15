@@ -6,6 +6,11 @@
 
     <link rel="stylesheet" href="{{ asset('frontend/dashboard/assets/css/flag-icon.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/resto-profile.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/jquery-clockpicker.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/resto-menu.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/typography/dist/mdc.typography.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/button/dist/mdc.button.css') }}">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 
@@ -13,10 +18,241 @@
 {% block rightside %}
     {% include 'template/dashboardheader.html.twig' %}
     <div class="container" style="width:100%;overflow-y: auto;height : 89%;margin-top: -5px">
-    <div class="row">
-        <button class="cover-resto" style="background: url('{{ asset('frontend/img/pizza.jpeg') }}')no-repeat;background-size: cover; "></button>
+    <div class="row img-resto">
+        <button class="cover-resto" style="background: url('{{ asset('frontend/img/test2.jpg') }}')no-repeat;background-size: 100% 100%;"><i class="fa fa-image"></i><span> choisir votre cover image</span></button>
+        <button class="rounded-circle logoresto" style="background: url('{{ asset('frontend/img/logoresto.png') }}')no-repeat;background-size: cover;"><i class="fa fa-camera"></i></button>
 
     </div>
+        <div class="row block-menu-btns">
+            <button class="menu-btn" id="infonavbtn" autofocus><i class="fa fa-info-circle" ></i> <span class="menu-btn-text">Information generale</span></button>
+            <button class="menu-btn"id="confnavbtn"><i class="fa fa-lock"></i><span class="menu-btn-text">Confidentialite</span></button>
+            <button class="menu-btn btn-menu-right" id="locnavbtn"><i class="fa fa-map-marker"></i><span class="menu-btn-text">Localistaion</span></button>
+
+
+        </div>
+        <div class="content mt-3">
+            <div class="animated fadeIn">
+                    <div class="sufee-alert alert with-close alert-success alert-dismissible fade show "id="sucsess-modif" >
+                        <span class="badge badge-pill badge-success">Success</span>
+                       Votre prifile a ete modifier avec succes.
+                        <button type="button" class="close" id="close-alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-12" id="infob">
+                        <form>
+                        <div class="card">
+                            <div class="card-body card-block">
+
+
+                                <div class="row">
+                                   <div class="form-group info-forms" data-toggle="tooltip" data-placement="bottom" title="modifier le  nom a la page localistaion" >
+                                        <label class=" form-control-label">Nom restaurant</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><img src="{{ asset('frontend/img/shop.png') }}"/></div>
+                                            <input class="form-control" id="nomr" value="resto la joix" disabled >
+                                        </div>
+                                    </div>
+                                    <div class="form-group info-forms"  data-toggle="tooltip" data-placement="bottom" title="modifier l'adresse a la page localistaion">
+                                        <label class=" form-control-label">Adresse</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><img src="{{ asset('frontend/img/location-resto.png') }}"/></div>
+                                            <input class="form-control" id="adrr" value="boulvard la liberté" disabled >
+                                        </div>
+                                    </div>
+                               </div>
+                                <div class="row">
+                                <div class="form-group info-forms">
+                                    <label class=" form-control-label">Date Ouverture</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><img src="{{ asset('frontend/img/resto-time.png') }}"/></div>
+                                        <input class="form-control"  data-placement="top" value="09:00" data-align="left" id="ouvr" type="text" maxlength="5" onkeydown="return false;">
+                                    </div>
+                                </div>
+                                <div class="form-group info-forms">
+                                    <label class=" form-control-label">Date Fermeture</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><img src="{{ asset('frontend/img/resto-time.png') }}"/></div>
+                                        <input class="form-control"data-placement="top" value="18:00" data-align="right" id="fermr" type="text" maxlength="5" onkeydown="return false;" >
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="row">
+                                     <div class="form-group info-forms has-error">
+                                        <label class=" form-control-label">Numero Telephone</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><img src='{{ asset('frontend/img/resto-phone.png') }}'/></div>
+                                            <input class="form-control" id="telr" type="number"  value="123456789">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <button  type="button" id="modifr" class="btn btn-lg  btn-block modif-btn" style="margin:10px 10% 10px 10%">
+                                        <i class="fa fa-edit"></i>
+                                        <span>Modifier</span>
+
+                                    </button></div>
+
+                               </div>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="col-xs-12 col-sm-12" id="confb">
+                        <form>
+                        <div class="card">
+                            <div class="card-body card-block">
+
+
+                                <div class="row">
+                                    <div class="form-group info-forms">
+                                        <label class=" form-control-label">E-mail</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><img src="{{ asset('frontend/img/e-mail.png') }}"/></div>
+                                            <input class="form-control" id="emailr" value="email@email.com" type="email" >
+                                        </div>
+                                    </div>
+                                    <div class="form-group info-forms">
+                                        <label class=" form-control-label">Compte bancaire</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><img src="{{ asset('frontend/img/rib2.png') }}"/></div>
+                                            <input class="form-control" id="ribr" type="number">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group info-forms">
+                                        <label class=" form-control-label">Mot de passe</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><img src="{{ asset('frontend/img/password2.png') }}"/></div>
+                                            <input class="form-control" id="oldmdpr" type="password"  >
+                                        </div>
+                                    </div>
+                                    <div class="form-group info-forms">
+                                        <label class=" form-control-label">Nouveau mot de passe</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><img src="{{ asset('frontend/img/password2.png') }}"/></div>
+                                            <input class="form-control" id="newmdpr" type="password"  >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <button  type="button" id="modifconfr" class="btn btn-lg  btn-block modif-btn" style="margin:10px 10% 10px 10%">
+                                        <i class="fa fa-edit"></i>
+                                        <span>Modifier</span>
+
+                                    </button></div>
+
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="col-xs-12 col-sm-12" id="locb" >
+                        <input type="hidden" id="idr" data-id-resto="(36.812385005495024, 10.18158665835324)">
+                        <input type="hidden" id="longr" data-long-resto="36.8123485">
+                        <input type="hidden" id="latr" data-lat-resto="10.181139400000006">
+                        <form>
+                            <input type="hidden" id="newnomr">
+                            <input type="hidden" id="newadr">
+                            <input type="hidden" id="newlongr">
+                            <input type="hidden" id="newlatr">
+                        <div class="card">
+                            <div class="card-body card-block map-card-block">
+
+
+                                <div class="row">
+                                    <div id="blockmap" >
+                                            <div class="pac-card" id="pac-card">
+                                                <div>
+                                                    <div id="title">
+                                                        Recherche Restaurant
+                                                    </div>
+
+                                                </div>
+                                                <div id="pac-container">
+                                                    <input id="pac-input" type="text"
+                                                           placeholder="Rechercher votre restaurant">
+                                                </div>
+                                            </div>
+
+                                            <div id="map"></div>
+
+                                            <div id="infowindow-content">
+                                                <img src="" width="16" height="16" id="place-icon">
+                                                <span id="place-name"  class="title"></span><br>
+                                                <img src="{{ asset('frontend/img/location.png') }}" style="float: left" id="locimg" width="16" height="16"><span id="place-address" class="pa"></span><br>
+                                                <input type="button" id="btn" class="locbtn btn" value="choisir cette emplacement"/>
+                                            </div>
+
+                                    </div>
+
+                                </div>
+
+                                    <div class="row">
+                                        <div class="form-group info-forms" >
+                                            <label class=" form-control-label">Nom restaurant</label>
+                                            <div class="input-group">
+                                                <div class="input-group-addon"><img src="{{ asset('frontend/img/shop.png') }}"/></div>
+                                                <input class="form-control" id="nom" value="resto la joix" disabled >
+                                            </div>
+                                        </div>
+                                        <div class="form-group info-forms"  >
+                                            <label class=" form-control-label">Adresse</label>
+                                            <div class="input-group">
+                                                <div class="input-group-addon"><img src="{{ asset('frontend/img/location-resto.png') }}"/></div>
+                                                <input class="form-control"  id="adr"  value="boulvard la liberté" disabled >
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                <div class="row">
+                                    <button  type="button" id="modiflocr" class="btn btn-lg  btn-block modif-btn" style="margin:10px 10% 10px 10%">
+                                        <i class="fa fa-edit"></i>
+                                        <span>Modifier</span>
+
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        </form>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+            </div><!-- .animated -->
+        </div><!-- .content -->
+        <aside id="my-mdc-dialog"
+               class="mdc-dialog "
+               role="alertdialog"
+               aria-labelledby="my-mdc-dialog-label"
+               aria-describedby="my-mdc-dialog-description">
+            <div class="mdc-dialog__surface supp-menu-dialog">
+                <header class="mdc-dialog__header">
+                    <h2 id="my-mdc-dialog-label" class="mdc-dialog__header__title">
+                        Vouz voulez Modifier la locatiosation de votre restaurant?
+                    </h2>
+                </header>
+                {#   <section id="my-mdc-dialog-description" class="mdc-dialog__body">
+                       Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.
+                   </section>#}
+                <footer class="mdc-dialog__footer">
+                    <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel back-btn">Retour</button>
+                    <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--accept del-btn ">Modifier</button>
+                </footer>
+            </div>
+            <div class="mdc-dialog__backdrop"></div>
+        </aside>
 
     </div>
 
@@ -25,6 +261,12 @@
 {% endblock %}
 {% block javascripts %}
     {{ parent() }}
-
+    <script src="{{ asset('frontend/js/modiflocation.js') }}" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5uQXfyamglp8zZoBt50LyxaAePdzzpAc&libraries=places&callback=initMap"
+            async defer></script>
+    <script type="text/javascript" src="{{ asset('frontend/js/jquery-clockpicker.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('frontend/js/profiler.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('frontend/externres/bootstrap/dist/js/bootstrap.bundle.js') }}"></script>
+    <script src="{{ asset('frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.js') }}" type="text/javascript"></script>
 
 {% endblock %}

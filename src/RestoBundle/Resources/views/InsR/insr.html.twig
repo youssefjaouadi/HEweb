@@ -21,7 +21,7 @@
         </div>
         <div class="insform col-md-4 ">
             <p class="instextdescription institle">Inscription</p>
-            <form>
+            <form method="post" action="{{ path('resto_insr_insr') }}" >
                 <input type="hidden" name="nomrval" id="nomr">
                 <input type="hidden" name="adrrval" id="adrr">
                 <input type="hidden" name="telrval" id="telr">
@@ -73,8 +73,9 @@
 
                             <label class="labelinfo"><img src="{{ asset('frontend/img/restoicon.png') }}" ><span>nom de restaurant</span> <input class="iinfo noms2" id="nomstep2"  type="text"  disabled> </label>
                             <label class="labelinfo"><img src="{{ asset('frontend/img/locicon.png') }}" ><span>adresse de restaurant</span> <input class="iinfo adrs2" id="adrstep2" type="text"  disabled> </label>
-                            <label class="labelinfo"><img src="{{ asset('frontend/img/mobicon.png') }}" ><span>numero Telphone</span> <input class="iinfo" id="tel" type="number"  class="form-control" > </label>
-
+                            {% for list in restos %}
+                            <label class="labelinfo"><img src="{{ asset('frontend/img/mobicon.png') }}" ><span>numero Telphone</span> <input class="iinfo" id="tel" type="number"  class="form-control" value="{{ list.id }}"> </label>
+{% endfor %}
                            {# <label class="labelinfo"><img src="{{ asset('frontend/img/restoicon.png') }}" ><span>nom resto</span> <input class="iinfo" id="adr" type="text" class="form-control"value="ouverteure" > </label>
                             <label class="labelinfo"><img src="{{ asset('frontend/img/restoicon.png') }}" ><span>nom resto</span> <input class="iinfo" id="adr" type="text" class="form-control"value="fermeture" > </label>
                             #}
@@ -124,7 +125,7 @@
                     <div class="blockbtns ">
                         <button type="button" id="nextb" class="btn nextbtn"><span style="margin-right: 10px">Continuer</span><i class="fas fa-chevron-right"></i></button>
                         <button type="button" id="backb" class="btn backbtn"><i class="fas fa-chevron-left"></i><span style="margin-left: 10px">Retour</span></button>
-                        <button type="button" id="confb" class="btn confbtn"><span style="margin-right: 10px">Terminer</span><i class="fas fa-check"></i></button>
+                        <button type="submit" id="confb" class="btn confbtn"><span style="margin-right: 10px">Terminer</span><i class="fas fa-check"></i></button>
                     </div>
             </form>
         </div>
