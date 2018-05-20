@@ -1,0 +1,95 @@
+.cmd-title-bar{position: relative; padding:0;width:100%;margin: 20px 0 10px 0;}
+/*.block-review-title{display: inline-block}*/
+.cmd-title-text{margin: 0 10px 0 5px;display: inline-block;}
+.nbrcmd {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: #0D47A1;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border:#FFFFFF 2px solid;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: center;
+}
+.block-tri{margin-top: 5px;margin-left:auto; text-align: right;margin-right: 5px;}
+.tri-dropdown{margin-left: 3px}
+.commande-card{margin: 20px auto 20px auto;position: relative;height: auto!important;}
+.cmd-title{width: auto!important;background: #0D47A1;top: 0;}
+.cmd-text-title{margin: auto;color: #ffffff;padding: 5px 0 5px 0}
+.block-cmd-content{margin: 10px 0 50px 0;}
+.cmd-item{margin-bottom: 10px}
+.cmd-text{margin-left: 10px}
+.block-cmd-btns{width: auto!important;bottom:0;}
+
+.accept-btn,.accept-btn:active, .refuse-btn,.refuse-btn:active{
+    outline: none!important;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none !important;
+    font-size: 17px;
+    font-weight: 600;
+    bottom: 0;
+    position: absolute;
+    width: 50%;
+    padding: 5px 0 5px 0;
+}
+.ready-btn,.ready-btn:active{
+    outline: none!important;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none !important;
+    font-size: 17px;
+    font-weight: 600;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    display: none;
+    background-color:#0D47A1;
+    padding: 5px 0 5px 0;
+}
+.wait-btn,.wait-btn:active{
+    outline: none!important;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none !important;
+    font-size: 17px;
+    font-weight: 600;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    display: none;
+    background-color:orange;
+    padding: 5px 0 5px 0;
+}
+.livred-btn,.livred-btn:active{
+    outline: none!important;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none !important;
+    font-size: 17px;
+    font-weight: 600;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    display: none;
+    background-color: #1B5E20;
+    padding: 5px 0 5px 0;
+}
+.accept-btn span,.refuse-btn span,.ready-btn span,.wait-btn span,.livred-btn span {margin-left: 10px}
+.accept-btn{left: 0;background-color:#1B5E20;}
+.refuse-cmd-dialog{width: 200px!important;}
+.refuse-btn{right: 0;background-color: #B71C1C;}
+.back-btn{color: #0D47A1!important;}
+.del-btn{color: #B71C1C!important;}
+@media only screen and (max-width: 600px) {
+    .block-tri{width: 100%;margin:10px 0 0 3px;text-align: left}
+
+
+
+}

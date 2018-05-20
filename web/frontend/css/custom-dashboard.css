@@ -107,6 +107,14 @@ font-size: 1rem}
 
 
 }
+.waitingvalidationstate{
+    background-color: #0D47A1;
+    color: #FFFFFF;
+    border-radius: 3px;
+    padding :2px 5px 3px 5px
+
+
+}
 .nonecheckedstate{
     background-color:#AA3333 ;
     color: #FFFFFF;
