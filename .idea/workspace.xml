@@ -7,13 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7a201cb-8ba4-4fa7-8437-d2701dc43f63" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/RestoBundle/Controller/CommandeRController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/RestoBundle/Resources/views/CommandeR/commandeR.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/RestoBundle/Tests/Controller/CommandeRControllerTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/css/resto-cmd.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/js/commander.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/RestoBundle/Controller/LoginRController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/RestoBundle/Resources/views/LoginR/login_r.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/RestoBundle/Resources/views/LoginR/lostmdp.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/RestoBundle/Tests/Controller/LoginRControllerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/css/login.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/js/loginr.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/css/custom-dashboard.css" afterPath="$PROJECT_DIR$/web/frontend/css/custom-dashboard.css" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/css/style.css" afterPath="$PROJECT_DIR$/web/frontend/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,68 +40,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="commandeR.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/CommandeR/commandeR.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding>
-                <element signature="e#5757#5778#0#HTML" expanded="true" />
-                <element signature="e#5899#5920#0#HTML" expanded="true" />
-                <element signature="e#6038#6059#0#HTML" expanded="true" />
-                <element signature="e#6183#6204#0#HTML" expanded="true" />
-                <element signature="e#6348#6370#0#HTML" expanded="true" />
-                <element signature="e#6501#7760#0#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resto-menu.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/frontend/css/resto-menu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3723">
-              <caret line="219" column="4" lean-forward="false" selection-start-line="219" selection-start-column="4" selection-end-line="219" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resto-menu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/frontend/js/resto-menu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="6" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="50" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resto-menu.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/Ajmenu/resto-menu.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="79" column="76" lean-forward="false" selection-start-line="79" selection-start-column="76" selection-end-line="79" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commander.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/frontend/js/commander.js">
+      <file leaf-file-name="footer.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/template/footer.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resto-cmd.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/frontend/css/resto-cmd.css">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/frontend/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="21" column="74" lean-forward="false" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+            <state relative-caret-position="278">
+              <caret line="403" column="15" lean-forward="true" selection-start-line="403" selection-start-column="15" selection-end-line="403" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -112,44 +66,44 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="twig" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="twig" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>block-tri</find>
-      <find>block-review-text</find>
-      <find>block-review-title</find>
-      <find>review-title-bar</find>
-      <find>review-title-text</find>
-      <find>nbrreview</find>
-      <find>block-cmd-title</find>
-      <find>accept-btn</find>
-      <find>cmd-card</find>
-      <find>ajout-menu-btn</find>
-      <find>block-cmd-content</find>
-      <find>state</find>
-      <find>fa-close</find>
-      <find>btn-accept</find>
-      <find>rem</find>
-      <find>back-btn</find>
-      <find>bottom</find>
-      <find>del-menu-btn</find>
-      <find>edit-menu-btns</find>
-      <find>acc²</find>
-      <find>supp</find>
-      <find>row block-cmd-btns</find>
-      <find>livred</find>
-      <find>livred-cmd-btn</find>
-      <find>wai</find>
-      <find>wait-btn</find>
-      <find>livre</find>
-      <find>mdc-card</find>
-      <find>heigh</find>
-      <find>min-</find>
+      <find>conf</find>
+      <find>confbtn</find>
+      <find>insc</find>
+      <find>se s</find>
+      <find>loginbtn</find>
+      <find>iinfo</find>
+      <find>labelconf</find>
+      <find>labelinfo</find>
+      <find>re</find>
+      <find>hid</find>
+      <find>iin</find>
+      <find>ier</find>
+      <find>ot</find>
+      <find>col-md-</find>
+      <find>labelinf</find>
+      <find>mot</find>
+      <find>se</find>
+      <find>email</find>
+      <find>lostmdpmsg</find>
+      <find>emailrec</find>
+      <find>$('#emailrec')</find>
+      <find>err</find>
+      <find>r3</find>
+      <find>social_footer</find>
+      <find>about</find>
+      <find>h3</find>
+      <find>ul</find>
+      <find>ul li</find>
+      <find>tabd</find>
+      <find>hover</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\HospEatWebV1.0</dir>
@@ -174,12 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/frontend/css/fontello/css/fontello.min.css" />
-        <option value="$PROJECT_DIR$/web/frontend/css/menu.css" />
-        <option value="$PROJECT_DIR$/web/frontend/css/custom.css" />
-        <option value="$PROJECT_DIR$/web/frontend/css/responsive.css" />
-        <option value="$PROJECT_DIR$/web/frontend/css/style.css" />
-        <option value="$PROJECT_DIR$/web/frontend/js/maploc.js" />
         <option value="$PROJECT_DIR$/web/frontend/css/jquery-clockpicker.css" />
         <option value="$PROJECT_DIR$/web/frontend/css/dashboard.scss" />
         <option value="$PROJECT_DIR$/web/frontend/css/dashboard.css" />
@@ -206,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/Ajmenu/resto-menu.html.twig" />
         <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/scss/style.scss" />
         <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/scss/style.css" />
-        <option value="$PROJECT_DIR$/web/frontend/css/inscription.css" />
         <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/DashboardController/resto_home.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/template/dashboardTheme.html.twig" />
         <option value="$PROJECT_DIR$/web/frontend/js/modiflocation.js" />
@@ -215,16 +162,23 @@
         <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/Profil/profile.html.twig" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/RestoBundle/Entity/Resto.php" />
-        <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/InsR/insr.html.twig" />
-        <option value="$PROJECT_DIR$/web/frontend/js/insr.js" />
-        <option value="$PROJECT_DIR$/src/RestoBundle/Controller/InsRController.php" />
         <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/Review/resto_review.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/template/leftside.html.twig" />
         <option value="$PROJECT_DIR$/web/frontend/css/resto-review.css" />
         <option value="$PROJECT_DIR$/web/frontend/css/custom-dashboard.css" />
         <option value="$PROJECT_DIR$/web/frontend/js/commander.js" />
-        <option value="$PROJECT_DIR$/web/frontend/css/resto-cmd.css" />
         <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/CommandeR/commandeR.html.twig" />
+        <option value="$PROJECT_DIR$/web/frontend/js/insr.js" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Controller/LoginRController.php" />
+        <option value="$PROJECT_DIR$/web/frontend/css/inscription.css" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/InsR/insr.html.twig" />
+        <option value="$PROJECT_DIR$/web/frontend/css/resto-cmd.css" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Controller/InsRController.php" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/LoginR/login_r.html.twig" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/LoginR/lostmdp.html.twig" />
+        <option value="$PROJECT_DIR$/web/frontend/js/loginr.js" />
+        <option value="$PROJECT_DIR$/web/frontend/css/login.css" />
+        <option value="$PROJECT_DIR$/web/frontend/css/style.css" />
       </list>
     </option>
   </component>
@@ -317,6 +271,12 @@
               <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -374,7 +334,7 @@
               <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Ajmenu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DashboardController" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
@@ -383,7 +343,16 @@
               <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DashboardController" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LoginR" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Profil" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
@@ -421,8 +390,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,12 +497,23 @@
       <workItem from="1526571000014" duration="5502000" />
       <workItem from="1526736870789" duration="6902000" />
       <workItem from="1526779993008" duration="5119000" />
-      <workItem from="1526811358944" duration="4241000" />
+      <workItem from="1526811358944" duration="13093000" />
+      <workItem from="1526981260692" duration="4064000" />
+      <workItem from="1527060974300" duration="2151000" />
+      <workItem from="1527068535254" duration="216000" />
+      <workItem from="1527071088501" duration="912000" />
+      <workItem from="1527113578530" duration="2297000" />
+      <workItem from="1527146161950" duration="124000" />
+      <workItem from="1527146962585" duration="97000" />
+      <workItem from="1527147828871" duration="524000" />
+      <workItem from="1527201622142" duration="5499000" />
+      <workItem from="1527232346182" duration="197000" />
+      <workItem from="1527296605805" duration="1123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="459061000" />
+    <option name="totallyTimeSpent" value="485117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,26 +526,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29727685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3517398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25326797" sideWeight="0.49707174" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25326797" sideWeight="0.49707174" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -580,96 +559,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/frontend/img/rib.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/img/cards.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="330" column="62" lean-forward="true" selection-start-line="330" selection-start-column="62" selection-end-line="330" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="2078" column="1" lean-forward="false" selection-start-line="2078" selection-start-column="1" selection-end-line="2078" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/profiler.css.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="340" column="1" lean-forward="false" selection-start-line="340" selection-start-column="1" selection-end-line="340" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="5" column="29928" lean-forward="false" selection-start-line="5" selection-start-column="29926" selection-end-line="5" selection-end-column="29928" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="162" column="9" lean-forward="false" selection-start-line="162" selection-start-column="9" selection-end-line="162" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/externres/bootstrap/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="1821" column="52" lean-forward="false" selection-start-line="1821" selection-start-column="51" selection-end-line="1821" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/img/password.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/img/password2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/externres/bootstrap/dist/js/bootstrap.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/scss/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="2127" column="3" lean-forward="false" selection-start-line="2127" selection-start-column="3" selection-end-line="2127" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/frontend/dashboard/assets/scss/bootstrap/mixins/_hover.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -712,24 +601,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/js/insr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="5" lean-forward="false" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -744,21 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="29" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="35" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/InsR/insr.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="73" lean-forward="false" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/css/inscription.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Controller/InsRController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/template/leftside.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -802,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1954">
           <caret line="8745" column="1" lean-forward="false" selection-start-line="8745" selection-start-column="1" selection-end-line="8745" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,13 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/DashboardController/resto_home.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="97" column="177" lean-forward="false" selection-start-line="97" selection-start-column="104" selection-end-line="97" selection-end-column="177" />
         </state>
       </provider>
     </entry>
@@ -868,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="6" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="50" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="180" column="17" lean-forward="true" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3723">
           <caret line="219" column="4" lean-forward="false" selection-start-line="219" selection-start-column="4" selection-end-line="219" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
           <caret line="79" column="76" lean-forward="false" selection-start-line="79" selection-start-column="76" selection-end-line="79" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="113" column="11" lean-forward="false" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="5024" lean-forward="false" selection-start-line="5" selection-start-column="5019" selection-end-line="5" selection-end-column="5024" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,30 +761,165 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="106" column="9" lean-forward="false" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/css/resto-cmd.css">
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Controller/AjmenuController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="74" lean-forward="false" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/CommandeR/commandeR.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="e#5757#5778#0#HTML" expanded="true" />
-            <element signature="e#5899#5920#0#HTML" expanded="true" />
-            <element signature="e#6038#6059#0#HTML" expanded="true" />
-            <element signature="e#6183#6204#0#HTML" expanded="true" />
-            <element signature="e#6348#6370#0#HTML" expanded="true" />
-            <element signature="e#6501#7760#0#HTML" expanded="false" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="74" column="13" lean-forward="false" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Controller/ProfilController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/DashboardController/resto_home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Controller/InsRController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="70" lean-forward="false" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/InscriptionTheme.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/inscription.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/LoginR/login_r.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/LoginR/lostmdp.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="29" column="97" lean-forward="false" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/bootstrap/dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="5" column="138619" lean-forward="false" selection-start-line="5" selection-start-column="138619" selection-end-line="5" selection-end-column="138619" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/resto-cmd.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/InsR/insr.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Controller/LoginRController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="23" column="75" lean-forward="false" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/js/loginr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/js/insr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/fontello/css/fontello.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="0" column="13349" lean-forward="false" selection-start-line="0" selection-start-column="13349" selection-end-line="0" selection-end-column="13349" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="21" lean-forward="false" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="403" column="15" lean-forward="true" selection-start-line="403" selection-start-column="15" selection-end-line="403" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

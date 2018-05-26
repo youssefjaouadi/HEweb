@@ -393,7 +393,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #ec008c
+    color: #0D47A1  /*tabdil orig color: #ec008c*/
 }
 
 footer ul {
@@ -445,7 +445,7 @@ footer .btn_1 {
 
 #social_footer ul li a:hover {
     background: #fff;
-    color: #111
+    color: #0D47A1 /* tabdil orig color: #111 */
 }
 
 a#promote {
