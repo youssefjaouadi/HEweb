@@ -112,7 +112,7 @@ function loc (map,marker,geocoder,autocomplete,card){
             $('#adr').removeClass('ierror');
             $('#nom').removeClass('ierror');
 
-            displayLoc(place.name,address,place.geometry.location.lat(),place.geometry.location.lng());
+            displayLoc(place.place_id,place.name,address,place.geometry.location.lat(),place.geometry.location.lng());
           //  infowindow.close();
         });
     });
@@ -135,7 +135,7 @@ function loc (map,marker,geocoder,autocomplete,card){
                         $('#adr').removeClass('ierror');
                         $('#nom').removeClass('ierror');
 
-                        displayLoc(place.name,place.formatted_address,place.geometry.location.lat(),place.geometry.location.lng());
+                        displayLoc(place.place_id,place.name,place.formatted_address,place.geometry.location.lat(),place.geometry.location.lng());
 
 
                     });
@@ -149,7 +149,7 @@ function loc (map,marker,geocoder,autocomplete,card){
             setAdr(infowindowContent.children['place-address'],evt.latLng);
             infowindow.open(map, marker);
             btn.addEventListener("click", function(){
-                displayLoc("",infowindowContent.children['place-address'].textContent,evt.latLng,evt.latLng);
+                displayLoc("","",infowindowContent.children['place-address'].textContent,getlng(evt.latLng.toString()),getltd(evt.latLng.toString()));
                 $('#nom').prop('disabled',false);
                 $('#nom').css('cursor','auto');
                 $('#nom').attr("placeholder", "");
@@ -182,7 +182,7 @@ function loc (map,marker,geocoder,autocomplete,card){
             }
         });
     }
-    function displayLoc(pn,pa,plat,plng)
+    function displayLoc(pi,pn,pa,plat,plng)
     {
 
 //alert("nom "+pn+"adress:  "+pa+"lat:  "+plat+"lng:   "+plng);
@@ -192,5 +192,21 @@ function loc (map,marker,geocoder,autocomplete,card){
         $('#langr').val(plng);
        /* $('#lang').text(plat);
         $('#lat').text(plng);*/
+        if(pi.length===0)
+        { $('#idplacer').val(plat+","+plng);}
+        else{ $('#idplacer').val(pi);}
+
+    }
+    function getlng(lng) {
+        var newlng;
+        newlng=lng.substring(1,lng.indexOf(","));
+        return newlng;
+
+    }
+    function getltd(lng) {
+        var newlng;
+        newlng=lng.substring(lng.indexOf(",")+2,lng.indexOf(")")-1);
+        return newlng;
+
     }
 }

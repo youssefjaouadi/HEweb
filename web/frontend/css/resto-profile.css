@@ -1,1 +1,187 @@
-.cover-resto{width: 100%;height: 300px;margin-top: 0!important;border: none}
+.img-resto{height: 250px;position: relative}
+.cover-resto{width: 100%;height: 100%;margin-top: 0!important;border: none;color: transparent;font-family: Roboto;font-size: 20px}
+
+.cover-resto:hover{background: rgba(13,71,161,0.5) !important;color: #ffffff}
+
+.logoresto{ width: 100px;height: 100px;position: absolute;bottom: 0;margin-bottom: 20px;margin-left: 10px;text-align: center;color: transparent;font-size: 25px;border:none!important;}
+/*.logoresto:hover{background: rgba(13,71,161,0.5) !important;color:#ffffff;border:none!important;}*/
+.block-menu-btns{width: auto;}
+.menu-btn, .menu-btn:before{
+    outline: none!important;
+    background-color:#ffffff ;
+    color: #0D47A1;
+    border: none;
+    text-decoration: none !important;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    width:33.3333333%;
+    border: solid 2px #0D47A1 ;
+    border-left: none;
+    border-top: none;
+
+
+}
+.menu-btn:focus,.blured-menu-btn{ background-color:#0D47A1 ;
+    color: #ffffff;border:none;}
+.btn-menu-right{border-right: none}
+
+.menu-btn-text{margin-left: 5px;font-family: Roboto}
+#confb{display: none}
+#locb{display: none}
+.info-forms{width: 30%;margin:10px 10% 10px 10% }
+.modif-btn, .modif-btn:active{
+    outline: none!important;
+    background-color:#0D47A1 ;
+    color: #ffffff;
+    border: none;
+    text-decoration: none !important;
+    /*height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    width:33.3333333%;
+    border: solid 2px #0D47A1 ;
+    border-left: none;
+    border-top: none;
+*/
+
+}
+#adrr:hover,#nomr:hover,#adr:hover,#nom:hover{cursor: not-allowed}
+input[type="number"]::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.ierror
+{
+    position: relative;
+    border: 2px solid #AA3333;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 30px;
+    text-overflow: ellipsis;
+    background-image:url(../img/warn2.png);
+    background-repeat:no-repeat;
+    background-position:6px;
+}
+.ierror::-webkit-input-placeholder, .ierror2::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #AA3333;
+    font-size: 15px;
+
+}
+
+.ierror:-moz-placeholder,ierror2:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #AA3333;
+    font-size: 15px;
+    opacity: 1;
+}
+.ierror::-moz-placeholder,.ierror2::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #AA3333;
+    font-size: 15px;
+    opacity: 1;
+}
+.ierror:-ms-input-placeholder,.ierror2:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #AA3333;
+
+}
+
+@media only screen and (max-width: 400px) {
+    .img-resto{height: 200px;}
+    .logoresto{ width: 70px;height: 70px}
+    .menu-btn, .menu-btn:active{width: 100%;border-right: none;}
+    .menu-btn i{float:left;margin-left: 25%; }
+    .menu-btn span{float:left;margin-left: 10px; }
+    .info-forms{width: 100%;margin-top: 5px;}
+}
+#sucsess-modif{display: none}
+.map-card-block{padding-top:0!important; }
+#blockmap{width: 100%}
+#map {
+    height: 300px;
+    width: auto;
+}
+#description {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+
+#infowindow-content {
+    display: none;
+}
+
+#map #infowindow-content {
+    display: inline;
+}
+
+.pac-card {
+    /*  margin: 10px 10px 0 0; tabdil*/
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto;
+    width: 100%;
+    text-align: center;
+}
+
+#pac-container {
+    padding-bottom: 7px;
+    margin-right: 12px;
+
+}
+
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    padding-left: 5px;
+    text-overflow: ellipsis;
+    width: 70%;
+    margin: 7px 0 0 12px;
+    outline: none;
+    border: 2px solid #0D47A1;
+    border-radius: 3px;
+    color :#000000;
+    text-align: center;
+
+}
+
+
+
+
+#title {
+    color: #fff;
+    background-color: #0D47A1;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+.pa , .title {
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+.locbtn, .locbtn:hover, .locbtn:focus, .locbtn:active{
+    outline: none!important;
+    background-color:#0D47A1 ;
+    color: #FFFFFF;
+    margin-top: 10px;
+    border: none;
+    text-decoration: none !important;
+
+}
+.pa{padding-bottom: 15px;}
+.back-btn{color: #0D47A1!important;}
+.del-btn{color: #B71C1C!important;}

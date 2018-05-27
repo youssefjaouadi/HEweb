@@ -1,0 +1,55 @@
+{% extends "/template/InscriptionTheme.html.twig" %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('frontend/css/login.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/typography/dist/mdc.typography.css') }}">
+
+
+{% endblock %}
+
+{% block body %}
+    <div class="inscontainer ">
+
+        <div class="col-md-4 insdescription" style="display: none">
+            <ul class="instextdescription">Binevenu CHez HospEat</p>
+                <li>Benifits 1</li>
+                <li>Benifits 1</li>
+                <li>Benifits 1</li>
+            </ul>
+
+        </div>
+        <div class="insform col-md-4 ">
+            <p class="instextdescription institle">Se Connecter a HospEat</p>
+            <form method="post"  >
+                <div id="blockconf"  style="display: block" class="container">
+                    <div  style="width: 100%;">
+
+                        <div class="infoiutput" style="width: 100%">
+
+                            <label class="labelinfo labelconf"><img src="{{ asset('frontend/img/mail.png') }}" ><span>E-mail</span> <input class="iinfo" id="email" name="emailr"  type="email"  > </label>
+                            <label class="labelinfo labelconf"><img src="{{ asset('frontend/img/password.png') }}" ><span>Mot de pass</span> <input class="iinfo " name="mdpr" id="mdp" type="password"  > </label>
+                            <label class=" mdc-typography--headline6 labelinfo labelconf"><span>Se souvenir de moi</span> <input class="Rememberbox " value="rememberme" type="checkbox"  > </label>
+                            <div class=" text-center mdc-typography--headline6"><a class="lostmdp" href="/lostmdp" >mot de passe oublié</a></div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="blockbtns ">
+                    <button  type="submit" id="loginb" class="btn loginbtn"><span>Se Connecter</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+<script type="text/javascript" src="{{ asset('frontend/js/loginr.js') }}"></script>
+{% endblock %}
+

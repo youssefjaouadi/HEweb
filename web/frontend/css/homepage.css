@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://use.fontawesome.com/releases/v5.0.13/css/all.css);
+.search-btn,.search-btn:visited,.search-btn:hover,.search-btn:before{
+    margin: auto;
+    background: #0D47A1;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0.7rem;
+    outline: none!important;
+    box-shadow: none!important;
+}
+.search-btn:focus{color:#0D47A1;background: #ffffff }
+.searchrestotitle{ width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #0D47A1;
+    line-height: 0.1em;
+    margin: 10px 0 20px; }
+.searchrestotitle span{background:#fff;
+    padding:0 20px; }
+.subscribe-add-title{font-size: 30px!important; font-family: 'Open Sans', sans-serif!important;}
+.sub_content ul  {list-style-image: url('../img/checked.png');}
+.sub_content ul li {font-size: 18px;margin-top: 15px}

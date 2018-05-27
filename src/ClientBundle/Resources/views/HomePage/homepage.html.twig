@@ -1,0 +1,282 @@
+{% extends ":template:home.html.twig" %}
+
+{% block stylesheets %}
+    {{ parent() }}
+<link rel="stylesheet" href="{{ asset('frontend/css/homepage.css') }}">
+
+{% endblock %}
+
+{% block body %}
+    <section class="parallax-window" id="home" data-parallax="scroll" data-image-src="{{ asset('frontend/img/test-imgs/vegan-cover.jpg') }}" data-natural-width="1400" data-natural-height="550">
+        <div id="subheader">
+            <div id="sub_content">
+                <h1>Commander Votre repas a partir de <strong id="js-rotating">Restaurant,Snack,Boulangerie</strong> <!--Food--></h1>
+                <p style="display: none">
+                    Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.
+                </p>
+                <form method="post" action="http://www.ansonika.com/quickfood/list_page.html" style="display: none">
+                    <div id="custom-search-input">
+                        <div class="input-group ">
+                            <input type="text" class=" search-query" placeholder="Your Address or postal code">
+                            <span class="input-group-btn">
+                        <input type="submit" class="btn_search" value="submit">
+                        </span>
+                        </div>
+                    </div>
+                </form>
+                <button type="button" class="search-btn btn" id="nav-search">Chercher Maintenant le plus proshe de toi ! </button>
+            </div><!-- End sub_content -->
+        </div><!-- End subheader -->
+    </section><!-- End section -->
+    <div class="container margin_60">
+
+        <div class="main_title" style="display:none;">
+            <h2 class="nomargin_top" style="padding-top:0">How it works</h2>
+            <p>
+                Cum doctus civibus efficiantur in imperdiet deterruisset.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="box_home" id="one">
+                    <span>1</span>
+                    <h3>Search by address<!--Search by address--></h3>
+                    <p>
+                        Trouver les restaurants disponible dans la zone souhaité.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box_home" id="two">
+                    <span>2</span>
+                    <h3>Choisir un restaurant</h3>
+                    <p>
+                        We have more than 1000s of menus online.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box_home" id="three">
+                    <span>3</span>
+                    <h3>Paiment de la commande</h3>
+                    <p>
+                        Payer votre commande en ligne en toutes securité.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box_home" id="four">
+                    <span>4</span>
+                    <h3>Livraison a votre adresse</h3>
+                    <p>
+                        Ivraison de votre commande a votre emplacment
+                    </p>
+                </div>
+            </div>
+        </div><!-- End row -->
+
+
+    </div><!-- End container -->
+
+    <div class="white_bg" id="test">
+        <div class="container margin_60">
+
+            <div class="main_title">
+                <h2 class="nomargin_top searchrestotitle"><span>Choisire le plus proche de toi</span><!---Choose from Most Popular--></h2>
+                <p>
+                    Choisire le restaurant ,le snack ou la blongerie le plus proche de votre localistion ou votre adresse.
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="detail_page.html" class="strip_list">
+                        <div class="ribbon_1">Popular</div>
+                        <div class="desc">
+                            <div class="thumb_strip">
+                                <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                            </div>
+                            <div class="rating">
+                                <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                            </div>
+                            <h3>Taco Mexican</h3>
+                            <div class="type">
+                                Mexican / American
+                            </div>
+                            <div class="location">
+                                135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
+                            </div>
+                            <ul>
+                                <li>Take away<i class="icon_check_alt2 ok"></i></li>
+                                <li>Delivery<i class="icon_check_alt2 ok"></i></li>
+                            </ul>
+                        </div><!-- End desc-->
+                    </a><!-- End strip_list-->
+                    <a href="detail_page.html" class="strip_list">
+                        <div class="ribbon_1">Popular</div>
+                        <div class="desc">
+                            <div class="thumb_strip">
+                                <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                            </div>
+                            <div class="rating">
+                                <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                            </div>
+                            <h3>Naples Pizza</h3>
+                            <div class="type">
+                                Italian / Pizza
+                            </div>
+                            <div class="location">
+                                135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
+                            </div>
+                            <ul>
+                                <li>Take away<i class="icon_check_alt2 ok"></i></li>
+                                <li>Delivery<i class="icon_check_alt2 ok"></i></li>
+                            </ul>
+                        </div><!-- End desc-->
+                    </a><!-- End strip_list-->
+                    <a href="detail_page.html" class="strip_list">
+                        <div class="ribbon_1">Popular</div>
+                        <div class="desc">
+                            <div class="thumb_strip">
+                                <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                            </div>
+                            <div class="rating">
+                                <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                            </div>
+                            <h3>Japan Food</h3>
+                            <div class="type">
+                                Sushi / Japanese
+                            </div>
+                            <div class="location">
+                                135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
+                            </div>
+                            <ul>
+                                <li>Take away<i class="icon_check_alt2 ok"></i></li>
+                                <li>Delivery<i class="icon_check_alt2 ok"></i></li>
+                            </ul>
+                        </div><!-- End desc-->
+                    </a><!-- End strip_list-->
+                </div><!-- End col-md-6-->
+                <div class="col-md-6">
+                    <a href="detail_page.html" class="strip_list">
+                        <div class="ribbon_1">Popular</div>
+                        <div class="desc">
+                            <div class="thumb_strip">
+                                <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                            </div>
+                            <div class="rating">
+                                <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                            </div>
+                            <h3>Sushi Gold</h3>
+                            <div class="type">
+                                Sushi / Japanese
+                            </div>
+                            <div class="location">
+                                135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
+                            </div>
+                            <ul>
+                                <li>Take away<i class="icon_check_alt2 ok"></i></li>
+                                <li>Delivery<i class="icon_close_alt2 no"></i></li>
+                            </ul>
+                        </div><!-- End desc-->
+                    </a><!-- End strip_list-->
+                    <a href="detail_page.html" class="strip_list">
+                        <div class="ribbon_1">Popular</div>
+                        <div class="desc">
+                            <div class="thumb_strip">
+                                <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                            </div>
+                            <div class="rating">
+                                <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                            </div>
+                            <h3>Dragon Tower</h3>
+                            <div class="type">
+                                Chinese / Thai
+                            </div>
+                            <div class="location">
+                                135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
+                            </div>
+                            <ul>
+                                <li>Take away<i class="icon_check_alt2 ok"></i></li>
+                                <li>Delivery<i class="icon_check_alt2 ok"></i></li>
+                            </ul>
+                        </div><!-- End desc-->
+                    </a><!-- End strip_list-->
+                    <a href="detail_page.html" class="strip_list">
+                        <div class="ribbon_1">Popular</div>
+                        <div class="desc">
+                            <div class="thumb_strip">
+                                <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                            </div>
+                            <div class="rating">
+                                <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                            </div>
+                            <h3>China Food</h3>
+                            <div class="type">
+                                Chinese / Vietnam
+                            </div>
+                            <div class="location">
+                                135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
+                            </div>
+                            <ul>
+                                <li>Take away<i class="icon_check_alt2 ok"></i></li>
+                                <li>Delivery<i class="icon_check_alt2 ok"></i></li>
+                            </ul>
+                        </div><!-- End desc-->
+                    </a><!-- End strip_list-->
+                </div>
+            </div><!-- End row -->
+
+        </div><!-- End container -->
+    </div><!-- End white_bg -->
+
+    <div class="high_light" style="display: none">
+        <div class="container">
+            <h3>Choose from over 2,000 Restaurants</h3>
+            <p>Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.</p>
+            <a href="list_page.html">View all Restaurants</a>
+        </div><!-- End container -->
+    </div><!-- End hight_light -->
+
+    <section class="parallax-window" data-parallax="scroll" data-image-src="{{ asset('frontend/img/bg_office.jpg') }}" data-natural-width="1200" data-natural-height="600">
+        <div class="parallax-content" >
+            <div class="sub_content">
+                <i class="icon_mug" style="display:none;"></i>
+                <h3 class="subscribe-add-title">Rejoindre HospEat et Benificer beaucoup d'avantages<!--We also deliver to your office--></h3>
+
+                <ul>
+                <li>
+                    Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.
+                </li><li>
+                    Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.
+                </li><li>
+                    Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.
+                </li>
+                </ul>
+            </div><!-- End sub_content -->
+        </div><!-- End subheader -->
+    </section><!-- End section -->
+    <!-- End Content =============================================== -->
+
+
+
+
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    <script type="text/javascript" src="{{ asset('frontend/js/homepage.js') }}"></script>
+<script type="text/javascript" src="{{ asset('frontend/js/common_scripts_min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('frontend/js/functions.js') }}"></script>
+<script type="text/javascript" src="{{ asset('frontend/js/morphext.min.js') }}"></script>
+    <script>
+        $("#js-rotating").Morphext({
+            animation: "fadeIn", // Overrides default "bounceIn"
+            separator: ",", // Overrides default ","
+            speed: 2300, // Overrides default 2000
+            complete: function () {
+                // Overrides default empty function
+            }
+        });
+    </script>
+{% endblock %}
+

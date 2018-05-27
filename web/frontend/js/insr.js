@@ -13,7 +13,7 @@ $('#nextb').click(function () {
                 $('#adrr').val($('#adr').val());
                 $('#nomstep2').val($('#nomr').val());
                 $('#adrstep2').val($('#adrr').val());
-                alert("nom=     " + $('#nomr').val() + '|adr      ' + $('#adrr').val() + '|num etap  '+etap+'|langr etap  '+$('#langr').val()+'|latr etap  '+$('#latr').val());
+                alert("nom=     " + $('#nomr').val() + '|adr      ' + $('#adrr').val() + '|num etap  '+etap+'|langr etap  '+$('#langr').val()+'|latr etap  '+$('#latr').val()+'| placeid  '+$('#idplacer').val());
                 etap++;
                 return true;
             }
@@ -58,7 +58,7 @@ $('#backb').click(function () {
     }
 if (etap==1) { $('#backb').hide();}
 
-});
+});/*
 $('#confb').click(function () {
     if(verifetap3())
     { alert(etap);}
@@ -66,7 +66,7 @@ $('#confb').click(function () {
 
 
 
-});
+});*/
 $('#nom').on('keypress click',function () {
      $(this).removeClass('ierror');
     $('#nom').attr("placeholder", "")
@@ -186,3 +186,10 @@ function verifetap2()
     return test;
 
 }
+$('form').on('keyup keypress', function(e) {
+    var keyCode = e.keyCode || e.which;
+    if (keyCode === 13) {
+        e.preventDefault();
+        return false;
+    }
+});
