@@ -123,6 +123,7 @@ h3 .slide_typo strong {
     font-size: 18px;
     color: #555;
     line-height: 1.2;
+    margin-top: 30px; /*tabdil ana zedtha */
     margin-bottom: 30px;
     font-weight: 300
 }
@@ -444,8 +445,8 @@ footer .btn_1 {
 }
 
 #social_footer ul li a:hover {
-    background: #fff;
-    color: #0D47A1 /* tabdil orig color: #111 */
+    background: #0D47A1;
+    color: #fff /* tabdil orig color: #111 */
 }
 
 a#promote {
@@ -702,19 +703,19 @@ iframe {
 }
 
 .box_home#one {
-    background: url(../img/icon_home_1.svg) center 40px no-repeat #fff
+    background: url(../img/step1.svg) center 40px no-repeat #fff
 }
 
 .box_home#two {
-    background: url(../img/icon_home_2.svg) center 40px no-repeat #fff
+    background: url(../img/step2.svg) center 40px no-repeat #fff
 }
 
 .box_home#three {
-    background: url(../img/icon_home_3.svg) center 40px no-repeat #fff
+    background: url(../img/step3.svg) center 40px no-repeat #fff
 }
 
 .box_home#four {
-    background: url(../img/icon_home_4.svg) center 40px no-repeat #fff
+    background: url(../img/step4.svg) center 40px no-repeat #fff
 }
 
 .box_home h3 {
@@ -898,7 +899,7 @@ a#filters_col_bt .icon_set_1_icon-65 {
 }
 
 a.strip_list:hover h3 {
-    color: #ec008c
+   color: #0D47A1 /* tabdil orig color: #ec008c */
 }
 
 .desc {
@@ -988,7 +989,7 @@ a.strip_list:hover h3 {
     width: 100%
 }
 
-#confirm, #pass-info, #sub_content, #sub_content #thumb, .box_style_2#help, .feature i, .features-img, .marker_info, .modal-popup, .parallax-content, .parallax-content-2 > div, .sk-spinner-wave.sk-spinner, .strip_list.grid .desc, .tooltip-content, a.bt_filters, a.load_more_bt {
+#confirm, #pass-info, #sub_content, #sub_content #thumb, .box_style_2#help, .feature i, .features-img, .marker_info, .modal-popup, /* tabdil na7itha .parallax-content,*/ .parallax-content-2 > div, .sk-spinner-wave.sk-spinner, .strip_list.grid .desc, .tooltip-content, a.bt_filters, a.load_more_bt {
     text-align: center
 }
 
@@ -1596,7 +1597,7 @@ ul.opening_list li span {
 }
 
 .parallax-window {
-    min-height: 470px;
+    height: 270px; /* tabdil orig min-height: 470px;*/
     background: 0 0;
     position: relative
 }
@@ -1614,14 +1615,14 @@ ul.opening_list li span {
     color: #fff;
     display: table;
     width: 100%;
-    height: 470px
+    height: 270px /* tabdil orig height: 470px*/
 }
 
 .parallax-content .sub_content {
     display: table-cell;
-    padding: 0 15%;
-    vertical-align: middle;
-    text-align: center;
+    padding: 0 1%;/* tabdil orig padding: 0 15%;*/
+    vertical-align:middle;
+    /* tabdil orig text-align: center;*/
     font-size: 16px
 }
 
