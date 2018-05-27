@@ -21,7 +21,7 @@
         </div>
         <div class="insform col-md-4 ">
             <p class="instextdescription institle">Inscription</p>
-            <form method="post" action="{{ path('resto_insr_insr') }}" >
+            <form  method="post" action="{{ path('resto_insr_insr') }}" >
                 <input type="hidden" name="nomrval" id="nomr">
                 <input type="hidden" name="adrrval" id="adrr">
                 <input type="hidden" name="telrval" id="telr">
@@ -31,9 +31,10 @@
                 <input type="hidden" name="langrval" id="langr">
                 <input type="hidden" name="latrval" id="latr">
                 <input type="hidden" name="idrval" id="idr">
+                <input type="hidden" name="idplacerval" id="idplacer">
 
                 <div id="blockmap" class="container">
-                 <div class="blocksteps"><div class="circleShape">1</div><span class="stepstext">Choisir l'emplacement de votre resturant</span></div>
+                 <div class="blocksteps "><div class="circleShape">1</div><span class="stepstext">Choisir l'emplacement de votre resturant</span></div>
                 <div  style="width: 100%;">
                     <div class="pac-card" id="pac-card">
                         <div>
@@ -73,9 +74,9 @@
 
                             <label class="labelinfo"><img src="{{ asset('frontend/img/restoicon.png') }}" ><span>nom de restaurant</span> <input class="iinfo noms2" id="nomstep2"  type="text"  disabled> </label>
                             <label class="labelinfo"><img src="{{ asset('frontend/img/locicon.png') }}" ><span>adresse de restaurant</span> <input class="iinfo adrs2" id="adrstep2" type="text"  disabled> </label>
-                            {% for list in restos %}
-                            <label class="labelinfo"><img src="{{ asset('frontend/img/mobicon.png') }}" ><span>numero Telphone</span> <input class="iinfo" id="tel" type="number"  class="form-control" value="{{ list.id }}"> </label>
-{% endfor %}
+
+                            <label class="labelinfo"><img src="{{ asset('frontend/img/mobicon.png') }}" ><span>numero Telphone</span> <input class="iinfo" id="tel" type="number"  class="form-control" value=""> </label>
+
                            {# <label class="labelinfo"><img src="{{ asset('frontend/img/restoicon.png') }}" ><span>nom resto</span> <input class="iinfo" id="adr" type="text" class="form-control"value="ouverteure" > </label>
                             <label class="labelinfo"><img src="{{ asset('frontend/img/restoicon.png') }}" ><span>nom resto</span> <input class="iinfo" id="adr" type="text" class="form-control"value="fermeture" > </label>
                             #}

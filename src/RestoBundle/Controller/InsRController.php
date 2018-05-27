@@ -15,7 +15,7 @@ class InsRController extends Controller
     public function DisplayInsRAction()
     {        $r=$this->getDoctrine()->getRepository("RestoBundle:Resto")->findAll();
 
-        return $this->render('RestoBundle:InsR:insr.html.twig', array("restos"=>$r
+        return $this->render('RestoBundle:InsR:insr.html.twig', array(/*"restos"=>$r*/
             // ...
         ));
     }
@@ -25,16 +25,15 @@ class InsRController extends Controller
     public function InsRAction(Request $req)
     {
         $req->isXmlHttpRequest();
-        $r=new Resto($req->get("nomrval"),"bb","bb","bb","bb","","","",""
-            ,"bb","bb","" );
+        $r=new Resto($req->get("idplacerval"),$req->get("nomrval"),$req->get("adrrval"),"bb",$req->get("ouvrval"),$req->get("fermrval"),$req->get("typerval"),"bb","bb"
+            ,"bb",$req->get("langrval"),$req->get("latrval"));
         $this->getDoctrine()->getManager()->persist($r);
         $this->getDoctrine()->getManager()->flush();
 
         $r=$this->getDoctrine()->getRepository("RestoBundle:Resto")->findAll();
 
-        return $this->render('RestoBundle:InsR:insr.html.twig', array("restos"=>$r
-            // ...
-        ));
+
+        return $this->redirectToRoute("resto_dashboardcontroller_restohome");
     }
     /**
      * @Route("/updr")
