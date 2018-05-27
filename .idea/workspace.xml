@@ -7,28 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7a201cb-8ba4-4fa7-8437-d2701dc43f63" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/template/home.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ClientBundle/ClientBundle.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ClientBundle/Controller/DefaultController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ClientBundle/Controller/HomePageController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ClientBundle/Resources/config/services.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ClientBundle/Resources/views/Default/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/homepage.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ClientBundle/Tests/Controller/HomePageControllerTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/ClientBundle/Controller/DefaultControllerTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/css/homepage.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/img/checked.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/img/step1.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/img/step2.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/img/step3.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/img/step4.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/js/homepage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/js/morphext.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/css/style.css" afterPath="$PROJECT_DIR$/web/frontend/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -574,12 +553,12 @@
       <workItem from="1527296605805" duration="1902000" />
       <workItem from="1527333615228" duration="11375000" />
       <workItem from="1527386605280" duration="3480000" />
-      <workItem from="1527413282042" duration="16176000" />
+      <workItem from="1527413282042" duration="16446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="516927000" />
+    <option name="totallyTimeSpent" value="517197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
