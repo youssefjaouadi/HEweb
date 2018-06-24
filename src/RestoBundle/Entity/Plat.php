@@ -52,6 +52,86 @@ class Plat
      */
     private $idCat;
 
+    /**
+     * @return int
+     */
+    public function getIdPlat()
+    {
+        return $this->idPlat;
+    }
+
+    /**
+     * @param int $idPlat
+     */
+    public function setIdPlat($idPlat)
+    {
+        $this->idPlat = $idPlat;
+    }
+
+    /**
+     * @return string
+     */
+    public function getNomPlat()
+    {
+        return $this->nomPlat;
+    }
+
+    /**
+     * @param string $nomPlat
+     */
+    public function setNomPlat($nomPlat)
+    {
+        $this->nomPlat = $nomPlat;
+    }
+
+    /**
+     * @return string
+     */
+    public function getPrixPlat()
+    {
+        return $this->prixPlat;
+    }
+
+    /**
+     * @param string $prixPlat
+     */
+    public function setPrixPlat($prixPlat)
+    {
+        $this->prixPlat = $prixPlat;
+    }
+
+    /**
+     * @return string
+     */
+    public function getDescriptionPlat()
+    {
+        return $this->descriptionPlat;
+    }
+
+    /**
+     * @param string $descriptionPlat
+     */
+    public function setDescriptionPlat($descriptionPlat)
+    {
+        $this->descriptionPlat = $descriptionPlat;
+    }
+
+    /**
+     * @return \Categorie
+     */
+    public function getIdCat()
+    {
+        return $this->idCat;
+    }
+
+    /**
+     * @param \Categorie $idCat
+     */
+    public function setIdCat($idCat)
+    {
+        $this->idCat = $idCat;
+    }
+
 
 }
 

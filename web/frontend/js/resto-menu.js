@@ -3,9 +3,10 @@ $('#display-plat').click(function () {
     alert('display');*/
     $('#display-plat').hide();
     $('#hide-plat').show();
-    $( "#mitems" ).slideDown( "slow" );
+    $( "#mitems" ).slideUp( "slow" );
 
 });
+
 $('#hide-plat').click(function () {
     $('#hide-plat').hide();
     $('#display-plat').show();

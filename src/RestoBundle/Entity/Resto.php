@@ -3,6 +3,7 @@
 namespace RestoBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use FOS\UserBundle\Model\User as BaseUser;
 
 /**
  * Resto
@@ -10,7 +11,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="resto", uniqueConstraints={@ORM\UniqueConstraint(name="id_Place_Resto", columns={"id_Place_Resto"})})
  * @ORM\Entity
  */
-class Resto
+class Resto extends BaseUser
 {
     /**
      * @return int
@@ -156,21 +157,8 @@ class Resto
         $this->email = $email;
     }
 
-    /**
-     * @return string
-     */
-    public function getMdpresto()
-    {
-        return $this->mdpresto;
-    }
 
-    /**
-     * @param string $mdpresto
-     */
-    public function setMdpresto($mdpresto)
-    {
-        $this->mdpresto = $mdpresto;
-    }
+
 
     /**
      * @return string
@@ -213,12 +201,29 @@ class Resto
     }
 
     /**
-     * @param int $ltdresto
+     * @param string $ltdresto
      */
     public function setLtdresto($ltdresto)
     {
         $this->ltdresto = $ltdresto;
     }
+
+    /**
+     * @return string
+     */
+    public function getTel()
+    {
+        return $this->tel;
+    }
+
+    /**
+     * @param string $tel
+     */
+    public function setTel($tel)
+    {
+        $this->tel = $tel;
+    }
+
     /**
      * @var integer
      *
@@ -227,91 +232,104 @@ class Resto
      * @ORM\GeneratedValue(strategy="IDENTITY")
      */
 
-    private $id;
+    protected $id;
+
+    /**
+     * @var string
+     */
+    protected $username;
+
+    /**
+     * @var string
+     */
+    protected $usernameCanonical;
+
+
+    /**
+     * @var string
+     */
+    protected $emailCanonical;
 
     /**
      * @var string
      *
      * @ORM\Column(name="id_Place_Resto", type="string", length=50, nullable=false)
      */
-    private $idPlaceResto;
+
+
+    protected $idPlaceResto;
 
     /**
      * @var string
      *
      * @ORM\Column(name="nomResto", type="string", length=50, nullable=false)
      */
-    private $nomresto;
+    protected $nomresto;
 
     /**
      * @var string
      *
      * @ORM\Column(name="adresseResto", type="string", length=50, nullable=false)
      */
-    private $adresseresto;
+    protected $adresseresto;
 
     /**
      * @var string
      *
      * @ORM\Column(name="description", type="string", length=200, nullable=false)
      */
-    private $description;
+    protected $description;
 
     /**
      * @var string
      *
      * @ORM\Column(name="ouverture", type="string", length=10, nullable=false)
      */
-    private $ouverture;
+    protected $ouverture;
 
     /**
      * @var string
      *
      * @ORM\Column(name="fermeture", type="string", length=10, nullable=false)
      */
-    private $fermeture;
+    protected $fermeture;
 
     /**
      * @var string
      *
      * @ORM\Column(name="typeResto", type="string", length=50, nullable=false)
      */
-    private $typeresto;
+    protected $typeresto;
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="email", type="string", length=20, nullable=false)
-     */
-    private $email;
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="mdpResto", type="string", length=50, nullable=false)
-     */
-    private $mdpresto;
 
     /**
      * @var string
      *
      * @ORM\Column(name="RibResto", type="string", length=50, nullable=false)
      */
-    private $ribresto;
+    protected $ribresto;
 
     /**
      * @var string
      *
      * @ORM\Column(name="lngResto", type="string", length=50, nullable=false)
      */
-    private $lngresto;
+    protected $lngresto;
 
     /**
-     * @var integer
+     * @var string
      *
-     * @ORM\Column(name="ltdResto", type="integer", nullable=false)
+     * @ORM\Column(name="ltdResto", type="string", nullable=false)
      */
-    private $ltdresto;
+    protected $ltdresto;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="telNum", type="string", nullable=false)
+     */
+    protected $tel;
 
     /**
      * Resto constructor.
@@ -324,27 +342,11 @@ class Resto
      * @param string $fermeture
      * @param string $typeresto
      * @param string $email
-     * @param string $mdpresto
      * @param string $ribresto
      * @param string $lngresto
-     * @param int $ltdresto
+     * @param string $ltdresto
      */
-    public function __construct( $idPlaceResto, $nomresto, $adresseresto, $description, $ouverture, $fermeture, $typeresto, $email, $mdpresto, $ribresto, $lngresto, $ltdresto)
-    {
 
-        $this->idPlaceResto = $idPlaceResto;
-        $this->nomresto = $nomresto;
-        $this->adresseresto = $adresseresto;
-        $this->description = $description;
-        $this->ouverture = $ouverture;
-        $this->fermeture = $fermeture;
-        $this->typeresto = $typeresto;
-        $this->email = $email;
-        $this->mdpresto = $mdpresto;
-        $this->ribresto = $ribresto;
-        $this->lngresto = $lngresto;
-        $this->ltdresto = $ltdresto;
-    }
 
 
 }

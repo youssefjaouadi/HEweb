@@ -185,16 +185,17 @@ function loc (map,marker,geocoder,autocomplete,card){
     function displayLoc(pi,pn,pa,plat,plng)
     {
 
-//alert("nom "+pn+"adress:  "+pa+"lat:  "+plat+"lng:   "+plng);
+alert("nom "+pn+"adress:  "+pa+"lat:  "+plat+"lng:   "+plng+"pi="+pi);
         $('#nom').val(pn);
         $('#adr').val(pa);
-        $('#latr').val(plat);
-        $('#langr').val(plng);
+        $('.latr').val(plat);
+        $('.langr').val(plng);
+
        /* $('#lang').text(plat);
         $('#lat').text(plng);*/
         if(pi.length===0)
-        { $('#idplacer').val(plat+","+plng);}
-        else{ $('#idplacer').val(pi);}
+        { $('.idplacer').val(plat+","+plng);}
+        else{ $('.idplacer').val(pi);}
 
     }
     function getlng(lng) {

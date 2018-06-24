@@ -1,8 +1,6 @@
 client:
-    resource: "@ClientBundle/Controller/"
-    type:     annotation
+    resource: "@RestoBundle/Resources/config/routing.yml"
     prefix:   /
-
 resto:
     resource: "@RestoBundle/Controller/"
     type:     annotation
