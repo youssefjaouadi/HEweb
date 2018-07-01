@@ -6,7 +6,8 @@
 @import url("fontello/css/fontello.min.css");					/* Icon pack */
 /*@import url("pop_up.css");	*/									/* Popup Advertising */
 @import url("custom.css");										/* Your custom css in order to apply updates easly */
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);
+@import url(https://use.fontawesome.com/releases/v5.0.13/css/all.css);
 /*
 How to change colors
 1) uncomment one of the color variation below

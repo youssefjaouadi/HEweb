@@ -3,44 +3,29 @@
 {% block stylesheets %}
     {{ parent() }}
 <link rel="stylesheet" href="{{ asset('frontend/css/homepage.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/button/dist/mdc.button.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/map-dialog.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/slider/dist/mdc.slider.css') }}">
 
 {% endblock %}
 
 {% block body %}
-    <section class="parallax-window" id="home" data-parallax="scroll" data-image-src="{{ asset('frontend/img/test-imgs/vegan-cover.jpg') }}" data-natural-width="1400" data-natural-height="550">
+    <section  class="parallax-window" id="home" data-parallax="scroll" data-image-src="{{ asset('frontend/img/test-imgs/vegan-cover.jpg') }}" data-natural-width="1400" data-natural-height="550">
         <div id="subheader">
             <div id="sub_content">
                 <h1>Commander Votre repas a partir de <strong id="js-rotating">Restaurant,Snack,Boulangerie</strong> <!--Food--></h1>
-                <p style="display: none">
-                    Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.
-                </p>
-                <form method="post" action="http://www.ansonika.com/quickfood/list_page.html" style="display: none">
-                    <div id="custom-search-input">
-                        <div class="input-group ">
-                            <input type="text" class=" search-query" placeholder="Your Address or postal code">
-                            <span class="input-group-btn">
-                        <input type="submit" class="btn_search" value="submit">
-                        </span>
-                        </div>
-                    </div>
-                </form>
                 <button type="button" class="search-btn btn" id="nav-search">Chercher Maintenant le plus proshe de toi ! </button>
             </div><!-- End sub_content -->
         </div><!-- End subheader -->
     </section><!-- End section -->
     <div class="container margin_60">
 
-        <div class="main_title" style="display:none;">
-            <h2 class="nomargin_top" style="padding-top:0">How it works</h2>
-            <p>
-                Cum doctus civibus efficiantur in imperdiet deterruisset.
-            </p>
-        </div>
         <div class="row">
             <div class="col-md-3">
                 <div class="box_home" id="one">
                     <span>1</span>
-                    <h3>Search by address<!--Search by address--></h3>
+                    <h3>Recherche par address<!--Search by address--></h3>
                     <p>
                         Trouver les restaurants disponible dans la zone souhaité.
                     </p>
@@ -78,8 +63,8 @@
 
     </div><!-- End container -->
 
-    <div class="white_bg" id="test">
-        <div class="container margin_60">
+    <div class="white_bg" id="resto-search-block">
+        <div class="container margin_60" >
 
             <div class="main_title">
                 <h2 class="nomargin_top searchrestotitle"><span>Choisire le plus proche de toi</span><!---Choose from Most Popular--></h2>
@@ -87,177 +72,228 @@
                     Choisire le restaurant ,le snack ou la blongerie le plus proche de votre localistion ou votre adresse.
                 </p>
             </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <a href="detail_page.html" class="strip_list">
-                        <div class="ribbon_1">Popular</div>
-                        <div class="desc">
-                            <div class="thumb_strip">
-                                <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
-                            </div>
-                            <div class="rating">
-                                <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
-                            </div>
-                            <h3>Taco Mexican</h3>
-                            <div class="type">
-                                Mexican / American
-                            </div>
-                            <div class="location">
-                                135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
-                            </div>
-                            <ul>
-                                <li>Take away<i class="icon_check_alt2 ok"></i></li>
-                                <li>Delivery<i class="icon_check_alt2 ok"></i></li>
-                            </ul>
-                        </div><!-- End desc-->
-                    </a><!-- End strip_list-->
-                    <a href="detail_page.html" class="strip_list">
-                        <div class="ribbon_1">Popular</div>
-                        <div class="desc">
-                            <div class="thumb_strip">
-                                <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
-                            </div>
-                            <div class="rating">
-                                <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
-                            </div>
-                            <h3>Naples Pizza</h3>
-                            <div class="type">
-                                Italian / Pizza
-                            </div>
-                            <div class="location">
-                                135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
-                            </div>
-                            <ul>
-                                <li>Take away<i class="icon_check_alt2 ok"></i></li>
-                                <li>Delivery<i class="icon_check_alt2 ok"></i></li>
-                            </ul>
-                        </div><!-- End desc-->
-                    </a><!-- End strip_list-->
-                    <a href="detail_page.html" class="strip_list">
-                        <div class="ribbon_1">Popular</div>
-                        <div class="desc">
-                            <div class="thumb_strip">
-                                <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
-                            </div>
-                            <div class="rating">
-                                <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
-                            </div>
-                            <h3>Japan Food</h3>
-                            <div class="type">
-                                Sushi / Japanese
-                            </div>
-                            <div class="location">
-                                135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
-                            </div>
-                            <ul>
-                                <li>Take away<i class="icon_check_alt2 ok"></i></li>
-                                <li>Delivery<i class="icon_check_alt2 ok"></i></li>
-                            </ul>
-                        </div><!-- End desc-->
-                    </a><!-- End strip_list-->
-                </div><!-- End col-md-6-->
-                <div class="col-md-6">
-                    <a href="detail_page.html" class="strip_list">
-                        <div class="ribbon_1">Popular</div>
-                        <div class="desc">
-                            <div class="thumb_strip">
-                                <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
-                            </div>
-                            <div class="rating">
-                                <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
-                            </div>
-                            <h3>Sushi Gold</h3>
-                            <div class="type">
-                                Sushi / Japanese
-                            </div>
-                            <div class="location">
-                                135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
-                            </div>
-                            <ul>
-                                <li>Take away<i class="icon_check_alt2 ok"></i></li>
-                                <li>Delivery<i class="icon_close_alt2 no"></i></li>
-                            </ul>
-                        </div><!-- End desc-->
-                    </a><!-- End strip_list-->
-                    <a href="detail_page.html" class="strip_list">
-                        <div class="ribbon_1">Popular</div>
-                        <div class="desc">
-                            <div class="thumb_strip">
-                                <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
-                            </div>
-                            <div class="rating">
-                                <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
-                            </div>
-                            <h3>Dragon Tower</h3>
-                            <div class="type">
-                                Chinese / Thai
-                            </div>
-                            <div class="location">
-                                135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
-                            </div>
-                            <ul>
-                                <li>Take away<i class="icon_check_alt2 ok"></i></li>
-                                <li>Delivery<i class="icon_check_alt2 ok"></i></li>
-                            </ul>
-                        </div><!-- End desc-->
-                    </a><!-- End strip_list-->
-                    <a href="detail_page.html" class="strip_list">
-                        <div class="ribbon_1">Popular</div>
-                        <div class="desc">
-                            <div class="thumb_strip">
-                                <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
-                            </div>
-                            <div class="rating">
-                                <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
-                            </div>
-                            <h3>China Food</h3>
-                            <div class="type">
-                                Chinese / Vietnam
-                            </div>
-                            <div class="location">
-                                135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
-                            </div>
-                            <ul>
-                                <li>Take away<i class="icon_check_alt2 ok"></i></li>
-                                <li>Delivery<i class="icon_check_alt2 ok"></i></li>
-                            </ul>
-                        </div><!-- End desc-->
-                    </a><!-- End strip_list-->
+            <div class="row" >
+                <div class="btns-location">
+                    <button class="btn-loc" id="search-loc">Votre localistaion</button>
+                    <button class="btn-loc" id="search-adr" >Votre adresse</button>
                 </div>
-            </div><!-- End row -->
+
+                <div  id="load">
+                    <h4>Recherche en cour...</h4>
+                    <img  src="{{ asset('frontend/img/loadimg3.gif') }}">
+                </div>
+               <div  id="resto-block">
+                   {# <div class="col-md-6">
+                        <a href="detail_page.html" class="strip_list">
+                            <div class="ribbon_1">Popular</div>
+                            <div class="desc">
+                                <div class="thumb_strip">
+                                    <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                                </div>
+                                <div class="rating">
+                                    <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                                </div>
+                                <h3>Taco Mexican</h3>
+                                <div class="type">
+                                    Mexican / American
+                                </div>
+                                <div class="location">
+                                    135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
+                                </div>
+                                <ul>
+                                    <li>Take away<i class="icon_check_alt2 ok"></i></li>
+                                    <li>Delivery<i class="icon_check_alt2 ok"></i></li>
+                                </ul>
+                            </div><!-- End desc-->
+                        </a><!-- End strip_list-->
+                        <a href="detail_page.html" class="strip_list">
+                            <div class="ribbon_1">Popular</div>
+                            <div class="desc">
+                                <div class="thumb_strip">
+                                    <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                                </div>
+                                <div class="rating">
+                                    <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                                </div>
+                                <h3>Naples Pizza</h3>
+                                <div class="type">
+                                    Italian / Pizza
+                                </div>
+                                <div class="location">
+                                    135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
+                                </div>
+                                <ul>
+                                    <li>Take away<i class="icon_check_alt2 ok"></i></li>
+                                    <li>Delivery<i class="icon_check_alt2 ok"></i></li>
+                                </ul>
+                            </div><!-- End desc-->
+                        </a><!-- End strip_list-->
+                        <a href="detail_page.html" class="strip_list">
+                            <div class="ribbon_1">Popular</div>
+                            <div class="desc">
+                                <div class="thumb_strip">
+                                    <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                                </div>
+                                <div class="rating">
+                                    <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                                </div>
+                                <h3>Japan Food</h3>
+                                <div class="type">
+                                    Sushi / Japanese
+                                </div>
+                                <div class="location">
+                                    135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
+                                </div>
+                                <ul>
+                                    <li>Take away<i class="icon_check_alt2 ok"></i></li>
+                                    <li>Delivery<i class="icon_check_alt2 ok"></i></li>
+                                </ul>
+                            </div><!-- End desc-->
+                        </a><!-- End strip_list-->
+                    </div><!-- End col-md-6-->#}
+                   <div class="col-md-12 adresse-block">
+                       <span style="display: inline-block">Votre adresse :</span>
+                       <input type="text" class="customer-adr" disabled value="09 rue independence ariana" >
+                       <button class="change-adr" >Modifier</button>
+                       <span style="display: block">Diametre :</span>
+                       <div class="mdc-slider mdc-slider--discrete" tabindex="0" role="slider"
+                            aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+                            aria-label="Select Value">
+                           <div class="mdc-slider__track-container">
+                               <div class="mdc-slider__track"></div>
+                           </div>
+                           <div class="mdc-slider__thumb-container">
+                               <div class="mdc-slider__pin">
+                                   <span class="mdc-slider__pin-value-marker"></span>
+                               </div>
+                               <svg class="mdc-slider__thumb" width="21" height="21">
+                                   <circle cx="10.5" cy="10.5" r="7.875"></circle>
+                               </svg>
+                               <div class="mdc-slider__focus-ring"></div>
+                           </div>
+                       </div>
+
+
+                   </div>
+                   {% for i in 1..5 %}
+                    <div class="col-md-6">
+                        <a href="detail_page.html" class="strip_list">
+                            <div class="ribbon_1">Popular</div>
+                            <div class="desc">
+                                <div class="thumb_strip">
+                                    <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                                </div>
+                                <div class="rating">
+                                    <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                                </div>
+                                <h3>Sushi Gold</h3>
+                                <div class="type">
+                                    Restaurant
+                                </div>
+                                <div class="location">
+                                    135 rue independance, ariana, tunisie. <span class="closing">fermé maintenat</span>
+                                </div>
+                                <ul>
+                                    <li><i class="icon_clock_alt ok"></i>ouverture</li>
+                                    <li><i class="icon_clock_alt no"></i>fermeture</li>
+                                </ul>
+                            </div><!-- End desc-->
+                        </a><!-- End strip_list-->
+
+                   </div>
+                   {% endfor %}
+                </div>
+            </div>
+
+<!-- End row -->
 
         </div><!-- End container -->
     </div><!-- End white_bg -->
 
-    <div class="high_light" style="display: none">
-        <div class="container">
-            <h3>Choose from over 2,000 Restaurants</h3>
-            <p>Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.</p>
-            <a href="list_page.html">View all Restaurants</a>
-        </div><!-- End container -->
-    </div><!-- End hight_light -->
 
-    <section class="parallax-window" data-parallax="scroll" data-image-src="{{ asset('frontend/img/bg_office.jpg') }}" data-natural-width="1200" data-natural-height="600">
+    <section class="parallax-window ins-ad-block" data-parallax="scroll" data-image-src="{{ asset('frontend/img/bg_office.jpg') }}" data-natural-width="1200" data-natural-height="600">
         <div class="parallax-content" >
             <div class="sub_content">
                 <i class="icon_mug" style="display:none;"></i>
                 <h3 class="subscribe-add-title">Rejoindre HospEat et Benificer beaucoup d'avantages<!--We also deliver to your office--></h3>
 
                 <ul>
-                <li>
-                    Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.
-                </li><li>
-                    Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.
-                </li><li>
-                    Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.
+                <li id="li1">
+                   Chercher le plus proshe de toi.
+                </li>
+                    <li id="li2">
+                        Choisir Votre Repas prefere.
+                </li>
+                    <li id="li3">
+                    livraison chez vous.
                 </li>
                 </ul>
             </div><!-- End sub_content -->
+            <div class="left-side"><button class="btn-subscribe btn">Inscription maintenant</button></div>
         </div><!-- End subheader -->
+
     </section><!-- End section -->
     <!-- End Content =============================================== -->
+    <aside id="map-dialog"
+           class="mdc-dialog"
+           role="alertdialog"
+           aria-labelledby="mdc-dialog-with-list-label"
+           aria-describedby="mdc-dialog-with-list-description">
+        <div class="mdc-dialog__surface map-dialog-block" >
+            <div class="mdc-dialog__header">
+                <h2 style="display: none" id="mdc-dialog-with-list-label" class="mdc-dialog__header__title">
+                    Choose a Ringtone
+                </h2>
+            </div>
+            <section id="mdc-dialog-with-list-description" class="mdc-dialog__body mdc-dialog__body--scrollable map-dialog-body">
+                <ul class="mdc-list" style="display: none">
+                    <li class="mdc-list-item">None</li>
+                    <li class="mdc-list-item">Callisto</li>
+                    <li class="mdc-list-item">Ganymede</li>
+                    <li class="mdc-list-item">Luna</li>
+                    <li class="mdc-list-item">Marimba</li>
+                    <li class="mdc-list-item">Schwifty</li>
+                    <li class="mdc-list-item">Callisto</li>
+                    <li class="mdc-list-item">Ganymede</li>
+                    <li class="mdc-list-item">Luna</li>
+                    <li class="mdc-list-item">Marimba</li>
+                    <li class="mdc-list-item">Schwifty</li>
+                </ul>
+                <div id="blockmap" class="container">
+                    <div  style="width: 100%;">
+                        <div class="pac-card" id="pac-card">
+                            <div>
+                                <div id="title">
+                                    Recherche Restaurant
+                                </div>
 
+                            </div>
+                            <div id="pac-container">
+                                <input id="pac-input" type="text"
+                                       placeholder="Rechercher votre restaurant">
+                            </div>
+                        </div>
+
+                        <div id="map"></div>
+
+                        <div id="infowindow-content">
+                            <img src="" width="16" height="16" id="place-icon">
+                            <span id="place-name"  class="title"></span><br>
+                            <img src="{{ asset('frontend/img/location.png') }}" style="float: left" id="locimg" width="16" height="16"><span id="place-address" class="pa"></span><br>
+                            <input type="button" id="btn" class="locbtn btn" value="choisir cette emplacement"/>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <div class="mdc-dialog__footer">
+                <button type="button" class="mdc-dialog__footer__button--cancel btn-dialog-cancel">Annuler</button>
+                <button type="button" class="mdc-dialog__footer__button--accept btn-dialog-confirm">Confirmer</button>
+            </div>
+        </div>
+        <div class="mdc-dialog__backdrop"></div>
+    </aside>
 
 
 
@@ -268,6 +304,8 @@
 <script type="text/javascript" src="{{ asset('frontend/js/common_scripts_min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('frontend/js/functions.js') }}"></script>
 <script type="text/javascript" src="{{ asset('frontend/js/morphext.min.js') }}"></script>
+<script src="{{ asset('frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.js') }}" type="text/javascript"></script>
+<script src="{{ asset('frontend/externres/node_modules/@material/slider/dist/mdc.slider.js') }}" type="text/javascript"></script>
     <script>
         $("#js-rotating").Morphext({
             animation: "fadeIn", // Overrides default "bounceIn"
@@ -278,5 +316,8 @@
             }
         });
     </script>
+    <script type="text/javascript" src="{{ asset('frontend/js/maploc.js') }}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5uQXfyamglp8zZoBt50LyxaAePdzzpAc&libraries=places&callback=initMap"
+            async defer></script>
 {% endblock %}
 
