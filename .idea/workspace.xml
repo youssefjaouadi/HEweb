@@ -7,95 +7,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7a201cb-8ba4-4fa7-8437-d2701dc43f63" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/css/footer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/css/map-dialog.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/img/delivery-man.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/img/fast-food-2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/img/fast-food.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/img/loaderimg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/frontend/img/map-search.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/template/footer.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/template/footer.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/template/header.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/template/header.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/template/leftside.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/template/leftside.html.twig" />
       <change beforePath="$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/homepage.html.twig" afterPath="$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/homepage.html.twig" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/frontend/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/css/global.css" afterPath="$PROJECT_DIR$/web/frontend/css/global.css" />
       <change beforePath="$PROJECT_DIR$/web/frontend/css/homepage.css" afterPath="$PROJECT_DIR$/web/frontend/css/homepage.css" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/css/responsive.css" afterPath="$PROJECT_DIR$/web/frontend/css/responsive.css" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/css/style.css" afterPath="$PROJECT_DIR$/web/frontend/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/_mixins.scss" afterPath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/_mixins.scss" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/animation/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/animation/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/animation/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/animation/dist/mdc.animation.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/animation/dist/mdc.animation.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/animation/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/animation/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/base/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/base/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/base/component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/base/dist/mdc.base.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/base/dist/mdc.base.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/base/foundation.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/base/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/base/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/dist/mdc.elevation.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/dist/mdc.elevation.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/mdc-elevation.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/node_modules/@material/theme/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/node_modules/@material/theme/_color_palette.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/node_modules/@material/theme/_constants.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/node_modules/@material/theme/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/node_modules/@material/theme/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/node_modules/@material/theme/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/node_modules/@material/theme/dist/mdc.theme.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/node_modules/@material/theme/dist/mdc.theme.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/node_modules/@material/theme/mdc-theme.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/node_modules/@material/theme/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/elevation/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/_keyframes.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/adapter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/common.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/constants.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/dist/mdc.ripple.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/dist/mdc.ripple.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/dist/mdc.ripple.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/dist/mdc.ripple.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/foundation.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/mdc-ripple.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/ripple/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/rtl/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/rtl/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/rtl/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/theme/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/theme/_color-palette.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/theme/_constants.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/theme/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/theme/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/theme/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/theme/dist/mdc.theme.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/theme/dist/mdc.theme.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/theme/mdc-theme.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/theme/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/typography/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/typography/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/typography/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/typography/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/typography/dist/mdc.typography.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/typography/dist/mdc.typography.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/typography/mdc-typography.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/node_modules/@material/typography/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/img/logo.png" afterPath="$PROJECT_DIR$/web/frontend/img/logo.png" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/_keyframes.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/adapter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/constants.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/dist/mdc.slider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/dist/mdc.slider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/dist/mdc.slider.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/dist/mdc.slider.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/foundation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/mdc-slider.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/animation/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/animation/_functions.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/animation/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/animation/dist/mdc.animation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/animation/dist/mdc.animation.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/animation/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/animation/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/base/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/base/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/base/component.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/base/dist/mdc.base.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/base/dist/mdc.base.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/base/foundation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/base/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/base/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/rtl/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/rtl/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/rtl/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/theme/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/theme/_color-palette.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/theme/_constants.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/theme/_functions.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/theme/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/theme/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/theme/dist/mdc.theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/theme/dist/mdc.theme.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/theme/mdc-theme.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/node_modules/@material/theme/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/package.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/web/frontend/js/homepage.js" afterPath="$PROJECT_DIR$/web/frontend/js/homepage.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,11 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="homepage.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homepage.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/frontend/css/homepage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="325">
+              <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -135,38 +91,31 @@
       <file leaf-file-name="homepage.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/homepage.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="302" column="61" lean-forward="false" selection-start-line="302" selection-start-column="61" selection-end-line="302" selection-end-column="61" />
+            <state relative-caret-position="125">
+              <caret line="158" column="45" lean-forward="false" selection-start-line="158" selection-start-column="45" selection-end-line="158" selection-end-column="45" />
+              <folding>
+                <element signature="e#12#36#0#Twig" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-slider.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/frontend/externres/seiyria-bootstrap-slider/dist/css/bootstrap-slider.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homepage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/frontend/js/homepage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map-dialog.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/frontend/css/map-dialog.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inscription.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/frontend/css/inscription.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4505">
-              <caret line="265" column="29" lean-forward="false" selection-start-line="265" selection-start-column="22" selection-end-line="265" selection-end-column="29" />
+            <state relative-caret-position="338">
+              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -186,36 +135,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>max-h</find>
-      <find>pac-in</find>
-      <find>title</find>
-      <find>height</find>
-      <find>$material-color-deep-purple-900</find>
-      <find>material-color-deep-purple-900</find>
-      <find>material-color-deep-purple</find>
-      <find>mdc-theme-primary</find>
-      <find>6200ee</find>
-      <find>!</find>
-      <find>primary</find>
-      <find>$mdc-theme-primary</find>
-      <find>scr</find>
-      <find>:not</find>
-      <find>400</find>
+      <find>adresse-block</find>
+      <find>@m</find>
+      <find>adresse-block span</find>
+      <find>text-align:center;width:100%;display:block;margin: 0 auto;margin-bottom: 5px</find>
+      <find>adresse-b</find>
+      <find>margin</find>
+      <find>%</find>
+      <find>300</find>
+      <find>27</find>
+      <find>mar</find>
+      <find>input[type=range]</find>
+      <find>10</find>
+      <find>i</find>
+      <find>#3f51b5</find>
       <find>width</find>
-      <find>map-dialog-body</find>
-      <find>map-dialog-bod</find>
-      <find>map</find>
-      <find>#map</find>
-      <find>over</find>
-      <find>overf</find>
-      <find>min-</find>
-      <find>max-w</find>
-      <find>blue</find>
-      <find>btn</find>
-      <find>&quot;Open Sans&quot;, sans-serif</find>
-      <find>Votre adresse :</find>
-      <find>390</find>
+      <find>range</find>
+      <find>rangem</find>
+      <find>100</find>
+      <find>rad</find>
+      <find>radius-val</find>
+      <find>@impo</find>
+      <find>radius-blo</find>
+      <find>f041</find>
+      <find>\f3c5</find>
+      <find>/f3c5</find>
+      <find>cus</find>
+      <find>conte</find>
+      <find>.radius-block span</find>
       <find>diam</find>
+      <find>adius-block span</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\HospEatWebV1.0</dir>
@@ -242,8 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/scss/style.scss" />
         <option value="$PROJECT_DIR$/web/frontend/dashboard/assets/scss/style.css" />
         <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/DashboardController/resto_home.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/template/dashboardTheme.html.twig" />
@@ -290,14 +237,22 @@
         <option value="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/theme/_mixins.scss" />
         <option value="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/dist/mdc.button.css" />
         <option value="$PROJECT_DIR$/app/Resources/views/template/leftside.html.twig" />
-        <option value="$PROJECT_DIR$/web/frontend/css/homepage.css" />
-        <option value="$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/homepage.html.twig" />
+        <option value="$PROJECT_DIR$/web/frontend/externres/google material slider/gmslide.css" />
+        <option value="$PROJECT_DIR$/web/frontend/externres/google material slider/gmslide.js" />
         <option value="$PROJECT_DIR$/web/frontend/js/homepage.js" />
+        <option value="$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/homepage.html.twig" />
+        <option value="$PROJECT_DIR$/web/frontend/css/homepage.css" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -369,7 +324,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -381,46 +335,6 @@
             <path>
               <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Ajmenu" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -434,6 +348,33 @@
               <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="externres" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="externres" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="seiyria-bootstrap-slider" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="externres" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="seiyria-bootstrap-slider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="externres" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="seiyria-bootstrap-slider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -442,44 +383,25 @@
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="externres" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="externres" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="node_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="externres" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="node_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="@material" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="externres" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="node_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="@material" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="slider" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="externres" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="node_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="@material" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="slider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="seiyria-bootstrap-slider" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap-slider.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test-imgs" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
@@ -492,16 +414,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../youssefjaouadi" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_directory_selection" value="$PROJECT_DIR$" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -512,11 +436,11 @@
       <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\img\test-imgs" />
+      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\externres\google material slider" />
       <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\externres\node_modules\sass\node_modules" />
       <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\externres\node_modules\sass" />
       <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\img" />
-      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\css" />
-      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -658,12 +582,16 @@
       <workItem from="1530179258652" duration="2818000" />
       <workItem from="1530225587135" duration="4140000" />
       <workItem from="1530259882717" duration="981000" />
-      <workItem from="1530450426868" duration="4682000" />
+      <workItem from="1530450426868" duration="5400000" />
+      <workItem from="1530488388347" duration="3641000" />
+      <workItem from="1530523807588" duration="138000" />
+      <workItem from="1530961255699" duration="9662000" />
+      <workItem from="1531054734939" duration="11498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="663792000" />
+    <option name="totallyTimeSpent" value="689449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,24 +606,24 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38426626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.408472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25326797" sideWeight="0.49707174" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -712,38 +640,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/frontend/img/logo2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/img/logoresto.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/img/logo_mobile.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/img/hospeatlogo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="90" lean-forward="false" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/template/footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -871,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/dialog/node_modules/@material/theme/dist/mdc.theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -941,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,40 +900,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4505">
           <caret line="265" column="29" lean-forward="false" selection-start-line="265" selection-start-column="22" selection-end-line="265" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/dist/mdc.slider.min.js" />
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/dist/mdc.slider.js" />
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/index.js" />
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/google material slider/gmslide.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/css/homepage.css">
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/google material slider/gmslide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="17">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/seiyria-bootstrap-slider/dist/css/bootstrap-slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/img/test-imgs/test.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/homepage.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="302" column="61" lean-forward="false" selection-start-line="302" selection-start-column="61" selection-end-line="302" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/dist/mdc.slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="125">
+          <caret line="158" column="45" lean-forward="false" selection-start-line="158" selection-start-column="45" selection-end-line="158" selection-end-column="45" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#12#36#0#Twig" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/frontend/js/homepage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="338">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/homepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
           <folding />
         </state>
       </provider>

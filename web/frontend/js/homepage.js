@@ -1,4 +1,3 @@
-//inculde 'frontend/externres/node_modules/@material/slider/dist/mdc.slider.js';
 $("#nav-search").click(function() {
     $('html, body').animate({
         scrollTop: $("#resto-search-block").offset().top
@@ -31,5 +30,5 @@ $('#search-adr').click(function () {
        // $('#sucsess-box').css('display','block');
     })
 });
-const slider = new MDCSlider(document.querySelector('.mdc-slider'));
-slider.listen('MDCSlider:change', () => console.log('Value changed to '+slider.value));
+
+$('#radius-val').slider();

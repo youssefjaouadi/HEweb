@@ -2,11 +2,11 @@
 
 {% block stylesheets %}
     {{ parent() }}
-<link rel="stylesheet" href="{{ asset('frontend/css/homepage.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/homepage.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/button/dist/mdc.button.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/map-dialog.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/slider/dist/mdc.slider.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/seiyria-bootstrap-slider/dist/css/bootstrap-slider.min.css') }}">
 
 {% endblock %}
 
@@ -155,23 +155,11 @@
                        <span style="display: inline-block">Votre adresse :</span>
                        <input type="text" class="customer-adr" disabled value="09 rue independence ariana" >
                        <button class="change-adr" >Modifier</button>
-                       <span style="display: block">Diametre :</span>
-                       <div class="mdc-slider mdc-slider--discrete" tabindex="0" role="slider"
-                            aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
-                            aria-label="Select Value">
-                           <div class="mdc-slider__track-container">
-                               <div class="mdc-slider__track"></div>
-                           </div>
-                           <div class="mdc-slider__thumb-container">
-                               <div class="mdc-slider__pin">
-                                   <span class="mdc-slider__pin-value-marker"></span>
-                               </div>
-                               <svg class="mdc-slider__thumb" width="21" height="21">
-                                   <circle cx="10.5" cy="10.5" r="7.875"></circle>
-                               </svg>
-                               <div class="mdc-slider__focus-ring"></div>
-                           </div>
-                       </div>
+                       <div class="radius-block">
+                       <span  >Diametre en Km :</span>
+                        <input style="display: inline-block" id="radius-val" data-slider-id='slider-radius'  type="text" data-slider-handle="custom" data-slider-min="0"  data-slider-max="10" data-slider-step=".1" data-slider-value="10"/>
+
+                        </div>
 
 
                    </div>
@@ -300,12 +288,12 @@
 {% endblock %}
 {% block javascripts %}
     {{ parent() }}
-    <script type="text/javascript" src="{{ asset('frontend/js/homepage.js') }}"></script>
+<script type="text/javascript" src="{{ asset('frontend/externres/seiyria-bootstrap-slider/dist/bootstrap-slider.js') }}"></script>
+<script type="text/javascript" src="{{ asset('frontend/js/homepage.js') }}"></script>
 <script type="text/javascript" src="{{ asset('frontend/js/common_scripts_min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('frontend/js/functions.js') }}"></script>
 <script type="text/javascript" src="{{ asset('frontend/js/morphext.min.js') }}"></script>
 <script src="{{ asset('frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.js') }}" type="text/javascript"></script>
-<script src="{{ asset('frontend/externres/node_modules/@material/slider/dist/mdc.slider.js') }}" type="text/javascript"></script>
     <script>
         $("#js-rotating").Morphext({
             animation: "fadeIn", // Overrides default "bounceIn"

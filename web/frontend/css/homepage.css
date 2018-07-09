@@ -45,6 +45,16 @@
     transform: translateY(4px);}
 .adresse-block{text-align: center;margin-bottom: 20px;}
 .adresse-block span{color: #000000;font-family: "Open Sans", sans-serif;font-size: 20px;margin-right: 10px}
+.radius-block{margin-top: 15px}
+.radius-block span{display: inline-block ;margin-left: -22%}
+#slider-radius{width: 25%!important;}
+
+#slider-radius .slider-selection{background: #0D47A1 }
+.slider-handle.custom::before {
+    content: url("../img/test-imgs/test2.png")!important; /*unicode star character*/
+
+}
+.slider-handle{top:-5px!important;}
 .customer-adr{
     border: solid 1px #0D47A1;
     font-size:16px;
@@ -199,6 +209,8 @@
     }
     .map-dialog-body{ max-height: 400px!important;padding: 0!important;}
     #map { height: 270px!important;!important;}
+    .radius-block span {margin: 0;}
+    #slider-radius{width: 70%!important;}
 }
     @media only screen  and (max-width: 350px) {
         .search-btn,.search-btn:visited,.search-btn:hover,.search-btn:before
@@ -206,7 +218,8 @@
         #resto-search-block{padding-bottom: 7%}
         .map-dialog-body{max-height: 400px!important;padding: 0!important;}
         #map {height: 270px;!important;}
-
+        .radius-block span {text-align:center;width:100%;display:block;margin: 0 auto;margin-bottom: 5px}
+        #slider-radius{width: 70%!important;}
     }
     @media only screen  and (min-width: 400px ) and (max-width: 750px){
         html, body {
@@ -287,7 +300,8 @@
         }
         .map-dialog-block{width: 390px!important;}
         .map-dialog-body{padding: 0!important;}
-
+        .radius-block span {text-align:center;width:100%;display:block;margin: 0 auto;margin-bottom: 5px}
+        #slider-radius{width: 70%!important;}
     }
 @media only screen  and (min-width: 751px ) and (max-width: 1024px){
     html, body {
@@ -367,5 +381,7 @@
     .btn-subscribe, .btn-subscribe:visited, .btn-subscribe:before, .btn-subscribe:hover {
         margin: 0 auto;
     }
+    .radius-block span {margin: 0;margin-left: -35%;margin-right: 10px}
+    #slider-radius{width: 33%!important;}
 
 }
