@@ -1,6 +1,7 @@
 <?php
 
 namespace RestoBundle\Entity;
+use Gedmo\Mapping\Annotation as Gedmo;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -8,7 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Resto
  *
  * @ORM\Table(name="resto", uniqueConstraints={@ORM\UniqueConstraint(name="id_Place_Resto", columns={"id_Place_Resto"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="RestoBundle\Repository\RestoRepository")
  */
 class Resto
 {
@@ -300,16 +301,16 @@ class Resto
     private $ribresto;
 
     /**
-     * @var string
+     * @var float
      *
-     * @ORM\Column(name="lngResto", type="string", length=50, nullable=false)
+     * @ORM\Column(name="lngResto", type="float", nullable=false)
      */
     private $lngresto;
 
     /**
-     * @var integer
+     * @var float
      *
-     * @ORM\Column(name="ltdResto", type="integer", nullable=false)
+     * @ORM\Column(name="ltdResto", type="float", nullable=false)
      */
     private $ltdresto;
 

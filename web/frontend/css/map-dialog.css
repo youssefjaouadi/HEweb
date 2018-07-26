@@ -50,13 +50,15 @@
 }
 #infowindow-content {
     display: none;
+
+
 }
 .pa , .title {
     font-weight: bold;
     margin-bottom: 15px;
 
 }
-.pa{padding-bottom: 15px;}
+
 .locbtn, .locbtn:hover, .locbtn:focus, .locbtn:active{
     outline: none!important;
     background-color:#0D47A1 ;

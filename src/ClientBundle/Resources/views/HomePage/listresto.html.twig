@@ -1,0 +1,102 @@
+<!---<div  id="resto-block" style="display:block">--->
+
+
+
+    {# <div class="col-md-6">
+         <a href="detail_page.html" class="strip_list">
+             <div class="ribbon_1">Popular</div>
+             <div class="desc">
+                 <div class="thumb_strip">
+                     <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                 </div>
+                 <div class="rating">
+                     <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                 </div>
+                 <h3>Taco Mexican</h3>
+                 <div class="type">
+                     Mexican / American
+                 </div>
+                 <div class="location">
+                     135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
+                 </div>
+                 <ul>
+                     <li>Take away<i class="icon_check_alt2 ok"></i></li>
+                     <li>Delivery<i class="icon_check_alt2 ok"></i></li>
+                 </ul>
+             </div><!-- End desc-->
+         </a><!-- End strip_list-->
+         <a href="detail_page.html" class="strip_list">
+             <div class="ribbon_1">Popular</div>
+             <div class="desc">
+                 <div class="thumb_strip">
+                     <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                 </div>
+                 <div class="rating">
+                     <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                 </div>
+                 <h3>Naples Pizza</h3>
+                 <div class="type">
+                     Italian / Pizza
+                 </div>
+                 <div class="location">
+                     135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
+                 </div>
+                 <ul>
+                     <li>Take away<i class="icon_check_alt2 ok"></i></li>
+                     <li>Delivery<i class="icon_check_alt2 ok"></i></li>
+                 </ul>
+             </div><!-- End desc-->
+         </a><!-- End strip_list-->
+         <a href="detail_page.html" class="strip_list">
+             <div class="ribbon_1">Popular</div>
+             <div class="desc">
+                 <div class="thumb_strip">
+                     <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                 </div>
+                 <div class="rating">
+                     <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                 </div>
+                 <h3>Japan Food</h3>
+                 <div class="type">
+                     Sushi / Japanese
+                 </div>
+                 <div class="location">
+                     135 Newtownards Road, Belfast, BT4. <span class="opening">Opens at 17:00</span>
+                 </div>
+                 <ul>
+                     <li>Take away<i class="icon_check_alt2 ok"></i></li>
+                     <li>Delivery<i class="icon_check_alt2 ok"></i></li>
+                 </ul>
+             </div><!-- End desc-->
+         </a><!-- End strip_list-->
+     </div><!-- End col-md-6-->#}
+<div id="listr">
+    {% for d in data %}
+        <div class="col-md-6">
+            <a href="detail_page.html" class="strip_list">
+                <div class="ribbon_1">Popular</div>
+                <div class="desc">
+                    <div class="thumb_strip">
+                        <img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt="">
+                    </div>
+                    <div class="rating">
+                        <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+                    </div>
+                    <h3>{{ d.nomResto }}</h3>
+                    <div class="type">
+                        {{ d.typeResto }}
+                    </div>
+                    <div class="location">
+                        {{ d.adresseResto }} <span class="closing">fermé maintenat</span>
+                    </div>
+                    <ul>
+                        <li><i class="icon_clock_alt ok"></i>{{ d.ouverture }}</li>
+                        <li><i class="icon_clock_alt no"></i>{{ d.fermeture }}</li>
+                    </ul>
+                </div><!-- End desc-->
+            </a><!-- End strip_list-->
+
+        </div>
+    {% endfor %}
+</div>
+<!--</div>--->

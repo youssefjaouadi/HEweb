@@ -20,6 +20,7 @@
 .searchrestotitle span{background:#fff;
     padding:0 20px; }
 /*#resto-search-block{overflow: hidden!important;}*/
+#resto-search-block{padding-bottom: 10%}
 .btns-location{width: auto;text-align: center}
 #resto-block{display: none;}
 #load{display:none;text-align: center;}
@@ -50,7 +51,7 @@
 #slider-radius{width: 25%!important;}
 
 #slider-radius .slider-selection{background: #0D47A1 }
-.slider-handle.custom::before {
+.slider-handle.custom,.slider-handle.custom::before,.slider-handle.custom:before {
     content: url("../img/test-imgs/test2.png")!important; /*unicode star character*/
 
 }
@@ -211,11 +212,12 @@
     #map { height: 270px!important;!important;}
     .radius-block span {margin: 0;}
     #slider-radius{width: 70%!important;}
+    #resto-search-block{padding-bottom: 17%}
 }
     @media only screen  and (max-width: 350px) {
         .search-btn,.search-btn:visited,.search-btn:hover,.search-btn:before
         { padding: 13px 5px;font-size: 9px}
-        #resto-search-block{padding-bottom: 7%}
+        #resto-search-block{padding-bottom: 17%}
         .map-dialog-body{max-height: 400px!important;padding: 0!important;}
         #map {height: 270px;!important;}
         .radius-block span {text-align:center;width:100%;display:block;margin: 0 auto;margin-bottom: 5px}
@@ -252,7 +254,7 @@
             padding: 13px 5px;
         }
         .search-btn,.search-btn:visited,.search-btn:hover,.search-btn:before{ padding: 13px 5px;}
-        #resto-search-block{padding-bottom: 5%}
+        #resto-search-block{padding-bottom: 10%}
         .customer-adr,.change-adr,.adresse-block span{text-align:center;display:block;margin: 0 auto;width: 100%;margin-bottom: 5px}
         .ins-ad-block {
             display: table;
@@ -302,6 +304,7 @@
         .map-dialog-body{padding: 0!important;}
         .radius-block span {text-align:center;width:100%;display:block;margin: 0 auto;margin-bottom: 5px}
         #slider-radius{width: 70%!important;}
+        #resto-search-block{padding-bottom: 17%}
     }
 @media only screen  and (min-width: 751px ) and (max-width: 1024px){
     html, body {
@@ -334,7 +337,7 @@
         padding: 20px 10px;
     }
     .search-btn,.search-btn:visited,.search-btn:hover,.search-btn:before{ padding: 13px 5px;}
-    #resto-search-block{padding-bottom: 5%}
+    #resto-search-block{padding-bottom: 10%}
     .customer-adr{width: 35%}
     .change-adr{width: 30%}
     .ins-ad-block {
@@ -383,5 +386,5 @@
     }
     .radius-block span {margin: 0;margin-left: -35%;margin-right: 10px}
     #slider-radius{width: 33%!important;}
-
+    #resto-search-block{padding-bottom: 17%}
 }
