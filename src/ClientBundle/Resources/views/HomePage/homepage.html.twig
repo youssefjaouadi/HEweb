@@ -219,7 +219,7 @@
             </section>
             <div class="mdc-dialog__footer">
                 <button type="button" class="mdc-dialog__footer__button--cancel btn-dialog-cancel">Annuler</button>
-                <button type="button" class="mdc-dialog__footer__button--accept btn-dialog-confirm" id="confb">Confirmer</button>
+                <button type="button" class="btn-dialog-confirm" id="confb">Confirmer</button>
             </div>
         </div>
         <div class="mdc-dialog__backdrop"></div>
@@ -252,6 +252,7 @@
     </script>
     <script type="text/javascript" src="{{ asset('frontend/js/homepage.js') }}"></script>
     <script>
+
         function setCookie(cname, cvalue) {
             document.cookie = cname + "=" + cvalue + ";"  + ";path=/";
         }
@@ -279,6 +280,7 @@
                 $('#load').show();
                 var geocoder = new google.maps.Geocoder;
                 $.ajax({
+
                     url:'{{ path('client_homepage_getnearresto') }}',
                     type: "POST",
                     data: {
@@ -416,17 +418,10 @@
                 });
 
             });
-
-
-
-    </script>
-    <script>
-
+        var input = document.getElementById('pac-input');
+        var card = document.getElementById('pac-card');
+        var infowindowContent = document.getElementById('infowindow-content');
         function initMap() {
-
-            var input = document.getElementById('pac-input');
-            var card = document.getElementById('pac-card');
-
             var map = new google.maps.Map(document.getElementById('map'), {
                 center: {lat: parseFloat(getCookie('ltd')), lng: parseFloat(getCookie('lng'))},
                 zoom: 17,
@@ -439,14 +434,14 @@
                 anchorPoint: new google.maps.Point(0, -29),
 
             });
-            var geocoder = new google.maps.Geocoder;
+           var geocoder = new google.maps.Geocoder;
             var autocomplete = new google.maps.places.Autocomplete(input);
+
+
 
             loc(map,marker,geocoder,autocomplete,card);
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(function (position){
-                    var input = document.getElementById('pac-input');
-                    var card = document.getElementById('pac-card');
                     var map = new google.maps.Map(document.getElementById('map'), {
                         center: {lat: position.coords.latitude, lng: position.coords.longitude},
                         zoom: 17,
@@ -460,9 +455,6 @@
                         position: {lat: position.coords.latitude, lng: position.coords.longitude}
 
                     });
-                    var geocoder = new google.maps.Geocoder;
-                    var autocomplete = new google.maps.places.Autocomplete(input);
-
                     loc(map,marker,geocoder,autocomplete,card);
                 });
 
@@ -489,7 +481,6 @@
             autocomplete.bindTo('bounds', map);
 
             var infowindow = new google.maps.InfoWindow();
-            var infowindowContent = document.getElementById('infowindow-content');
             infowindow.setContent(infowindowContent);
 
             autocomplete.addListener('place_changed', function() {
@@ -528,29 +519,14 @@
 
             });
             google.maps.event.addListener(map, 'click', function(evt) {
-                evt.stop()
-                if (evt.placeId) {
-                    service.getDetails({
-                        placeId: evt.placeId
-                    }, function(place, status) {
-                        if (status === google.maps.places.PlacesServiceStatus.OK) {
+                evt.stop();
 
-                            infowindowContent.children['place-address'].textContent = place.formatted_address;
-                            infowindow.open(map, marker);
-                            $('#adrltd').val(place.geometry.location.lat());
-                            $('#adrlng').val(place.geometry.location.lng());
-
-                        }
-
-                    });
-                }
-                else {
                     setAdr(infowindowContent.children['place-address'],evt.latLng);
                     infowindow.open(map, marker);
                     $('#adrltd').val(getlng(evt.latLng.toString()));
                     $('#adrlng').val(getltd(evt.latLng.toString()));
 
-                }
+
 
                 marker.setPosition(evt.latLng);
                 marker.setVisible(true);
@@ -601,16 +577,18 @@
 
             }
         }
+        var dialog = new mdc.dialog.MDCDialog(document.querySelector('#map-dialog'));
+
         $('#search-adr').click(function () {
             initMap();
-            var dialog = new mdc.dialog.MDCDialog(document.querySelector('#map-dialog'));
             dialog.show();
-            dialog.listen('MDCDialog:accept', function() {
-                // console.log('accepted');
-                // $('#sucsess-box').css('display','block');
-                alert($('#adrltd').val());
-                rechajax($('#adrltd').val(),$('#adrlng').val(),'10');
-            })
+
+        });
+        $('#confb').click(function() {
+
+            alert($('#adrltd').val());
+            rechajax($('#adrltd').val(),$('#adrlng').val(),'10');
+            dialog.close();
         });
         $('#upd-adr').click(function ()
         {
