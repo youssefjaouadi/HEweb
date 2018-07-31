@@ -131,7 +131,18 @@
     outline: none!important;
     margin: 5px;
     font-size: 17px}
+.btn-dialog-close ,.btn-dialog-close:visited, .btn-dialog-close:before{
+    border-radius: 2px;
+    border : 1px solid #AA3333;
+    background: #AA3333;
+    color:#fff;
+    padding: 2px 7px;
+    font-family: "Open Sans", sans-serif;
+    outline: none!important;
+    margin: 5px;
+    font-size: 17px}
 .btn-dialog-cancel:hover{ border : 1px solid transparent;color: #fff;background: #AA3333}
+.alerttext{font-size: 17px!important;font-family:'Roboto', sans-serif!important;color: #000!important;border: none }
 @media only screen  and (max-width: 400px) {
     html, body {
         width: 100%;
@@ -213,6 +224,7 @@
     .radius-block span {margin: 0;}
     #slider-radius{width: 70%!important;}
     #resto-search-block{padding-bottom: 17%}
+    .alerttext{font-size: 15px!important;}
 }
     @media only screen  and (max-width: 350px) {
         .search-btn,.search-btn:visited,.search-btn:hover,.search-btn:before
@@ -222,6 +234,7 @@
         #map {height: 270px;!important;}
         .radius-block span {text-align:center;width:100%;display:block;margin: 0 auto;margin-bottom: 5px}
         #slider-radius{width: 70%!important;}
+        .alerttext{font-size: 13px!important;}
     }
     @media only screen  and (min-width: 400px ) and (max-width: 750px){
         html, body {
@@ -305,6 +318,7 @@
         .radius-block span {text-align:center;width:100%;display:block;margin: 0 auto;margin-bottom: 5px}
         #slider-radius{width: 70%!important;}
         #resto-search-block{padding-bottom: 17%}
+
     }
 @media only screen  and (min-width: 751px ) and (max-width: 1024px){
     html, body {

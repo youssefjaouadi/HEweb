@@ -9,6 +9,7 @@
     <list default="true" id="b7a201cb-8ba4-4fa7-8437-d2701dc43f63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/homepage.html.twig" afterPath="$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/homepage.html.twig" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/css/homepage.css" afterPath="$PROJECT_DIR$/web/frontend/css/homepage.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,83 +35,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RestoRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RestoBundle/Repository/RestoRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <marker date="1531700197552" expanded="true" signature="1296:1303" ph="SELECT id FR... resto" />
-                <marker date="1531700197552" expanded="true" signature="1296:1536" ph="SELECT *, ( resto" />
-                <marker date="1531700197552" expanded="true" signature="1296:1537" ph="SELECT id, (... resto" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePageController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClientBundle/Controller/HomePageController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="20" />
-              <folding>
-                <element signature="e#43#100#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="homepage.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/homepage.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="535" column="70" lean-forward="false" selection-start-line="535" selection-start-column="70" selection-end-line="535" selection-end-column="70" />
+            <state relative-caret-position="312">
+              <caret line="446" column="41" lean-forward="false" selection-start-line="446" selection-start-column="41" selection-end-line="446" selection-end-column="41" />
               <folding>
                 <element signature="e#4933#6482#0#Twig" expanded="false" />
-                <element signature="e#23114#23522#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insr.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/InsR/insr.html.twig">
+      <file leaf-file-name="home.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/template/home.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2363">
-              <caret line="139" column="134" lean-forward="false" selection-start-line="139" selection-start-column="117" selection-end-line="139" selection-end-column="134" />
+            <state relative-caret-position="187">
+              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/frontend/js/homepage.js">
+      <file leaf-file-name="mdc.dialog.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1037">
+              <caret line="61" column="1" lean-forward="false" selection-start-line="61" selection-start-column="1" selection-end-line="71" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homemap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/frontend/js/homemap.js">
+      <file leaf-file-name="homepage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/frontend/css/homepage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="2295">
+              <caret line="135" column="30" lean-forward="false" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listresto.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/listresto.html.twig">
+      <file leaf-file-name="commandeR.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/CommandeR/commandeR.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="72" column="14" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="14" />
-              <folding>
-                <element signature="e#62#3396#0#Twig" expanded="false" />
-              </folding>
+            <state relative-caret-position="1428">
+              <caret line="84" column="28" lean-forward="false" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,36 +101,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>place-address</find>
-      <find>pac-input</find>
-      <find>pac-card</find>
-      <find>id=&quot;map</find>
-      <find>map</find>
-      <find>marker</find>
-      <find>adress</find>
-      <find>aut</find>
-      <find>setad</find>
-      <find>setAdr</find>
-      <find>$('#adrlng').val(</find>
-      <find>home</find>
-      <find>.js</find>
-      <find>autocomple</find>
-      <find>recha</find>
-      <find>autocompl</find>
-      <find>infow</find>
-      <find>autoc</find>
-      <find>rechaj</find>
-      <find>auto</find>
+      <find>rad</find>
+      <find>slide</find>
+      <find>stop</find>
+      <find>resto</find>
+      <find>asi</find>
+      <find>head</find>
+      <find>.map-dialog</find>
+      <find>title</find>
+      <find>id=&quot;title</find>
+      <find>supp-menu-dialog</find>
+      <find>mdc-dialog__header</find>
+      <find>alertl</find>
+      <find>dial</find>
+      <find>&lt;asi</find>
+      <find>a</find>
+      <find>my-mdc</find>
+      <find>var di</find>
+      <find>font-f</find>
+      <find>ale</find>
+      <find>span</find>
+      <find>div</find>
+      <find>loca</find>
+      <find>h2</find>
+      <find>header</find>
       <find>alert</find>
-      <find>rechajax</find>
-      <find>infowindowContent</find>
-      <find>var infowindowContent</find>
-      <find>autocomplete</find>
-      <find>initm</find>
-      <find>acc</find>
-      <find>ini</find>
-      <find>conb</find>
-      <find>init</find>
+      <find>dialog__footer__button</find>
+      <find>can</find>
+      <find>err</find>
+      <find>alertd</find>
+      <find>error</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\HospEatWebV1.0</dir>
@@ -199,9 +171,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/frontend/css/custom-dashboard.css" />
         <option value="$PROJECT_DIR$/web/frontend/js/commander.js" />
-        <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/CommandeR/commandeR.html.twig" />
         <option value="$PROJECT_DIR$/src/RestoBundle/Controller/LoginRController.php" />
         <option value="$PROJECT_DIR$/web/frontend/css/resto-cmd.css" />
         <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/LoginR/login_r.html.twig" />
@@ -215,7 +185,6 @@
         <option value="$PROJECT_DIR$/web/frontend/img/step3.svg" />
         <option value="$PROJECT_DIR$/web/frontend/img/step2.svg" />
         <option value="$PROJECT_DIR$/web/frontend/img/step4.svg" />
-        <option value="$PROJECT_DIR$/app/Resources/views/template/home.html.twig" />
         <option value="$PROJECT_DIR$/web/frontend/css/global.css" />
         <option value="$PROJECT_DIR$/app/Resources/views/template/header.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/template/footer.html.twig" />
@@ -244,11 +213,14 @@
         <option value="$PROJECT_DIR$/src/RestoBundle/Repository/RestoRepository.php" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/listresto.html.twig" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Controller/HomePageController.php" />
-        <option value="$PROJECT_DIR$/web/frontend/css/homepage.css" />
         <option value="$PROJECT_DIR$/web/frontend/js/homepage.js" />
         <option value="$PROJECT_DIR$/web/frontend/js/homemap.js" />
         <option value="$PROJECT_DIR$/web/frontend/css/inscription.css" />
         <option value="$PROJECT_DIR$/web/frontend/css/map-dialog.css" />
+        <option value="$PROJECT_DIR$/web/frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.css" />
+        <option value="$PROJECT_DIR$/src/RestoBundle/Resources/views/CommandeR/commandeR.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/template/home.html.twig" />
+        <option value="$PROJECT_DIR$/web/frontend/css/homepage.css" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/homepage.html.twig" />
       </list>
     </option>
@@ -337,6 +309,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -386,6 +359,13 @@
               <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -412,6 +392,15 @@
               <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CommandeR" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RestoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="InsR" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -430,13 +419,19 @@
               <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HospEatWebV1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HospEatWebV1.0" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,19 +445,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\HospEatWebV1.0\src\RestoBundle" />
-      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\dashboard\images" />
-      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\dashboard" />
-      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\css" />
-      <recent name="C:\xampp\htdocs\HospEatWebV1.0\app\Resources\views\template" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\img\test-imgs" />
       <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\externres\google material slider" />
       <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\externres\node_modules\sass\node_modules" />
       <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\externres\node_modules\sass" />
       <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\HospEatWebV1.0\src\RestoBundle" />
+      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\dashboard\images" />
+      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\dashboard" />
+      <recent name="C:\xampp\htdocs\HospEatWebV1.0\web\frontend\css" />
+      <recent name="C:\xampp\htdocs\HospEatWebV1.0\app\Resources\views\template" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -635,12 +630,18 @@
       <workItem from="1532590884994" duration="1148000" />
       <workItem from="1532597913489" duration="705000" />
       <workItem from="1532600945832" duration="823000" />
-      <workItem from="1532643147014" duration="6265000" />
+      <workItem from="1532643147014" duration="7705000" />
+      <workItem from="1532676825541" duration="1076000" />
+      <workItem from="1532732929976" duration="3257000" />
+      <workItem from="1532772472841" duration="11260000" />
+      <workItem from="1532863645564" duration="8192000" />
+      <workItem from="1532985179778" duration="3298000" />
+      <workItem from="1533023457812" duration="590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="858173000" />
+    <option name="totallyTimeSpent" value="887286000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,9 +654,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31467474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34568834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
@@ -710,36 +710,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/button/mdc-button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/dist/mdc.slider.min.js" />
-    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/dist/mdc.slider.js" />
-    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/slider/index.js" />
     <entry file="file://$PROJECT_DIR$/web/frontend/externres/google material slider/gmslide.css" />
     <entry file="file://$PROJECT_DIR$/web/frontend/externres/google material slider/gmslide.js" />
     <entry file="file://$PROJECT_DIR$/web/frontend/externres/seiyria-bootstrap-slider/dist/css/bootstrap-slider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4692">
           <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -752,13 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/css/resto-menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -825,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Entity/Resto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5091">
-          <caret line="314" column="21" lean-forward="false" selection-start-line="314" selection-start-column="12" selection-end-line="314" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -851,20 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/home.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/js/maploc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -925,23 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/css/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6613">
-          <caret line="389" column="1" lean-forward="false" selection-start-line="389" selection-start-column="1" selection-end-line="389" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/listresto.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="72" column="14" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="14" />
-          <folding>
-            <element signature="e#62#3396#0#Twig" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -966,13 +897,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/Ajmenu/resto-menu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="70" column="90" lean-forward="false" selection-start-line="70" selection-start-column="90" selection-end-line="70" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/frontend/css/inscription.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3043">
@@ -991,37 +915,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1531700197552" expanded="true" signature="1296:1303" ph="SELECT id FR... resto" />
-            <marker date="1531700197552" expanded="true" signature="1296:1536" ph="SELECT *, ( resto" />
-            <marker date="1531700197552" expanded="true" signature="1296:1537" ph="SELECT id, (... resto" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ClientBundle/Controller/HomePageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="e#43#100#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/InsR/insr.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="139" column="134" lean-forward="false" selection-start-line="139" selection-start-column="117" selection-end-line="139" selection-end-column="134" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/js/homepage.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1029,17 +929,124 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/listresto.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="72" column="14" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/InsR/insr.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="139" column="134" lean-forward="false" selection-start-line="139" selection-start-column="117" selection-end-line="139" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/js/maploc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="151" column="148" lean-forward="false" selection-start-line="151" selection-start-column="119" selection-end-line="151" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Entity/Resto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="314" column="21" lean-forward="false" selection-start-line="314" selection-start-column="12" selection-end-line="314" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/js/homepage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="169" column="11" lean-forward="false" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/resto-menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/Ajmenu/resto-menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="108" column="69" lean-forward="false" selection-start-line="108" selection-start-column="69" selection-end-line="108" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="1" lean-forward="false" selection-start-line="61" selection-start-column="1" selection-end-line="71" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RestoBundle/Resources/views/CommandeR/commandeR.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="28" lean-forward="false" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/css/homepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="135" column="30" lean-forward="false" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/HomePage/homepage.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="535" column="70" lean-forward="false" selection-start-line="535" selection-start-column="70" selection-end-line="535" selection-end-column="70" />
+        <state relative-caret-position="312">
+          <caret line="446" column="41" lean-forward="false" selection-start-line="446" selection-start-column="41" selection-end-line="446" selection-end-column="41" />
           <folding>
             <element signature="e#4933#6482#0#Twig" expanded="false" />
-            <element signature="e#23114#23522#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>

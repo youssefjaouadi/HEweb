@@ -198,7 +198,7 @@
                             </div>
                             <div id="pac-container">
                                 <input id="pac-input" type="text"
-                                       placeholder="Rechercher votre restaurant">
+                                       placeholder="Tapez votre adresse">
                             </div>
                         </div>
 
@@ -220,6 +220,23 @@
             <div class="mdc-dialog__footer">
                 <button type="button" class="mdc-dialog__footer__button--cancel btn-dialog-cancel">Annuler</button>
                 <button type="button" class="btn-dialog-confirm" id="confb">Confirmer</button>
+            </div>
+        </div>
+        <div class="mdc-dialog__backdrop"></div>
+    </aside>
+    <aside id="alertloc"
+           class="mdc-dialog "
+           role="alertdialog"
+           aria-labelledby="my-mdc-dialog-label"
+           aria-describedby="my-mdc-dialog-description">
+        <div class="mdc-dialog__surface map-dialog-block">
+            <div class="mdc-dialog__header">
+                <h2 id="alertmsg" class="mdc-dialog__header__title  alerttext">
+                    Votre localisation est fermé vou devez ouvrir votre loclaisation
+                </h2>
+            </div>
+            <div class="mdc-dialog__footer">
+                <button type="button" class="mdc-dialog__footer__button--cancel btn-dialog-close">Fermer</button>
             </div>
         </div>
         <div class="mdc-dialog__backdrop"></div>
@@ -252,7 +269,8 @@
     </script>
     <script type="text/javascript" src="{{ asset('frontend/js/homepage.js') }}"></script>
     <script>
-
+        var dialog = new mdc.dialog.MDCDialog(document.querySelector('#map-dialog'));
+        var alertdialog = new mdc.dialog.MDCDialog(document.querySelector('#alertloc'));
         function setCookie(cname, cvalue) {
             document.cookie = cname + "=" + cvalue + ";"  + ";path=/";
         }
@@ -293,6 +311,7 @@
                         setCookie("lng",long);
                         var latlng = {lat: parseFloat(lat), lng: parseFloat(long)};
                         geocoder.geocode({'location': latlng}, function(results, status) {
+
                             $('#cadr').val(results[0].formatted_address);
                         });
 
@@ -313,7 +332,9 @@
                     },
                      error: function(xhr){
                          alert('errrrrrro'+'Request Status: ' + xhr.status + ' Status Text: ' + xhr.statusText + ' ' + xhr.responseText);
-
+                         $('#load').hide();
+                         $('#alertmsg').text('echec localisation ');
+                         alertdialog.show();
                          },
                      //async: false
                 });
@@ -362,16 +383,18 @@
 
 
                         },
-                        // error: function(xhr){
-                        //     alert('errrrrrro'+'Request Status: ' + xhr.status + ' Status Text: ' + xhr.statusText + ' ' + xhr.responseText);
-                        //
-                        //     },
+                         error: function(xhr){
+                             alert('errrrrrro'+'Request Status: ' + xhr.status + ' Status Text: ' + xhr.statusText + ' ' + xhr.responseText);
+                             $('#load').hide();
+                             $('#alertmsg').text('echec localisation ');
+                             alertdialog.show();
+                             },
                         // async: false
                     });
 
                 }, function err (error) {
                     $('#load').hide();
-                        alert('erreur' + error.code);
+                    alertdialog.show();
 
 
                     });
@@ -412,7 +435,9 @@
                     },
                     error: function(xhr){
                          alert('errrrrrro'+'Request Status: ' + xhr.status + ' Status Text: ' + xhr.statusText + ' ' + xhr.responseText);
-
+                        $('#load').hide();
+                         $('#alertmsg').text('echec localisation ');
+                        alertdialog.show();
                         },
                     // async: false
                 });
@@ -421,10 +446,27 @@
         var input = document.getElementById('pac-input');
         var card = document.getElementById('pac-card');
         var infowindowContent = document.getElementById('infowindow-content');
+
         function initMap() {
+            var ln;
+            var lt;
+            var v=0;
+
+            if (getCookie('lng').length===0 || getCookie('lng').length===0)
+            {   ln=2.213749;
+                lt=46.227638;
+                v=6;
+            }
+            else {
+                lt=parseFloat(getCookie('ltd'));
+                ln= parseFloat(getCookie('lng'));
+                v=17;
+
+            }
+            alert("cookie"+getCookie('lng')+'v'+v+"lt"+lt+"ln"+ln);
             var map = new google.maps.Map(document.getElementById('map'), {
-                center: {lat: parseFloat(getCookie('ltd')), lng: parseFloat(getCookie('lng'))},
-                zoom: 17,
+                center: {lat: lt, lng: ln },
+                zoom: v,
                 mapTypeControl: false,
                 streetViewControl: false
             });
@@ -439,9 +481,14 @@
 
 
 
-            loc(map,marker,geocoder,autocomplete,card);
+            loc(map,marker,geocoder,autocomplete,card,lt,ln);
             if (navigator.geolocation) {
+
+
                 navigator.geolocation.getCurrentPosition(function (position){
+                    lt=parseFloat(position.coords.latitude);
+                    ln= parseFloat(position.coords.longitude);
+
                     var map = new google.maps.Map(document.getElementById('map'), {
                         center: {lat: position.coords.latitude, lng: position.coords.longitude},
                         zoom: 17,
@@ -455,7 +502,7 @@
                         position: {lat: position.coords.latitude, lng: position.coords.longitude}
 
                     });
-                    loc(map,marker,geocoder,autocomplete,card);
+                    loc(map,marker,geocoder,autocomplete,card,lt,ln);
                 });
 
 
@@ -467,7 +514,7 @@
 
 
         }
-        function loc (map,marker,geocoder,autocomplete,card){
+        function loc (map,marker,geocoder,autocomplete,card,lt,ln){
 
             var service = new google.maps.places.PlacesService(map);
 
@@ -518,6 +565,8 @@
                 $('#adrlng').val(place.geometry.location.lng());
 
             });
+            $('#adrltd').val(lt);
+            $('#adrlng').val(ln);
             google.maps.event.addListener(map, 'click', function(evt) {
                 evt.stop();
 
@@ -549,21 +598,6 @@
                     }
                 });
             }
-            function displayLoc(pi,pn,pa,plat,plng)
-            {
-
-//alert("nom "+pn+"adress:  "+pa+"lat:  "+plat+"lng:   "+plng);
-                $('#nom').val(pn);
-                $('#adr').val(pa);
-                $('#latr').val(plat);
-                $('#langr').val(plng);
-                /* $('#lang').text(plat);
-                 $('#lat').text(plng);*/
-                if(pi.length===0)
-                { $('#idplacer').val(plat+","+plng);}
-                else{ $('#idplacer').val(pi);}
-
-            }
             function getlng(lng) {
                 var newlng;
                 newlng=lng.substring(1,lng.indexOf(","));
@@ -577,7 +611,7 @@
 
             }
         }
-        var dialog = new mdc.dialog.MDCDialog(document.querySelector('#map-dialog'));
+
 
         $('#search-adr').click(function () {
             initMap();
