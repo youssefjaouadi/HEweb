@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashbord Resto</title>
+    {% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('frontend/dashboard/assets/css/normalize.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/dashboard/assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/dashboard/assets/css/font-awesome.min.css') }}">
+        {#<link rel="stylesheet" href="{{ asset('frontend/dashboard/assets/css/themify-icons.css') }}">#}
+        <link rel="stylesheet" href="{{ asset('frontend/dashboard/assets/css/flag-icon.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/dashboard/assets/scss/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/custom-dashboard.css') }}">
+
+
+    {% endblock %}
+
+</head>
+<body>
+<aside id="left-panel" class="left-panel">
+   {% block leftside %}{% include'template/leftside.html.twig' %}{% endblock %}
+</aside>
+<div id="right-panel" class="right-panel">
+
+   {% block rightside %}{% endblock %}
+</div>
+
+{% block javascripts %}
+
+    <script src="{{ asset('frontend/js/jquery-3.3.1.min.js') }}" ></script>
+    <script src="{{ asset('frontend/js/common_scripts_min.js') }}"></script>
+    <script src="{{ asset('frontend/js/functions.js') }}"></script>
+
+
+    <!-- SPECIFIC SCRIPTS -->
+
+{% endblock %}
+</body>
+</html>
+

@@ -1,0 +1,409 @@
+{% extends "template/dashboardTheme.html.twig" %}
+
+{% block title %}RestoBundle:DashboardController:RestoHome{% endblock %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('frontend/externres/slick-carousel/slick/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/slick-carousel/slick/slick-theme.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/dashboard/assets/css/flag-icon.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/typography/dist/mdc.typography.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/card/dist/mdc.card.css') }}">
+
+
+{% endblock %}
+
+{% block rightside %}
+   {# <header id="header"  class="header">
+
+        <div class="header-menu">
+
+            <div class="col-sm-12">
+
+                <div class="header-left">
+                    <div class="user-area dropdown float-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="user-avatar custom-avatar rounded-circle"  src="{{ asset('frontend/img/logoresto.png') }}" title="test" alt="User Avatar">
+                        </a>
+
+                        <div class="user-menu dropdown-menu">
+                            <a class="nav-link" href="#"><i class="fa fa- user"></i>Mon Resto</a>
+
+
+
+
+                            <a class="nav-link" href="#"><i class="fa fa-power -off"></i>Logout</a>
+                        </div>
+                    </div>
+                    <div class="language-select dropdown" id="language-select">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown"  id="language" aria-haspopup="true" aria-expanded="true">
+                            <i class="flag-icon flag-icon-fr"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="language" >
+                            <div class="dropdown-item">
+                                <span class="flag-icon flag-icon-gb"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown for-notification float-right"  >
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="notification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-bell" style="color: #0D47A1"></i>
+                            <span class="count bg-danger">5</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="notification">
+                            <p class="red">You have 3 Notification</p>
+                            <a class="dropdown-item media bg-flat-color-1" href="#">
+                                <i class="fa fa-check"></i>
+                                <p>Server #1 overloaded.</p>
+                            </a>
+                            <a class="dropdown-item media bg-flat-color-4" href="#">
+                                <i class="fa fa-info"></i>
+                                <p>Server #2 overloaded.</p>
+                            </a>
+                            <a class="dropdown-item media bg-flat-color-5" href="#">
+                                <i class="fa fa-warning"></i>
+                                <p>Server #3 overloaded.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>#}
+    {% include 'template/dashboardheader.html.twig' %}
+<div class="margin_60 container" style="width:100%;overflow-y: auto;height : 89%">
+    <div class="row"><span class="dashboardtitels mdc-typography--headline6 ">Les derniers Commandes :</span></div>
+<div class="row">
+    <div class="responsive col-md-10"style="width: 90%;margin: auto" >
+       {# <div><h3 style="background:#000;color:#fff;height: 100px;width:200px;border: solid 2px #fff">1</h3></div>
+        <div><h3 style="background:#000;color:#fff;height: 100px;border: solid 2px #fff;width:200px;">2</h3></div>
+        <div><h3 style="background:#000;color:#fff;height: 100px;border: solid 2px #fff;width:200px;">3</h3></div>
+        <div><h3 style="background:#000;color:#fff;height: 100px;border: solid 2px #fff;width:200px;">4</h3></div>
+        <div><h3 style="background:#000;color:#fff;height: 100px;border: solid 2px #fff;width:200px;">5</h3></div>
+        <div><h3 style="background:#000;color:#fff;height: 100px;border: solid 2px #fff;width:200px;">6</h3></div>
+        <div><h3 style="background:#000;color:#fff;height: 100px;border: solid 2px #fff;width:200px;">7</h3></div>
+        <div><h3 style="background:#000;color:#fff;height: 100px;border: solid 2px #fff;width:200px;">8</h3></div>
+        <div><h3 style="background:#000;color:#fff;height: 100px;border: solid 2px #fff;width:200px;">9</h3></div>
+        <div><h3 style="background:#000;color:#fff;height: 100px;border: solid 2px #fff;width:200px;">10</h3></div>
+        <div><h3 style="background:#000;color:#fff;height: 100px;border: solid 2px #fff;width:200px;">11</h3></div>
+        <div><h3 style="background:#000;color:#fff;height: 100px;border: solid 2px #fff;width:200px;">12</h3></div>#}
+
+       <div class="mdc-card cmd-card ">
+
+           <div class="cmdcardcontent container-fluid">
+            <div class="row cmdcardrow cmdtitle mdc-typography--headline6"><span class="cmdtexttitle" > Commande num 12345</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel">nom client : </span><span class="cmdresult mdc-typography--body2 ">youssef jaouadi</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel">Date : </span><span class="cmdresult mdc-typography--body2">12/10/1995</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel">slot : </span><span class="cmdresult mdc-typography--body2 ">12/10/1995 15:15</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel ">Etat : </span><span class="cmdresult mdc-typography--body2 delvredstate">delivré</span></div>
+
+           </div>
+            <div class="mdc-card__actions btndiv">
+                <div class="mdc-card__action-buttons btndivinner  " >
+                    <button class="cmdbtn mdc-card__action mdc-card__action--button"> Consulter</button>
+                </div>
+            </div>
+        </div>
+        <div class="mdc-card cmd-card ">
+
+           <div class="cmdcardcontent container-fluid">
+            <div class="row cmdcardrow cmdtitle mdc-typography--headline6"><span class="cmdtexttitle" > Commande num 12345</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel">nom client : </span><span class="cmdresult mdc-typography--body2 ">youssef jaouadi</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel">Date : </span><span class="cmdresult mdc-typography--body2">12/10/1995</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel">slot : </span><span class="cmdresult mdc-typography--body2 ">12/10/1995 15:15</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel ">Etat : </span><span class="cmdresult mdc-typography--body2 waitingstate">en cours</span></div>
+
+           </div>
+            <div class="mdc-card__actions btndiv">
+                <div class="mdc-card__action-buttons btndivinner  " >
+                    <button class="cmdbtn mdc-card__action mdc-card__action--button"> Consulter</button>
+                </div>
+            </div>
+        </div>
+        <div class="mdc-card cmd-card ">
+
+           <div class="cmdcardcontent container-fluid">
+            <div class="row cmdcardrow cmdtitle mdc-typography--headline6"><span class="cmdtexttitle" > Commande num 12345</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel">nom client : </span><span class="cmdresult mdc-typography--body2 ">youssef jaouadi</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel">Date : </span><span class="cmdresult mdc-typography--body2">12/10/1995</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel">slot : </span><span class="cmdresult mdc-typography--body2 ">12/10/1995 15:15</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel ">Etat : </span><span class="cmdresult mdc-typography--body2 nonecheckedstate">non consulter</span></div>
+
+           </div>
+            <div class="mdc-card__actions btndiv">
+                <div class="mdc-card__action-buttons btndivinner  " >
+                    <button class="cmdbtn mdc-card__action mdc-card__action--button"> Consulter</button>
+                </div>
+            </div>
+        </div>
+        <div class="mdc-card cmd-card ">
+
+           <div class="cmdcardcontent container-fluid">
+            <div class="row cmdcardrow cmdtitle mdc-typography--headline6"><span class="cmdtexttitle" > Commande num 12345</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel">nom client : </span><span class="cmdresult mdc-typography--body2 ">youssef jaouadi</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel">Date : </span><span class="cmdresult mdc-typography--body2">12/10/1995</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel">slot : </span><span class="cmdresult mdc-typography--body2 ">12/10/1995 15:15</span></div>
+            <div class="row cmdcardrow"><span class="mdc-typography--subtitle1 cmdlabel ">Etat : </span><span class="cmdresult mdc-typography--body2 delvredstate">delivré</span></div>
+
+           </div>
+            <div class="mdc-card__actions btndiv">
+                <div class="mdc-card__action-buttons btndivinner  " >
+                    <button class="cmdbtn mdc-card__action mdc-card__action--button"> Consulter</button>
+                </div>
+            </div>
+        </div>
+
+
+      {#  <div class="mdc-card cmd-card ">
+            <div class="mdc-card__media mdc-card__media--square">
+            </div>
+            <div class="cmdcardcontent">test</div>
+            <div class="mdc-card__actions">
+                <div class="mdc-card__action-buttons">
+                    <button class="mdc-button mdc-card__action mdc-card__action--button">Action 1</button>
+                </div>
+            </div>
+        </div>
+#}
+
+
+
+
+
+
+    </div>
+</div>
+    <div class="row"><span class="mdc-typography--headline6  dashboardtitels">Les derniers Avis :</span></div>
+    <div class="row">
+        <div class="responsive col-md-10"style="width: 90%;margin: auto" >
+
+
+            <div class="mdc-card review-card container-fluid " id="review-card-id">
+
+                <div class="reviewtop container-fluid row">
+                    <figure class="avatarblock">
+                        <img class="user-avatar rounded-circle " width="35" height="35" src="{{ asset('frontend/img/logoresto.png') }}" title="test" alt="User Avatar">
+                        <figcaption class="mdc-typography--caption imgcaption">Y.jaouadi</figcaption>
+                    </figure>
+                    <div class="starsblock">
+                    <span class="fa fa-star checked " ></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star ratingstar"></span>
+                    <span class="fa fa-star ratingstar"></span>
+                    </div>
+
+
+                </div>
+                <div class="mdc-card__actions reviewbottom">
+                    <div class="mdc-card__action-buttons " >
+
+                        <span id="rdesc" class="blockquote reviewdescription">1.its a nice restaurant with great  foodits a nice restaurant with great  food</span>
+                        <span id="more" class="expandbtns expandplus" >+</span>
+                        <span id="less" class="expandbtns expandmoin" >-</span>
+
+
+
+                    </div>
+                </div>
+            </div>
+             <div class="mdc-card review-card container-fluid " id="review-card-id">
+
+                <div class="reviewtop container-fluid row">
+                    <figure class="avatarblock">
+                        <img class="user-avatar rounded-circle " width="35" height="35" src="{{ asset('frontend/img/logoresto.png') }}" title="test" alt="User Avatar">
+                        <figcaption class="mdc-typography--caption imgcaption">Y.jaouadi</figcaption>
+                    </figure>
+                    <div class="starsblock">
+                    <span class="fa fa-star checked " ></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star ratingstar"></span>
+                    <span class="fa fa-star ratingstar"></span>
+                    </div>
+
+
+                </div>
+                <div class="mdc-card__actions reviewbottom">
+                    <div class="mdc-card__action-buttons " >
+
+                        <span id="rdesc" class="blockquote reviewdescription">2.its a nice restaurant </span>
+                        <span id="more" class="expandbtns expandplus" >+</span>
+                        <span id="less" class="expandbtns expandmoin" >-</span>
+
+
+
+                    </div>
+                </div>
+            </div>
+             <div class="mdc-card review-card container-fluid " id="review-card-id">
+
+                <div class="reviewtop container-fluid row">
+                    <figure class="avatarblock">
+                        <img class="user-avatar rounded-circle " width="35" height="35" src="{{ asset('frontend/img/logoresto.png') }}" title="test" alt="User Avatar">
+                        <figcaption class="mdc-typography--caption imgcaption">Y.jaouadi</figcaption>
+                    </figure>
+                    <div class="starsblock">
+                    <span class="fa fa-star checked " ></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star ratingstar"></span>
+                    <span class="fa fa-star ratingstar"></span>
+                    </div>
+
+
+                </div>
+                <div class="mdc-card__actions reviewbottom">
+                    <div class="mdc-card__action-buttons " >
+
+                        <span id="rdesc" class="blockquote reviewdescription">3.its a nice restaurant with great  foodits a nice restaurant with great  food</span>
+                        <span id="more" class="expandbtns expandplus" >+</span>
+                        <span id="less" class="expandbtns expandmoin" >-</span>
+
+
+
+                    </div>
+                </div>
+            </div>
+             <div class="mdc-card review-card container-fluid " id="review-card-id">
+
+                <div class="reviewtop container-fluid row">
+                    <figure class="avatarblock">
+                        <img class="user-avatar rounded-circle " width="35" height="35" src="{{ asset('frontend/img/logoresto.png') }}" title="test" alt="User Avatar">
+                        <figcaption class="mdc-typography--caption imgcaption">Y.jaouadi</figcaption>
+                    </figure>
+                    <div class="starsblock">
+                    <span class="fa fa-star checked " ></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star ratingstar"></span>
+                    <span class="fa fa-star ratingstar"></span>
+                    </div>
+
+
+                </div>
+                <div class="mdc-card__actions reviewbottom">
+                    <div class="mdc-card__action-buttons " >
+
+                        <span id="rdesc" class="blockquote reviewdescription">4.its a nice restaurant with great  foodits a nice restaurant with great  food</span>
+                        <span id="more" class="expandbtns expandplus" >+</span>
+                        <span id="less" class="expandbtns expandmoin" >-</span>
+
+
+
+                    </div>
+                </div>
+            </div>
+             <div class="mdc-card review-card container-fluid " id="review-card-id">
+
+                <div class="reviewtop container-fluid row">
+                    <figure class="avatarblock">
+                        <img class="user-avatar rounded-circle " width="35" height="35" src="{{ asset('frontend/img/logoresto.png') }}" title="test" alt="User Avatar">
+                        <figcaption class="mdc-typography--caption imgcaption">Y.jaouadi</figcaption>
+                    </figure>
+                    <div class="starsblock">
+                    <span class="fa fa-star checked " ></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star ratingstar"></span>
+                    <span class="fa fa-star ratingstar"></span>
+                    </div>
+
+
+                </div>
+                <div class="mdc-card__actions reviewbottom">
+                    <div class="mdc-card__action-buttons " >
+
+                        <span id="rdesc" class="blockquote reviewdescription">5.its a nice restaurant with great  foodits a nice restaurant with great  food</span>
+                        <span id="more" class="expandbtns expandplus" >+</span>
+                        <span id="less" class="expandbtns expandmoin" >-</span>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            {#<div class="mdc-card review-card " id="test">
+
+                <div class="reviewtop container-fluid">
+                    <div class="row cmdcardrow cmdtitle mdc-typography--title"><span class="cmdtexttitle" > Commande num 12345</span></div>
+                </div>
+                <div class="mdc-card__actions reviewbottom">
+                    <div class="mdc-card__action-buttons btndivinner  " >
+
+                    </div>
+                </div>
+            </div>#}
+
+          {#  <div class="mdc-card cmd-card ">
+
+                <div class="cmdcardcontent container-fluid">
+                    <div class="row cmdcardrow cmdtitle mdc-typography--title"><span class="cmdtexttitle" > Commande num 12345</span></div>
+                    <div class="row cmdcardrow"><span class="mdc-typography--subheading1 cmdlabel">nom client : </span><span class="cmdresult mdc-typography--body2 ">youssef jaouadi</span></div>
+                    <div class="row cmdcardrow"><span class="mdc-typography--subheading1 cmdlabel">Date : </span><span class="cmdresult mdc-typography--body2">12/10/1995</span></div>
+                    <div class="row cmdcardrow"><span class="mdc-typography--subheading1 cmdlabel">slot : </span><span class="cmdresult mdc-typography--body2 ">12/10/1995 15:15</span></div>
+                    <div class="row cmdcardrow"><span class="mdc-typography--subheading1 cmdlabel ">Etat : </span><span class="cmdresult mdc-typography--body2 delvredstate">delivré</span></div>
+
+                </div>
+                <div class="mdc-card__actions btndiv">
+                    <div class="mdc-card__action-buttons btndivinner  " >
+                        <button class="cmdbtn mdc-card__action mdc-card__action--button"> Consulter</button>
+                    </div>
+                </div>
+            </div>
+          #}
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <div class="row" style="position: relative"><span class="mdc-typography--headline6  dashboardtitels">Votre Menu :</span>
+        <button  class="ajmenubtn" ><i class="fa  fa-plus addicon"></i>Ajouter menu</button></div>
+
+
+        <div class="row listmenu">  {% for i in 1..5 %}
+
+                 <div class="card text-white test "style="height:150px;background:url('{{ asset('frontend/img/pizza.jpeg')  }}') no-repeat;background-size: 100% 100% ">
+
+                    <div class="card-body" style="height: 100%;position: relative">
+                        <div class="dropdown float-right" style="top: 0;right: 0;position: absolute">
+                            <button class="btn bg-transparent  theme-toggle text-light" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                                <i class="fa fa-cog"></i>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <div class="dropdown-menu-content">
+                                    <a class="dropdown-item" href="#">Modifier</a>
+                                    <a class="dropdown-item" href="#">Supprimer</a>
+                                </div>
+                            </div>
+                        </div>
+                       {# <div class="chart-wrapper px-0" style="height:70px;" height="70">
+                            <canvas id="widgetChart1"></canvas>
+                        </div>#}
+                        <div style="bottom:0;left:0;background: rgba(0,0,0,0.8);height:25%;width:100%;position: absolute">
+                            <p class="text-light mdc-typography--headline6"style="text-align: center">Pizza</p>
+                        </div>
+                    </div>
+                </div>
+
+            {% endfor %}</div>
+
+</div>
+
+
+
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+
+    <script type="text/javascript" src="{{ asset('frontend/externres/slick-carousel/slick/slick.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('frontend/js/dashboardhome.js') }}"></script>
+    <script type="text/javascript" src="https://unpkg.com/material-components-web@latest/dist/material-components-web.js"></script>
+{% endblock %}

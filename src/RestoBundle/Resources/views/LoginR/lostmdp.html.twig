@@ -1,0 +1,53 @@
+{% extends "/template/InscriptionTheme.html.twig" %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('frontend/css/login.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/typography/dist/mdc.typography.css') }}">
+
+
+{% endblock %}
+
+{% block body %}
+    <div class="inscontainer ">
+
+        <div class="col-md-4 insdescription" style="display: none">
+            <ul class="instextdescription">Binevenu CHez HospEat</p>
+                <li>Benifits 1</li>
+                <li>Benifits 1</li>
+                <li>Benifits 1</li>
+            </ul>
+
+        </div>
+        <div class="insform col-md-4 ">
+            <p class="instextdescription mdc-typography--headline4 institle">Entrer votre e-mail pour changer le mot de passe</p>
+            <form method="post"  >
+                <div id="blockconf"  style="display: block" class="container">
+                    <div  style="width: 100%;">
+
+                        <div class="infoiutput" style="width: 100%">
+
+                            <label class="labelinfo labelconf text-center "> <input   class="ilostmdp" id="emailrec" name="emailrecup"  type="email"  > </label>
+                            <div class=" text-center mdc-typography--headline6  lostmdpmsg ">un e-mail est envoyé a <span><span></span></span></div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="blockbtns ">
+                    <button  type="button" id="recupb" class="btn loginbtn"><span>Envoyer</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    <script type="text/javascript" src="{{ asset('frontend/js/loginr.js') }}"></script>
+{% endblock %}
+

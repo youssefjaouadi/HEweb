@@ -1,0 +1,182 @@
+{% extends "template/dashboardTheme.html.twig" %}
+
+{% block title %}RestoBundle:DashboardController:RestoHome{% endblock %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('frontend/css/resto-review.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/dashboard/assets/css/flag-icon.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/typography/dist/mdc.typography.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/card/dist/mdc.card.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/button/dist/mdc.button.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.css') }}">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+
+{% endblock %}
+
+{% block rightside %}
+    {% include 'template/dashboardheader.html.twig' %}
+    <div class="container t" style="width:100%;overflow-y: auto;overflow-x: hidden;height : 89%;">
+        <div class="row review-title-bar">
+                <div class="block-review-title ">
+                <span class="mdc-typography--headline5 review-title-text ">Les Avis</span><div class="nbrreview rounded-circle">10</div>
+                </div>
+            <div class="block-tri   ">
+                <span class="mdc-typography--subtitle1">Trier Par:</span>
+                <select class="tri-dropdown">
+                    <option class="mdc-typography--subtitle1">le plus note</option>
+                    <option>le moins note</option>
+                    <option>les dernier avis</option>
+                    <option>les anciens avis</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="row">
+            {% for i in 1..5 %}
+            <div class="mdc-card review-card">
+            <div class=" review-card-content">
+
+                    <div  class="col-md-4 review-card-left">
+                        <div class="reviewright container-fluid row">
+                            <figure class="avatarblock">
+                                <img class="user-avatar rounded-circle " width="55" height="55" src="{{ asset('frontend/img/logoresto.png') }}" title="test" alt="User Avatar">
+                            </figure>
+                            <div>
+                            <div class="starsblock">
+                                <span class="fa fa-star checked " ></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star ratingstar"></span>
+                                <span class="fa fa-star ratingstar"></span>
+                            </div>
+                            <div  class="info-review-block">
+                                <div class="review-date">
+                                    20 min  ago
+                                </div>
+                                <div class="review-user">
+                                    youssef.jaouadi
+                                </div>
+                            </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-8 review-card-right" >
+                       <div class="col-md-1 block-quto" >
+                           <span class="quto-icon"><i class="fa fa-quote-left"></i></span>
+                       </div>
+                        <div class="col-md-11 block-review-text" >
+                            <span class="review-text">Nice restaurant with great food and good service also nice decoration
+                                Nice restaurant with great food and good service also nice decoration
+
+                            </span>
+                        </div>
+                    </div>
+
+            </div>
+            </div>
+            {% endfor %}
+            <div class="mdc-card review-card">
+                <div class=" review-card-content">
+
+                    <div  class="col-md-4 review-card-left">
+                        <div class="reviewright container-fluid row">
+                            <figure class="avatarblock">
+                                <img class="user-avatar rounded-circle " width="55" height="55" src="{{ asset('frontend/img/logoresto.png') }}" title="test" alt="User Avatar">
+                            </figure>
+                            <div>
+                                <div class="starsblock">
+                                    <span class="fa fa-star checked " ></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star ratingstar"></span>
+                                    <span class="fa fa-star ratingstar"></span>
+                                </div>
+                                <div  class="info-review-block">
+                                    <div class="review-date">
+                                        20 min  ago
+                                    </div>
+                                    <div class="review-user">
+                                        youssef.jaouadi
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-8 review-card-right" >
+                        <div class="col-md-1 block-quto" >
+                            <span class="quto-icon"><i class="fa fa-quote-left"></i></span>
+                        </div>
+                        <div class="col-md-11 block-review-text" >
+                            <span class="review-text">Nice restaurant with great food and good service also nice decoration
+                                Nice restaurant with great food and good service also nice decorationNice restaurant with great food and good service also nice decoration
+                                Nice restaurant with great food and good service also nice decoration
+
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="mdc-card review-card">
+                <div class=" review-card-content">
+
+                    <div  class="col-md-4 review-card-left">
+                        <div class="reviewright container-fluid row">
+                            <figure class="avatarblock">
+                                <img class="user-avatar rounded-circle " width="55" height="55" src="{{ asset('frontend/img/logoresto.png') }}" title="test" alt="User Avatar">
+                            </figure>
+                            <div>
+                                <div class="starsblock">
+                                    <span class="fa fa-star checked " ></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star ratingstar"></span>
+                                    <span class="fa fa-star ratingstar"></span>
+                                </div>
+                                <div  class="info-review-block">
+                                    <div class="review-date">
+                                        20 min  ago
+                                    </div>
+                                    <div class="review-user">
+                                        youssef.jaouadi
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-8 review-card-right" >
+                        <div class="col-md-1 block-quto" >
+                            <span class="quto-icon"><i class="fa fa-quote-left"></i></span>
+                        </div>
+                        <div class="col-md-11 block-review-text" >
+                            <span class="review-text">Nice restaurant
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.js') }}" type="text/javascript"></script>
+
+
+{% endblock %}

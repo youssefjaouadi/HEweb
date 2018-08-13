@@ -1,0 +1,163 @@
+{% extends "/template/InscriptionTheme.html.twig" %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('frontend/css/inscription.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/jquery-clockpicker.css') }}">
+
+
+{% endblock %}
+
+{% block body %}
+    <div class="inscontainer ">
+
+        <div class="col-md-4 insdescription" style="display: none">
+            <ul class="instextdescription">Binevenu CHez HospEat</p>
+            <li>Benifits 1</li>
+            <li>Benifits 1</li>
+            <li>Benifits 1</li>
+            </ul>
+
+        </div>
+        <div class="insform col-md-4 ">
+            <p class="instextdescription institle">Inscription</p>
+                {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+            {{ form_widget(form.username,{ 'attr': {'class': 'nomr'}}) }}
+            {{ form_widget(form.nomresto,{ 'attr': {'class': 'nomr'}}) }}
+            {{ form_widget(form.description,{ 'attr': {'class': 'desc'}}) }}
+
+            {{ form_widget(form.adresseresto, { 'attr': {'class': 'adrr'} }) }}
+            {{ form_widget(form.tel, { 'attr': {'class': 'telr'}}) }}
+            {{ form_widget(form.typeresto, { 'attr': {'class': 'typer'}}) }}
+            {{ form_widget(form.ouverture, { 'attr': {'class': 'ouvr'}}) }}
+            {{ form_widget(form.fermeture, { 'attr': {'class': 'fermr'}}) }}
+            {{ form_widget(form.lngresto, { 'attr': {'class': 'langr'}}) }}
+            {{ form_widget(form.ltdresto, { 'attr': {'class': 'latr'}}) }}
+            {{ form_widget(form.idPlaceResto, { 'attr': {'class': 'idplacer'}}) }}
+            {{ form_widget(form.ribresto, { 'attr': {'class': 'ribresto'}}) }}
+
+
+            <!-- <input type="hidden" name="nomrval" id="nomr">
+                 <input type="hidden" name="adrrval" id="adrr">
+                 <input type="hidden" name="telrval" id="telr">
+                 <input type="hidden" name="typerval" id="typer">
+                 <input type="hidden" name="ouvrval" id="ouvr">
+                 <input type="hidden" name="fermrval" id="fermr">
+                 <input type="hidden" name="langrval" id="langr">
+                 <input type="hidden" name="latrval" id="latr">
+                 <input type="hidden" name="idrval" id="idr">
+                 <input type="hidden" name="idplacerval" id="idplacer">  -->
+
+                <div id="blockmap" class="container">
+                 <div class="blocksteps "><div class="circleShape">1</div><span class="stepstext">Choisir l'emplacement de votre resturant</span></div>
+                <div  style="width: 100%;">
+                    <div class="pac-card" id="pac-card">
+                        <div>
+                            <div id="title">
+                               Recherche Restaurant
+                            </div>
+
+                        </div>
+                        <div id="pac-container">
+                            <input id="pac-input" type="text"
+                                   placeholder="Rechercher votre restaurant">
+                        </div>
+                    </div>
+
+                    <div id="map"></div>
+
+                    <div id="infowindow-content">
+                        <img src="" width="16" height="16" id="place-icon">
+                        <span id="place-name"  class="title"></span><br>
+                        <img src="{{ asset('frontend/img/location.png') }}" style="float: left" id="locimg" width="16" height="16"><span id="place-address" class="pa"></span><br>
+                        <input type="button" id="btn" class="locbtn btn" value="choisir cette emplacement"/>
+                    </div>
+               </div>
+               <div class="infoiutput">
+
+                   <input class="inom" id="nom" placeholder="nom de restaurant" type="text"  disabled>
+                   <input class="iadr"  id="adr" type="text" placeholder="adresse de restaurant" disabled>
+
+               </div>
+          {#     <button type="button" id="nextb" class="btn nextbtn"><span style="margin-right: 10px">Continuer</span><i class="fas fa-chevron-right"></i></button>
+            #}
+            </div>
+                <div id="blockinfo" class="container">
+                    <div class="blocksteps"><div class="circleShape">2</div><span class="stepstext">Saisir les information de restaurant</span></div>
+                    <div  style="width: 100%;">
+
+                        <div class="infoiutput" style="width: 100%">
+
+                            <label class="labelinfo"><img src="{{ asset('frontend/img/restoicon.png') }}" ><span>nom de restaurant</span> <input class="iinfo noms2" id="nomstep2"  type="text"  disabled> </label>
+                            <label class="labelinfo"><img src="{{ asset('frontend/img/locicon.png') }}" ><span>adresse de restaurant</span> <input class="iinfo adrs2" id="adrstep2" type="text"  disabled> </label>
+                            <label class="labelinfo"><span></span> Description<input class="iinfo" id="description" type="text" placeholder="description" > </label>
+
+                            <label class="labelinfo"><img src="{{ asset('frontend/img/mobicon.png') }}" ><span>numero Telphone</span> <input class="iinfo" id="tel" type="number"  class="form-control" value=""> </label>
+
+                           {# <label class="labelinfo"><img src="{{ asset('frontend/img/restoicon.png') }}" ><span>nom resto</span> <input class="iinfo" id="adr" type="text" class="form-control"value="ouverteure" > </label>
+                            <label class="labelinfo"><img src="{{ asset('frontend/img/restoicon.png') }}" ><span>nom resto</span> <input class="iinfo" id="adr" type="text" class="form-control"value="fermeture" > </label>
+                            #}
+                            <div class="timeinput">
+                                <label class="labelinfo labeltime time"><img src="{{ asset('frontend/img/timeicon.png') }}" ><span>ouverteure</span> <input class="iinfo itime" data-placement="top" data-align="left" id="ouv" type="text" maxlength="5" onkeydown="return false;" > </label>
+                                <label class="labelinfo labeltime time"><img src="{{ asset('frontend/img/timeicon.png') }}" ><span>fermeture</span> <input class="iinfo itime" data-placement="top" data-align="right" id="ferm" type="text" maxlength="5" onkeydown="return false;" > </label>
+
+
+
+                            </div>
+                            <div class="itype">
+                                <select class="form-control" id="typeresto">
+                                    <option    disabled selected hidden>Choisir type de restaurant</option>
+                                    <option  value="Restaurant">Restaurant</option>
+                                    <option  value="Boulangerie">Boulangerie</option>
+                                    <option  value="Snack">Snack</option>
+                                </select>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+                    </div>
+                <div id="blockconf" class="container">
+                    <div class="blocksteps"><div class="circleShape">3</div><span class="stepstext">Saisir les informations du Compte</span></div>
+                    <div  style="width: 100%;">
+
+                        <div class="infoiutput" style="width: 100%">
+
+                            <label class="labelinfo labelconf"><img src="{{ asset('frontend/img/mail.png') }}" ><span>E-mail</span>{{ form_widget(form.email, { 'attr': {'class': 'iinfo'}}) }}
+                            </label>
+                            <label class="labelinfo labelconf"><img src="{{ asset('frontend/img/password.png') }}" ><span>Mot de pass</span>  {{ form_widget(form.plainPassword, { 'attr': {'class': 'iinfo'}}) }}</label>
+                            <label class="labelinfo labelconf"><img src="{{ asset('frontend/img/rib.png') }}" ><span>Rib</span> <input class="iinfo" id="rib" type="number"  class="form-control" > </label>
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                    <div class="blockbtns ">
+                        <button type="button" id="nextb" class="btn nextbtn"><span style="margin-right: 10px">Continuer</span><i class="fas fa-chevron-right"></i></button>
+                        <button type="button" id="backb" class="btn backbtn"><i class="fas fa-chevron-left"></i><span style="margin-left: 10px">Retour</span></button>
+                        <button type="submit" id="confb" class="btn confbtn" value="{{ 'registration.submit'|trans }}" ><span style="margin-right: 10px">Terminer</span><i class="fas fa-check"></i></button>
+                    </div>
+
+            {{ form_end(form) }}
+        </div>
+    </div>
+
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+
+<script type="text/javascript" src="{{ asset('frontend/js/maploc.js') }}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5uQXfyamglp8zZoBt50LyxaAePdzzpAc&libraries=places&callback=initMap"
+            async defer></script>
+    <script type="text/javascript" src="{{ asset('frontend/js/jquery-clockpicker.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('frontend/js/insr.js') }}"></script>
+{% endblock %}
+

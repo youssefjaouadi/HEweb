@@ -1,0 +1,188 @@
+html ,body{ max-width: 100%;height: 100%;
+    overflow-x: hidden;overflow-y: hidden}
+.fadesign{color:#ffffff}
+.navbar .custom-navbar-brand {    border-bottom: 1px solid #ffffff;}
+.labelinfo img
+{
+    vertical-align: baseline;
+}
+.labelinfo span
+{
+
+    margin-left: 20px;
+    font-size: 17px;
+}
+.cmd-card {
+
+    width: 250px;
+    height: 270px!important;
+    margin : 0 5px 0 5px;
+
+
+}
+.review-card  {
+
+    width: 250px;
+    height: 125px!important;
+    margin : 0 5px 0 5px;
+    padding-left: 0;
+
+
+}
+.reviewtop{height: 60px;background:rgba(13,71,161,0.9);/*#58C9F3;*//*background: rgba(13,71,161,0.3);*/width: 250px;padding-left: 20px;margin: 0;}
+
+
+.reviewbottom{height: 60px;padding-left: 15px;}
+.imgcaption{color: #ffffff}
+.reviewdescrption{color: #000;font-style: italic;font-weight: bold}
+.avatarblock{margin-top: 7px;margin-bottom: 15px}
+.starsblock{vertical-align: top;margin-top: 5px}
+.reviewdescription{
+    padding-top: 5px;
+    text-overflow: ellipsis;
+    width: 210px;
+    display: block;
+    overflow: hidden;
+
+    line-height: 1.3em;
+    height: 3em;
+font-size: 1rem}
+.expandescription{  padding-top: 5px;overflow: visible;}
+.expandreview{min-height:135px!important;}
+.expandbtns{
+    cursor: pointer; display:none;
+
+    width: 20px;
+    height: 20px;
+    background: #0D47A1;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border:#FFFFFF 2px solid;
+    text-align: center;
+    color: #FFFFFF;
+
+    font-size: 20px;
+    font-weight: bold;
+    }
+.expandplus{ line-height: 12px;!important;}.expandmoin{ line-height: 10px;}
+
+.dashboardtitels
+{
+    color: #000; margin: 10px 0 10px 10px;
+}
+.ajmenubtn, .ajmenubtn, .ajmenubtn, .ajmenubtn:active{
+    outline: none!important;
+    background-color:#0D47A1 ;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none !important;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 600;
+    right: 0;position: absolute;
+    margin-right: 105px;
+    margin-top: 15px;
+
+}
+.addicon{font-size: 15px;margin-right: 5px}
+.checked {
+    color: orange;
+}
+.ratingstar{color: #ffffff;}
+.fa-star{font-size: 25px;}
+.delvredstate{
+    background-color:#1B5E20 ;
+    color: #FFFFFF;
+    border-radius: 3px;
+    padding :2px 5px 3px 5px
+
+
+}
+.waitingstate{
+    background-color: orange;
+    color: #FFFFFF;
+    border-radius: 3px;
+    padding :2px 5px 3px 5px
+
+
+}
+.waitingvalidationstate{
+    background-color: #0D47A1;
+    color: #FFFFFF;
+    border-radius: 3px;
+    padding :2px 5px 3px 5px
+
+
+}
+.nonecheckedstate{
+    background-color:#AA3333 ;
+    color: #FFFFFF;
+    border-radius: 3px;
+    padding :2px 5px 3px 5px
+
+
+}
+.cmdresult{margin-left: 5%;padding-top: 4px}
+.cmdlabel{font-weight: bold!important;}
+.cmdcardrow{margin-bottom: 5px;padding :5px 3px 5px 3px}
+.cmdcardrow .cmdlabel {vertical-align: center}
+.cmdcardrow span {vertical-align: bottom}
+.cmdbtn, .cmdbtn, .cmdbtn, .cmdbtn:active{
+    outline: none!important;
+    background-color:#0D47A1 ;
+    color: #FFFFFF;
+    margin-top: 10px;
+    border: none;
+    text-decoration: none !important;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 600;
+
+
+}
+.btndiv{background: #F5F5F5;height: 20%}
+.btndiv .btndivinner{margin: auto}
+.cmdcardcontent{height: 80%}
+.cmdtexttitle{margin: auto;}
+.custom-avatar{width: 40px!important; margin-top: 0!important;}
+.test{width:27%;margin: 10px 47px 47px 0}
+.listmenu{margin-left: 8%;}
+
+html {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 1270px) {
+    html {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    html, body {
+        overflow-y: auto;
+        overflow-x: auto;
+        font-size: 1.1rem;
+    }
+}
+/*@media only screen and (max-width: 1100px) {
+    html, body {
+        overflow-y: auto;
+        overflow-x: auto;
+        font-size: 1.1rem;
+    }
+}*/
+
+@media only screen and (max-width: 400px) {
+    html,body {
+        overflow-y: auto;
+        font-size: 1rem;
+    }
+    .test {
+
+        width: 90%;margin: auto;margin-bottom: 20px;
+    }
+    .listmenu{margin-left: 0}
+    .ajmenubtn{ margin-right: 30px;}
+}

@@ -1,0 +1,312 @@
+{% extends "template/dashboardTheme.html.twig" %}
+
+{% block title %}RestoBundle:DashboardController:RestoHome{% endblock %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('frontend/externres/slick-carousel/slick/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/slick-carousel/slick/slick-theme.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/dashboard/assets/css/flag-icon.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/typography/dist/mdc.typography.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/card/dist/mdc.card.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/button/dist/mdc.button.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/resto-menu.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.css') }}">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+
+{% endblock %}
+
+{% block rightside %}
+   {% include 'template/dashboardheader.html.twig' %}
+    <div class="container" style="width:100%;overflow-y: auto;height : 89%">
+        <div class="sufee-alert alert with-close alert-success alert-dismissible fade show "id="sucsess-box" >
+            <span class="badge badge-pill badge-success">Success</span>
+            Le menu a ete supprimer avec succes.
+            <button type="button" class="close" id="close-alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="row menu-header"><span class="mdc-typography--headline6 menu-header-title">Votre Menu :</span>
+            <button  class="aj-menu-btn" id="btn-new-menu" ><i class="fa  fa-plus addicon"></i>Ajouter menu</button>
+        </div>
+       {# <div class="row">   <button id="btn-new-menu" class="btn" style="margin: 10px">newmenu</button></div>#}
+    <div class="row">
+        <div id="new-menu" class="col-md-5 menu-cart  container-fluid new-menu " >
+            <form method="post"action="{{ path('ajouterplat') }}">
+         <div class="row">   <div class="menu-info"><button class="no-menu-img" ><i class="fa fa-camera" ></i></button><input class="nom-menu" placeholder="nom categorie" type="text" style="background-color: white" id="cat" ><button type="button"  class="dropdown-arrow"><i class="fa fa-caret-down " id="new-display-plat"></i><i class="fa fa-caret-up " id="new-hide-plat"></i></button></div></div>
+           <div class="row">
+               <div class="new-plat">
+
+                   <button class="no-plat-img" ><i class="fa fa-camera" ></i></button><input class="nom-plat" id="plat0" placeholder="saisir le nom du plat" ><input class="prix-plat" placeholder="prix" id="prix0"><button type="button" class="aj-plat btn" id="btnplus"><i class="fa fa-plus"></i></button>
+
+               </div>
+           </div>
+             <div class="row" id="new-mitems">
+
+             </div>
+          {#   <div class="row"><div class="menu-items" id="mitems"><button class="no-plat-img" ><i class="fa fa-camera" ></i></button><input class="nom-plat" ><input class="prix-plat" ><button class="del-plat-item btn"><i class="fa fa-trash"></i></button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button></div></div>
+              <div class="row"><div class="menu-items" id="mitems"><button class="no-plat-img" ><i class="fa fa-camera" ></i></button><input class="nom-plat" ><input class="prix-plat" ><button class="del-plat-item btn"><i class="fa fa-trash"></i></button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button></div></div>
+            #}
+        <div class="row"><div class="ajout-menu"><button class="btn ajout-menu-btn" type="button" id="btnajout-menu-btn"><i class="fa fa-plus"></i><span>Ajouter</span></button></div></div>
+            </form>
+        </div>
+        {% for lplat in plats %}
+        <div class="col-md-5 menu-cart container-fluid"  >
+            <form>
+         <div class="row">
+             <div class="menu-info"><button class="menu-img"style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: 100% 100%;" >
+                     <i class="fa fa-camera" ></i>
+                 </button><input class="nom-menu" value="{{ lplat[0].getIdCat().getNomCat() }}" type="text" disabled>
+                 <button type="button"  class="dropdown-arrow">
+                     <i class="fa fa-caret-down" id="display-plat{{ lplat[0].getIdCat().getIdCat() }}"onclick="showspe('{{ lplat[0].getIdCat().getIdCat() }}')" ></i>
+                     <i class="fa fa-caret-up" id="hide-plat{{ lplat[0].getIdCat().getIdCat() }}" onclick="hidespe('{{ lplat[0].getIdCat().getIdCat() }}')"></i></button></div></div>
+            <div class="row">
+                <div class="new-plat">
+                    <form>
+
+                        <input type="button"  style="width: 48px; height: 35px; background: url('{{ asset('frontend/img/photocamera-add.png') }}')" id="new_btn{{ lplat[0].getIdCat().getIdCat() }}" onclick="addimage('{{ lplat[0].getIdCat().getIdCat() }}')" ><input type="file"  style="display: none" name="img_btn{{ lplat[0].getIdCat().getIdCat() }}" id="img_btn{{ lplat[0].getIdCat().getIdCat() }}" ></input><input class="nom-plat" placeholder="saisir le nom du plat" id="nom{{ lplat[0].getIdCat().getIdCat() }}" ><input class="prix-plat" placeholder="prix" id="prix{{ lplat[0].getIdCat().getIdCat() }}" ><button  type="button" class="aj-plat btn" onclick="addsingleplat('{{ lplat[0].getIdCat().getIdCat() }}')"><i class="fa fa-plus"></i></button>
+
+                    </form>
+                </div>
+            </div>
+            <div class="row" id="mitems{{ lplat[0].getIdCat().getIdCat() }}"style="display: none">
+                {% for p in lplat %}
+                <div class="menu-items" id="{{ p.idPlat }}">
+
+                    <button class="plat-img" style="background: url('../../../../imgjdid/{{ p.imageplat }}') no-repeat;background-size: 100% 100%;" ><i class="fa fa-camera" ></i></button>
+                        <input class="nom-plat"  value="{{ p.nomPlat }}" id="nomplat{{ p.idPlat }}">
+                        <input class="prix-plat"  value="{{ p.prixPlat }}" id="prixplat{{ p.idPlat }}">
+                        <button class="del-plat-item btn" onclick="removemenu({{ p.idPlat }})"><i class="fa fa-trash"></i>
+                        </button><button class=" mod-plat-item btn" onclick="updatemenu({{ p.idPlat }})" ><i class="fa fa-edit"></i></button>
+                </div>
+                {% endfor %}
+            </div>
+
+           {# <div class="row"><div class="menu-items" id="mitems"><button class="plat-img" style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: cover;" ><i class="fa fa-camera" ></i></button><input class="nom-plat"  value="Pizza champignion"><input class="prix-plat"  value="3000"><button class="del-plat-item btn"><i class="fa fa-trash"></i></button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button></div></div>
+            <div class="row"><div class="menu-items" id="mitems"><button class="plat-img" style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: cover;" ><i class="fa fa-camera" ></i></button><input class="nom-plat" value="Pizza 4 saison"><input class="prix-plat"  value="5000"><button class="del-plat-item btn"><i class="fa fa-trash"></i></button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button></div></div>
+        #}
+        <div class="row"><div class="edit-menu"><button class="btn edit-menu-btns del-menu-btn" id="del-menu"><i class="fa fa-trash"></i><span>Supprimer</span></button><button class="btn edit-menu-btns edit-menu-btn"><i class="fa fa-edit"></i><span>Modifier</span></button></div></div>
+            </form>
+        </div>
+        {% endfor %}
+      {#  <div class="col-md-5 menu-cart container-fluid" >
+         <div class="row">   <div class="menu-info"><button class="menu-img"style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: cover;" ><i class="fa fa-camera" ></i></button><input class="nom-menu" value="Pizza" type="text" disabled><button  class="dropdown-arrow"><i class="fa fa-caret-down " id="display-plat"></i><i class="fa fa-caret-up " id="hide-plat"></i></button></div></div>
+            <div class="row">   <div class="new-plat"><button class="no-plat-img" ><i class="fa fa-camera" ></i></button><input class="nom-plat" placeholder="saisir le nom du plat" ><input class="prix-plat" placeholder="prix" ><button class="aj-plat btn"><i class="fa fa-plus"></i></button></div></div>
+            <div class="row"><div class="menu-items" id="mitems"><button class="plat-img" style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: cover;" ><i class="fa fa-camera" ></i></button><input class="nom-plat" placeholder="saisir le nom du plat" value="Pizza margeritte"><input class="prix-plat" placeholder="prix" value="2000"><button class="del-plat-item btn"><i class="fa fa-trash"></i></button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button></div></div>
+            <div class="row"><div class="menu-items" id="mitems"><button class="plat-img" style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: cover;" ><i class="fa fa-camera" ></i></button><input class="nom-plat" placeholder="saisir le nom du plat" value="Pizza champignion"><input class="prix-plat" placeholder="prix" value="3000"><button class="del-plat-item btn"><i class="fa fa-trash"></i></button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button></div></div>
+            <div class="row"><div class="menu-items" id="mitems"><button class="plat-img" style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: cover;" ><i class="fa fa-camera" ></i></button><input class="nom-plat" placeholder="saisir le nom du plat"value="Pizza 4 saison"><input class="prix-plat" placeholder="prix" value="5000"><button class="del-plat-item btn"><i class="fa fa-trash"></i></button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button></div></div>
+        <div class="row"><div class="edit-menu"><button class="btn edit-menu-btns del-menu-btn"><i class="fa fa-trash"></i><span>Supprimer</span></button><button class="btn edit-menu-btns edit-menu-btn"><i class="fa fa-edit"></i><span>Modifier</span></button></div></div>
+        </div>
+        <div class="col-md-5 menu-cart container-fluid" >
+         <div class="row">   <div class="menu-info"><button class="menu-img"style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: cover;" ><i class="fa fa-camera" ></i></button><input class="nom-menu" value="Pizza" type="text" disabled><button  class="dropdown-arrow"><i class="fa fa-caret-down " id="display-plat"></i><i class="fa fa-caret-up " id="hide-plat"></i></button></div></div>
+            <div class="row"><div class="new-plat"><button class="no-plat-img" ><i class="fa fa-camera" ></i></button><input class="nom-plat" placeholder="saisir le nom du plat" ><input class="prix-plat" placeholder="prix" ><button class="aj-plat btn"><i class="fa fa-plus"></i></button></div></div>
+            <div class="row"><div class="menu-items" id="mitems"><button class="plat-img" style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: cover;" ><i class="fa fa-camera" ></i></button><input class="nom-plat" placeholder="saisir le nom du plat" value="Pizza margeritte"><input class="prix-plat" placeholder="prix" value="2000"><button class="del-plat-item btn"><i class="fa fa-trash"></i></button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button></div></div>
+            <div class="row"><div class="menu-items"id="mitems"><button class="plat-img" style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: cover;" ><i class="fa fa-camera" ></i></button><input class="nom-plat" placeholder="saisir le nom du plat" value="Pizza champignion"><input class="prix-plat" placeholder="prix" value="3000"><button class="del-plat-item btn"><i class="fa fa-trash"></i></button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button></div></div>
+            <div class="row"><div class="menu-items"id="mitems"><button class="plat-img" style="background: url('{{ asset('frontend/img/pizza.jpeg') }}') no-repeat;background-size: cover;" ><i class="fa fa-camera" ></i></button><input class="nom-plat" placeholder="saisir le nom du plat"value="Pizza 4 saison"><input class="prix-plat" placeholder="prix" value="5000"><button class="del-plat-item btn"><i class="fa fa-trash"></i></button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button></div></div>
+        <div class="row"><div class="edit-menu"><button class="btn edit-menu-btns del-menu-btn"><i class="fa fa-trash"></i><span>Supprimer</span></button><button class="btn edit-menu-btns edit-menu-btn"><i class="fa fa-edit"></i><span>Modifier</span></button></div></div>
+        </div>
+        #}
+    </div>
+        <aside id="my-mdc-dialog"
+               class="mdc-dialog "
+               role="alertdialog"
+               aria-labelledby="my-mdc-dialog-label"
+               aria-describedby="my-mdc-dialog-description">
+            <div class="mdc-dialog__surface supp-menu-dialog">
+                <header class="mdc-dialog__header">
+                    <h2 id="my-mdc-dialog-label" class="mdc-dialog__header__title">
+                       Vou voulez vraiment supprimmer le menu?
+                    </h2>
+                </header>
+             {#   <section id="my-mdc-dialog-description" class="mdc-dialog__body">
+                    Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.
+                </section>#}
+                <footer class="mdc-dialog__footer">
+                    <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel back-btn">Retour</button>
+                    <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--accept del-btn ">Supprimer</button>
+                </footer>
+            </div>
+            <div class="mdc-dialog__backdrop"></div>
+        </aside>
+
+    </div>
+
+
+
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+<script src="{{ asset('frontend/js/resto-menu.js') }}" type="text/javascript"></script>
+<script src="{{ asset('frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.js') }}" type="text/javascript"></script>
+<script>
+
+    function addimage(display) {
+
+        $('#img_btn'+display).click();
+
+        $('#img_btn'+display).on("change", function(){ $('#new_btn'+display).css("background-image", "url('"+$('#img_btn'+display).data()+"')")
+
+
+
+            // var inputFile = document.getElementById("img_btn"+display);
+            //var file = inputFile.files[0];
+            //alert(""+$('#img_btn'+display).val())
+            });
+
+
+    }
+
+
+    /************* addsingle plat *********************/
+    function addsingleplat(display) {
+        var inputFile = document.getElementById("img_btn"+display);
+        var file = inputFile.files[0];
+        var data = new FormData();
+        data.append('image', file, file.name);
+        data.append('nom',''+$( "#nom"+display ).val());
+        data.append('prix',''+$( "#prix"+display ).val());
+        data.append('id',''+display);
+        $.ajax({
+            url:'{{ (path('ajoutersingleplat')) }}',
+            type: "POST",
+            data: data
+            /*{
+                "nom_plat": ""+$( "#nom"+display ).val(),
+                "prix": ""+$( "#prix"+display ).val(),
+                "idcategorie":""+display,
+                "image":$("#img_btn"+display).next()
+            }*/,
+            processData: false,
+            contentType: false,
+            cache: false,
+            success: function (data)
+            {alert(""+$("#img_btn"+display).next().val());
+                $.each(data, function (k, el) {
+                    alert(""+el.toString());
+                    $('#mitems'+display).append(
+                    '<div class="menu-items" >'+
+                       ' <form>'+
+                        '<button class="plat-img" style="background: url('+'../../../../../../imgjdid/'+file.name+') no-repeat;background-size: 100% 100%;" ><i class="fa fa-camera" ></i></button>'+
+                    '<input class="nom-plat"  value="'+$( "#nom"+display ).val()+'">'+
+                        '<input class="prix-plat"  value="'+$( "#prix"+display ).val()+'" >'+
+                        '<button class="del-plat-item btn"><i class="fa fa-trash"></i>'+
+                       ' </button><button class=" mod-plat-item btn"><i class="fa fa-edit"></i></button>'+
+                        '</form>'+
+                        '</div>'
+                    );
+
+                });
+
+            }
+        });    }
+
+    function removemenu(display) {
+        var data = new FormData();
+        data.append('id',''+display);
+        $.ajax({
+            url:'{{ (path('removeplat')) }}',
+            type: "POST",
+            data: data,
+            processData: false,
+            contentType: false,
+            cache: false,
+            success: function (data)
+            {
+                $("#"+display).remove();
+            }
+        });
+
+
+    }
+    function updatemenu(display) {
+        var data = new FormData();
+        data.append('nom',''+$( "#nomplat"+display ).val());
+        data.append('prix',''+$( "#prixplat"+display ).val());
+        data.append('id',''+display);
+
+        $.ajax({
+            url:'{{ (path('updateplat')) }}',
+            type: "POST",
+            data: data,
+            processData: false,
+            contentType: false,
+            cache: false,
+            success: function (data)
+            {
+alert('update success');
+            }
+        });
+
+
+    }
+
+    $i=0;
+    var nom = [];
+    $('#btnplus').click(function () {
+$i++;
+
+
+        alert('sa7itt'+$i);
+        $( "#new-mitems" ).append( "<div class='menu-items' id='new-mitems'><div><button class='no-plat-img' >" +
+            "<i class='fa fa-camera' ></i></button><input class='nom-plat' id='plat"+$i+"' value='"+$( "#plat0").val()+"'><input class='prix-plat' id='prix"+$i+"' value='"+$("#prix0" ).val()+"'>" +
+            "<button class='del-plat-item btn'><i class='fa fa-trash'></i></button><button class='mod-plat-item bt'>" +
+            "<i class='fa fa-edit'></i>" +
+            "</button></div>" +
+            "                     </div>" );
+
+        nom.push($( "#plat"+$i ).val());
+        $( "#plat0" ).val("");
+        $( "#prix0" ).val("");
+
+        $('#hide-plat').hide();
+        $('#display-plat').show();
+        $( "#new-mitems" ).slideDown( "slow" );
+        $.ajax({
+            url:'{{ (path('ajouterplat')) }}',
+            type: "POST",
+            dataType: "json",
+            data: {
+                "etat": "0",
+                "nom_plat": nom,
+                "prix": ""+$( "#prix"+$i ).val()
+
+            },
+            async: true,
+            success: function (data)
+            {
+
+                alert('sa7itt'+$( "#plat"+$i ).val()+$( "#prix"+$i ).val());
+
+$i++;
+
+            }
+        });
+
+    });
+    $('#btnajout-menu-btn').click(function () {
+
+
+
+        $.ajax({
+            url:'{{ (path('ajouterplat')) }}',
+            type: "POST",
+            dataType: "json",
+            data: {
+                "etat": "1",
+                "nom_plat": nom,
+                "nom_cat": ""+$( "#cat").val(),
+                "prix": ""+$( "#prix"+$i ).val()
+
+            },
+            async: true,
+            success: function (data)
+            {
+                alert('gooooooooooo');
+
+            }
+        });
+
+    });
+</script>
+
+{% endblock %}

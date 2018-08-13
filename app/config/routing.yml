@@ -1,0 +1,11 @@
+client:
+    resource: "@RestoBundle/Resources/config/routing.yml"
+    prefix:   /
+resto:
+    resource: "@RestoBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
