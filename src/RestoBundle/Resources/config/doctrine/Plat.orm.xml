@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="RestoBundle\Entity\Plat" table="plat">
+    <indexes>
+      <index name="id_cat" columns="id_cat"/>
+    </indexes>
+    <id name="idPlat" type="integer" column="id_plat">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="nomPlat" type="string" column="nom_plat" length="50" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="prixPlat" type="string" column="prix_plat" length="50" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="descriptionPlat" type="string" column="description_plat" length="100" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="imageplat" type="string" column="imageplat" length="300" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <many-to-one field="idCat" target-entity="Categorie" fetch="LAZY">
+      <join-columns>
+        <join-column name="id_cat" referenced-column-name="id_cat"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

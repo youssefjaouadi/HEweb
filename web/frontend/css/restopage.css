@@ -1,0 +1,30 @@
+.coverr{height: 470px!important; /* tabdil orig min-height: 470px;*/}
+.resto-section{background: #fff}
+.btn-bar,.btn-bar:before{
+    outline: none!important;
+    display: inline-block;
+    background-color: #0D47A1;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    font-family: "Roboto",sans-serif;
+
+   }
+.btn-bar-blured{ background-color:#fff ;
+    color:#0D47A1;
+    border: 1px solid #0D47A1;
+}
+#menu-btn{
+    -webkit-border-top-right-radius: 0px;-webkit-border-bottom-right-radius: 0px;}
+#info-btn{-webkit-border-top-left-radius: 0px;-webkit-border-bottom-left-radius: 0px;}
+#ib{display: none}
+.menu-title{
+    font-size:20px;background-size:cover;background:rgba(0,0,0,0.5)no-repeat;color: #fff;
+    font-family: "Open Sans",sans-serif;
+}
+.menu-description{width:90%;display:block;font-size:15px;background-size:cover;background:rgba(0,0,0,0.5)no-repeat;color: #fff;}

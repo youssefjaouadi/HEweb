@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="RestoBundle\Entity\Categorie" table="categorie">
+    <indexes>
+      <index name="idresto" columns="idresto"/>
+      <index name="idresto_2" columns="idresto"/>
+    </indexes>
+    <id name="idCat" type="integer" column="id_cat">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="nomCat" type="string" column="nom_cat" length="50" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="imgCat" type="string" column="img_cat" length="200" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <many-to-one field="idresto" target-entity="Resto" fetch="LAZY">
+      <join-columns>
+        <join-column name="idresto" referenced-column-name="id"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

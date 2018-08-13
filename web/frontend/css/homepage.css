@@ -52,7 +52,7 @@
 
 #slider-radius .slider-selection{background: #0D47A1 }
 .slider-handle.custom,.slider-handle.custom::before,.slider-handle.custom:before {
-    content: url("../img/test-imgs/test2.png")!important; /*unicode star character*/
+    content: url("../img/slider-marker.png")!important; /*unicode star character*/
 
 }
 .slider-handle{top:-5px!important;}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="RestoBundle\Entity\Resto" table="resto">
+    <unique-constraints>
+      <unique-constraint name="UNIQ_892155B192FC23A8" columns="username_canonical"/>
+      <unique-constraint name="UNIQ_892155B1A0D96FBF" columns="email_canonical"/>
+      <unique-constraint name="id_Place_Resto" columns="id_Place_Resto"/>
+      <unique-constraint name="UNIQ_892155B1C05FB297" columns="confirmation_token"/>
+    </unique-constraints>
+    <id name="id" type="integer" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="username" type="string" column="username" length="180" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="usernameCanonical" type="string" column="username_canonical" length="180" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="email" type="string" column="email" length="180" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="emailCanonical" type="string" column="email_canonical" length="180" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="enabled" type="boolean" column="enabled" nullable="false"/>
+    <field name="salt" type="string" column="salt" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="password" type="string" column="password" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="lastLogin" type="datetime" column="last_login" nullable="true"/>
+    <field name="confirmationToken" type="string" column="confirmation_token" length="180" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="passwordRequestedAt" type="datetime" column="password_requested_at" nullable="true"/>
+    <field name="roles" type="array" column="roles" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="idPlaceResto" type="string" column="id_Place_Resto" length="50" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="nomresto" type="string" column="nomResto" length="50" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="adresseresto" type="string" column="adresseResto" length="50" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="description" type="string" column="description" length="200" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="ouverture" type="string" column="ouverture" length="10" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="fermeture" type="string" column="fermeture" length="10" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="typeresto" type="string" column="typeResto" length="50" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="ribresto" type="string" column="RibResto" length="50" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="lngresto" type="string" column="lngResto" length="50" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="ltdresto" type="string" column="ltdResto" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="telnum" type="string" column="telNum" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>
