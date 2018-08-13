@@ -42,7 +42,7 @@
                 <div class="row">
 
                     <div class="col-xs-12 col-sm-12" id="infob">
-                        <form>
+                        <form method="post">
                         <div class="card">
                             <div class="card-body card-block">
 
@@ -52,14 +52,14 @@
                                         <label class=" form-control-label">Nom restaurant</label>
                                         <div class="input-group">
                                             <div class="input-group-addon"><img src="{{ asset('frontend/img/shop.png') }}"/></div>
-                                            <input class="form-control" id="nomr" value="resto la joix" disabled >
+                                            <input class="form-control" id="nomr" value="{{ user.nomresto }}" disabled >
                                         </div>
                                     </div>
                                     <div class="form-group info-forms"  data-toggle="tooltip" data-placement="bottom" title="modifier l'adresse a la page localistaion">
                                         <label class=" form-control-label">Adresse</label>
                                         <div class="input-group">
                                             <div class="input-group-addon"><img src="{{ asset('frontend/img/location-resto.png') }}"/></div>
-                                            <input class="form-control" id="adrr" value="boulvard la liberté" disabled >
+                                            <input class="form-control" id="adrr" value="{{ user.adresseresto }}" disabled >
                                         </div>
                                     </div>
                                </div>
@@ -68,14 +68,14 @@
                                     <label class=" form-control-label">Date Ouverture</label>
                                     <div class="input-group">
                                         <div class="input-group-addon"><img src="{{ asset('frontend/img/resto-time.png') }}"/></div>
-                                        <input class="form-control"  data-placement="top" value="09:00" data-align="left" id="ouvr" type="text" maxlength="5" onkeydown="return false;">
+                                        <input class="form-control"  data-placement="top" value="{{ user.ouverture }}" data-align="left" id="ouvr" type="text" maxlength="5" onkeydown="return false;">
                                     </div>
                                 </div>
                                 <div class="form-group info-forms">
                                     <label class=" form-control-label">Date Fermeture</label>
                                     <div class="input-group">
                                         <div class="input-group-addon"><img src="{{ asset('frontend/img/resto-time.png') }}"/></div>
-                                        <input class="form-control"data-placement="top" value="18:00" data-align="right" id="fermr" type="text" maxlength="5" onkeydown="return false;" >
+                                        <input class="form-control"data-placement="top" value="{{ user.fermeture }}" data-align="right" id="fermr" type="text" maxlength="5" onkeydown="return false;" >
                                     </div>
                                 </div>
                                 </div>
@@ -84,12 +84,12 @@
                                         <label class=" form-control-label">Numero Telephone</label>
                                         <div class="input-group">
                                             <div class="input-group-addon"><img src='{{ asset('frontend/img/resto-phone.png') }}'/></div>
-                                            <input class="form-control" id="telr" type="number"  value="123456789">
+                                            <input class="form-control" id="telr" type="number"  value="{{ user.tel }}">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <button  type="button" id="modifr" class="btn btn-lg  btn-block modif-btn" style="margin:10px 10% 10px 10%">
+                                    <button  type="button" id="modifr"  onclick="modifgenerale('{{ path('updateinfogenerale') }}')" class="btn btn-lg  btn-block modif-btn" style="margin:10px 10% 10px 10%">
                                         <i class="fa fa-edit"></i>
                                         <span>Modifier</span>
 
@@ -100,7 +100,7 @@
                         </form>
                     </div>
                     <div class="col-xs-12 col-sm-12" id="confb">
-                        <form>
+                        <form method="post">
                         <div class="card">
                             <div class="card-body card-block">
 
@@ -110,14 +110,14 @@
                                         <label class=" form-control-label">E-mail</label>
                                         <div class="input-group">
                                             <div class="input-group-addon"><img src="{{ asset('frontend/img/e-mail.png') }}"/></div>
-                                            <input class="form-control" id="emailr" value="email@email.com" type="email" >
+                                            <input class="form-control" id="emailr" value="{{ user.email }}" type="email" >
                                         </div>
                                     </div>
                                     <div class="form-group info-forms">
                                         <label class=" form-control-label">Compte bancaire</label>
                                         <div class="input-group">
                                             <div class="input-group-addon"><img src="{{ asset('frontend/img/rib2.png') }}"/></div>
-                                            <input class="form-control" id="ribr" type="number">
+                                            <input class="form-control" id="ribr" value="{{ user.ribresto }}" type="number">
                                         </div>
                                     </div>
 
@@ -128,7 +128,7 @@
                                         <label class=" form-control-label">Mot de passe</label>
                                         <div class="input-group">
                                             <div class="input-group-addon"><img src="{{ asset('frontend/img/password2.png') }}"/></div>
-                                            <input class="form-control" id="oldmdpr" type="password"  >
+                                            <input class="form-control" id="oldmdpr" type="password" value="{{ user.password }}"  >
                                         </div>
                                     </div>
                                     <div class="form-group info-forms">
@@ -140,7 +140,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <button  type="button" id="modifconfr" class="btn btn-lg  btn-block modif-btn" style="margin:10px 10% 10px 10%">
+                                    <button  type="button" id="modifconfr"  onclick="modifconf('{{ path('UpdateConfidProfile') }}')"class="btn btn-lg  btn-block modif-btn" style="margin:10px 10% 10px 10%">
                                         <i class="fa fa-edit"></i>
                                         <span>Modifier</span>
 

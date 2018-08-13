@@ -55,17 +55,77 @@ function verifinfo()
     return test;
 
 }
-$('#modifr').click(function () {
 
 
-        if (verifinfo()) {
+
+    function modifgenerale($m) {
+
+
+
+    if (verifinfo()) {
+        var data = new FormData();
+        data.append('ouvr',''+$("#ouvr").val());
+        data.append('fermr',''+$("#fermr").val());
+        data.append('telr',''+$("#telr").val());
+
+        $.ajax({
+            url: '' + $m,
+            type: "POST",
+            data: data,
+            processData: false,
+            contentType: false,
+            cache: false,
+            success: function (data) {
+
+                $.each(data, function (k, el) {
+                    alert("" + el.toString());
+                });
+                $('#sucsess-modif').show();
+
+                return true;
+            }
+        });
+
+    }
+    else {
+        return false
+    }
+
+}
+
+function modifconf($m) {
+
+
+
+    var data = new FormData();
+    data.append('mdp',''+$("#newmdpr").val());
+    data.append('rib',''+$("#ribr").val());
+
+    $.ajax({
+        url: '' + $m,
+        type: "POST",
+        data: data,
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function (data) {
+
+            $.each(data, function (k, el) {
+                alert("" + el.toString());
+            });
             $('#sucsess-modif').show();
-        alert(true);
+
             return true;
         }
-        else {return false}
+    });
 
-});
+
+
+
+}
+
+
+
 $('#infonavbtn').click(function () {
     $('#confnavbtn').removeClass('blured-menu-btn');
     $('#locnavbtn').removeClass('blured-menu-btn');

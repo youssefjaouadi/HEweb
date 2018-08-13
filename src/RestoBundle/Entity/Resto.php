@@ -1,10 +1,7 @@
 <?php
-
 namespace RestoBundle\Entity;
-
 use Doctrine\ORM\Mapping as ORM;
 use FOS\UserBundle\Model\User as BaseUser;
-
 /**
  * Resto
  *
@@ -20,7 +17,6 @@ class Resto extends BaseUser
     {
         return $this->id;
     }
-
     /**
      * @param int $id
      */
@@ -28,7 +24,6 @@ class Resto extends BaseUser
     {
         $this->id = $id;
     }
-
     /**
      * @return string
      */
@@ -36,7 +31,6 @@ class Resto extends BaseUser
     {
         return $this->idPlaceResto;
     }
-
     /**
      * @param string $idPlaceResto
      */
@@ -44,7 +38,6 @@ class Resto extends BaseUser
     {
         $this->idPlaceResto = $idPlaceResto;
     }
-
     /**
      * @return string
      */
@@ -52,7 +45,6 @@ class Resto extends BaseUser
     {
         return $this->nomresto;
     }
-
     /**
      * @param string $nomresto
      */
@@ -60,7 +52,6 @@ class Resto extends BaseUser
     {
         $this->nomresto = $nomresto;
     }
-
     /**
      * @return string
      */
@@ -68,7 +59,6 @@ class Resto extends BaseUser
     {
         return $this->adresseresto;
     }
-
     /**
      * @param string $adresseresto
      */
@@ -76,7 +66,6 @@ class Resto extends BaseUser
     {
         $this->adresseresto = $adresseresto;
     }
-
     /**
      * @return string
      */
@@ -84,7 +73,6 @@ class Resto extends BaseUser
     {
         return $this->description;
     }
-
     /**
      * @param string $description
      */
@@ -92,7 +80,6 @@ class Resto extends BaseUser
     {
         $this->description = $description;
     }
-
     /**
      * @return string
      */
@@ -100,7 +87,6 @@ class Resto extends BaseUser
     {
         return $this->ouverture;
     }
-
     /**
      * @param string $ouverture
      */
@@ -108,7 +94,6 @@ class Resto extends BaseUser
     {
         $this->ouverture = $ouverture;
     }
-
     /**
      * @return string
      */
@@ -116,7 +101,6 @@ class Resto extends BaseUser
     {
         return $this->fermeture;
     }
-
     /**
      * @param string $fermeture
      */
@@ -124,7 +108,6 @@ class Resto extends BaseUser
     {
         $this->fermeture = $fermeture;
     }
-
     /**
      * @return string
      */
@@ -132,7 +115,6 @@ class Resto extends BaseUser
     {
         return $this->typeresto;
     }
-
     /**
      * @param string $typeresto
      */
@@ -140,7 +122,6 @@ class Resto extends BaseUser
     {
         $this->typeresto = $typeresto;
     }
-
     /**
      * @return string
      */
@@ -148,7 +129,6 @@ class Resto extends BaseUser
     {
         return $this->email;
     }
-
     /**
      * @param string $email
      */
@@ -156,10 +136,6 @@ class Resto extends BaseUser
     {
         $this->email = $email;
     }
-
-
-
-
     /**
      * @return string
      */
@@ -167,7 +143,6 @@ class Resto extends BaseUser
     {
         return $this->ribresto;
     }
-
     /**
      * @param string $ribresto
      */
@@ -175,7 +150,6 @@ class Resto extends BaseUser
     {
         $this->ribresto = $ribresto;
     }
-
     /**
      * @return string
      */
@@ -183,7 +157,6 @@ class Resto extends BaseUser
     {
         return $this->lngresto;
     }
-
     /**
      * @param string $lngresto
      */
@@ -191,7 +164,6 @@ class Resto extends BaseUser
     {
         $this->lngresto = $lngresto;
     }
-
     /**
      * @return int
      */
@@ -199,7 +171,6 @@ class Resto extends BaseUser
     {
         return $this->ltdresto;
     }
-
     /**
      * @param string $ltdresto
      */
@@ -207,7 +178,6 @@ class Resto extends BaseUser
     {
         $this->ltdresto = $ltdresto;
     }
-
     /**
      * @return string
      */
@@ -215,7 +185,6 @@ class Resto extends BaseUser
     {
         return $this->tel;
     }
-
     /**
      * @param string $tel
      */
@@ -223,7 +192,6 @@ class Resto extends BaseUser
     {
         $this->tel = $tel;
     }
-
     /**
      * @var integer
      *
@@ -231,106 +199,85 @@ class Resto extends BaseUser
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="IDENTITY")
      */
-
     protected $id;
-
     /**
      * @var string
      */
     protected $username;
-
     /**
      * @var string
      */
     protected $usernameCanonical;
-
-
     /**
      * @var string
      */
     protected $emailCanonical;
-
     /**
      * @var string
      *
      * @ORM\Column(name="id_Place_Resto", type="string", length=50, nullable=false)
      */
-
-
     protected $idPlaceResto;
-
     /**
      * @var string
      *
      * @ORM\Column(name="nomResto", type="string", length=50, nullable=false)
      */
     protected $nomresto;
-
     /**
      * @var string
      *
      * @ORM\Column(name="adresseResto", type="string", length=50, nullable=false)
      */
     protected $adresseresto;
-
     /**
      * @var string
      *
      * @ORM\Column(name="description", type="string", length=200, nullable=false)
      */
     protected $description;
-
     /**
      * @var string
      *
      * @ORM\Column(name="ouverture", type="string", length=10, nullable=false)
      */
     protected $ouverture;
-
     /**
      * @var string
      *
      * @ORM\Column(name="fermeture", type="string", length=10, nullable=false)
      */
     protected $fermeture;
-
     /**
      * @var string
      *
      * @ORM\Column(name="typeResto", type="string", length=50, nullable=false)
      */
     protected $typeresto;
-
-
-
     /**
      * @var string
      *
      * @ORM\Column(name="RibResto", type="string", length=50, nullable=false)
      */
     protected $ribresto;
-
     /**
      * @var string
      *
      * @ORM\Column(name="lngResto", type="string", length=50, nullable=false)
      */
     protected $lngresto;
-
     /**
      * @var string
      *
      * @ORM\Column(name="ltdResto", type="string", nullable=false)
      */
     protected $ltdresto;
-
     /**
      * @var string
      *
      * @ORM\Column(name="telNum", type="string", nullable=false)
      */
     protected $tel;
-
     /**
      * Resto constructor.
      * @param int $id
@@ -346,8 +293,4 @@ class Resto extends BaseUser
      * @param string $lngresto
      * @param string $ltdresto
      */
-
-
-
 }
-

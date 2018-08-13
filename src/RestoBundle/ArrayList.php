@@ -11,7 +11,7 @@ namespace RestoBundle;
 
 class ArrayList {
 
-    private $list = array();
+    public $list = array();
 
     public function Add($obj)
     {

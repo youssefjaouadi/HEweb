@@ -3,6 +3,7 @@
 namespace RestoBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Plat
@@ -41,6 +42,13 @@ class Plat
      * @ORM\Column(name="description_plat", type="string", length=100, nullable=false)
      */
     private $descriptionPlat;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="imageplat", type="string", length=300, nullable=false)
+     */
+    private $imageplat;
 
     /**
      * @var \Categorie
@@ -82,6 +90,22 @@ class Plat
     public function setNomPlat($nomPlat)
     {
         $this->nomPlat = $nomPlat;
+    }
+
+    /**
+     * @return string
+     */
+    public function getImageplat()
+    {
+        return $this->imageplat;
+    }
+
+    /**
+     * @param string $imageplat
+     */
+    public function setImageplat($imageplat)
+    {
+        $this->imageplat = $imageplat;
     }
 
     /**
@@ -131,6 +155,53 @@ class Plat
     {
         $this->idCat = $idCat;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getFile()
+    {
+        return $this->file;
+    }
+
+    /**
+     * @param mixed $file
+     */
+    public function setFile($file)
+    {
+        $this->file = $file;
+    }
+
+
+
+    /**
+     * @Assert\File(maxSize="5000k")
+     */
+    public $file;
+
+    public function getWebPath()
+    {
+
+        return null ===$this->imageplat?null:$this->getUploadDir().'/'.$this->imageplat;
+    }
+    public function getUploadRootDir()
+    {
+        return __DIR__.'/../../../web/../../'.$this->getUploadDir();
+    }
+    protected function getUploadDir()
+    {
+        return 'imgjdid';
+    }
+    public function uploadProfilPicture()
+    {
+        if($this->file != null && $this->file != "")
+        {$this->file->move($this->getUploadRootDir(),$this->file->getClientOriginalName());
+            $this->imageplat=$this->file->getClientOriginalName();
+
+            $this->file=null;}
+
+    }
+
 
 
 }
