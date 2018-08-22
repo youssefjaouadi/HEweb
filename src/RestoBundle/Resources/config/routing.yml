@@ -1,0 +1,50 @@
+fos_user_security:
+    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+
+
+
+fos_user_register:
+    resource: "@FOSUserBundle/Resources/config/routing/registration.xml"
+    prefix: /register
+
+fos_user_resetting:
+    resource: "@FOSUserBundle/Resources/config/routing/resetting.xml"
+    prefix: /resetting
+
+fos_user_change_password:
+    resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
+    prefix: /profile
+AcceuilNonConnecté:
+    path:     /Acceuil
+    defaults: { _controller: RestoBundle:Client:DisplayAcceuil }
+
+ListMenu:
+    path:     /Menu
+    defaults: { _controller: RestoBundle:Client:ListMenu }
+
+ajouterplat:
+    path:     /ajplat
+    defaults: { _controller: RestoBundle:Ajmenu:addmenu }
+
+ajoutersingleplat:
+    path:     /ajsingplat
+    defaults: { _controller: RestoBundle:Ajmenu:addsinglemenu }
+removeplat:
+    path:     /rm
+    defaults: { _controller: RestoBundle:Ajmenu:remouvemenu }
+
+updateplat:
+    path:     /updplat
+    defaults: { _controller: RestoBundle:Ajmenu:updatemenu }
+
+profile:
+    path:     /prof
+    defaults: { _controller: RestoBundle:Profil:DisplayProfile }
+
+updateinfogenerale:
+    path:     /upinfgen
+    defaults: { _controller: RestoBundle:Profil:UpdateInformGeneraleProfile }
+
+UpdateConfidProfile:
+    path:     /updateconf
+    defaults: { _controller: RestoBundle:Profil:UpdateConfidProfile }

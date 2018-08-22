@@ -74,7 +74,7 @@
             </div>
             <div class="row" >
                 <div class="btns-location">
-                    <form  method="post" action="{{ path('client_homepage_getnearresto') }}">
+                    <form  method="post" action="{{ path('listr') }}">
                         <input type="hidden" id="user-lat" name="latu" value="">
                         <input type="hidden" id="user-long" name="longu" value="">
                         <input type="hidden" id="user-rad" name="radu" value="10">
@@ -299,7 +299,7 @@
                 var geocoder = new google.maps.Geocoder;
                 $.ajax({
 
-                    url:'{{ path('client_homepage_getnearresto') }}',
+                    url:'{{ path('listr') }}',
                     type: "POST",
                     data: {
                         "ltd": lat,
@@ -355,7 +355,7 @@
                     setCookie("lng",position.coords.longitude);
 
                     $.ajax({
-                        url:'{{ path('client_homepage_getnearresto') }}',
+                        url:'{{ path('listr') }}',
                         type: "POST",
                         data: {
                             "ltd": position.coords.latitude,
@@ -410,7 +410,7 @@
                 $('#load').show();
 
                 $.ajax({
-                    url:'{{ path('client_homepage_getnearresto') }}',
+                    url:'{{ path('listr') }}',
                     type: "POST",
                     data: {
                         "ltd": getCookie('ltd'),

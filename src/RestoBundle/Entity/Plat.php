@@ -1,6 +1,10 @@
 <?php
+
 namespace RestoBundle\Entity;
+
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
 /**
  * Plat
  *
@@ -17,30 +21,35 @@ class Plat
      * @ORM\GeneratedValue(strategy="IDENTITY")
      */
     private $idPlat;
+
     /**
      * @var string
      *
      * @ORM\Column(name="nom_plat", type="string", length=50, nullable=false)
      */
     private $nomPlat;
+
     /**
      * @var string
      *
      * @ORM\Column(name="prix_plat", type="string", length=50, nullable=false)
      */
     private $prixPlat;
+
     /**
      * @var string
      *
      * @ORM\Column(name="description_plat", type="string", length=100, nullable=false)
      */
     private $descriptionPlat;
+
     /**
      * @var string
      *
-     * @ORM\Column(name="imageplat", type="string", length=100, nullable=false)
+     * @ORM\Column(name="imageplat", type="string", length=300, nullable=false)
      */
     private $imageplat;
+
     /**
      * @var \Categorie
      *
@@ -50,6 +59,7 @@ class Plat
      * })
      */
     private $idCat;
+
     /**
      * @return int
      */
@@ -57,6 +67,7 @@ class Plat
     {
         return $this->idPlat;
     }
+
     /**
      * @param int $idPlat
      */
@@ -64,12 +75,21 @@ class Plat
     {
         $this->idPlat = $idPlat;
     }
+
     /**
      * @return string
      */
     public function getNomPlat()
     {
         return $this->nomPlat;
+    }
+
+    /**
+     * @param string $nomPlat
+     */
+    public function setNomPlat($nomPlat)
+    {
+        $this->nomPlat = $nomPlat;
     }
 
     /**
@@ -87,13 +107,7 @@ class Plat
     {
         $this->imageplat = $imageplat;
     }
-    /**
-     * @param string $nomPlat
-     */
-    public function setNomPlat($nomPlat)
-    {
-        $this->nomPlat = $nomPlat;
-    }
+
     /**
      * @return string
      */
@@ -101,6 +115,7 @@ class Plat
     {
         return $this->prixPlat;
     }
+
     /**
      * @param string $prixPlat
      */
@@ -108,6 +123,7 @@ class Plat
     {
         $this->prixPlat = $prixPlat;
     }
+
     /**
      * @return string
      */
@@ -115,6 +131,7 @@ class Plat
     {
         return $this->descriptionPlat;
     }
+
     /**
      * @param string $descriptionPlat
      */
@@ -122,6 +139,7 @@ class Plat
     {
         $this->descriptionPlat = $descriptionPlat;
     }
+
     /**
      * @return \Categorie
      */
@@ -129,6 +147,7 @@ class Plat
     {
         return $this->idCat;
     }
+
     /**
      * @param \Categorie $idCat
      */
@@ -136,4 +155,54 @@ class Plat
     {
         $this->idCat = $idCat;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getFile()
+    {
+        return $this->file;
+    }
+
+    /**
+     * @param mixed $file
+     */
+    public function setFile($file)
+    {
+        $this->file = $file;
+    }
+
+
+
+    /**
+     * @Assert\File(maxSize="5000k")
+     */
+    public $file;
+
+    public function getWebPath()
+    {
+
+        return null ===$this->imageplat?null:$this->getUploadDir().'/'.$this->imageplat;
+    }
+    public function getUploadRootDir()
+    {
+        return __DIR__.'/../../../web/../../'.$this->getUploadDir();
+    }
+    protected function getUploadDir()
+    {
+        return 'imgjdid';
+    }
+    public function uploadProfilPicture()
+    {
+        if($this->file != null && $this->file != "")
+        {$this->file->move($this->getUploadRootDir(),$this->file->getClientOriginalName());
+            $this->imageplat=$this->file->getClientOriginalName();
+
+            $this->file=null;}
+
+    }
+
+
+
 }
+

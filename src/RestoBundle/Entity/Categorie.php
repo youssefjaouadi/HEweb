@@ -1,10 +1,13 @@
 <?php
+
 namespace RestoBundle\Entity;
+
 use Doctrine\ORM\Mapping as ORM;
+
 /**
  * Categorie
  *
- * @ORM\Table(name="categorie")
+ * @ORM\Table(name="categorie", indexes={@ORM\Index(name="idresto", columns={"idresto"}), @ORM\Index(name="idresto_2", columns={"idresto"})})
  * @ORM\Entity
  */
 class Categorie
@@ -17,19 +20,21 @@ class Categorie
      * @ORM\GeneratedValue(strategy="IDENTITY")
      */
     private $idCat;
+
     /**
      * @var string
      *
      * @ORM\Column(name="nom_cat", type="string", length=50, nullable=false)
      */
     private $nomCat;
+
     /**
      * @var string
-        *
-     * @ORM\Column(name="img_cat", type="string", length=200, nullable=false)
+     *
+     * @ORM\Column(name="img_cat", type="string", length=200, nullable=true)
      */
-
     private $imgCat;
+
     /**
      * @var \Resto
      *
@@ -39,38 +44,6 @@ class Categorie
      * })
      */
     private $idresto;
-
-    /**
-     * Categorie constructor.
-     * @param int $idCat
-     * @param string $nomCat
-     * @param string $imgCat
-     * @param \Resto $idresto
-     */
-    public function __construct($idCat, $nomCat, $imgCat, \Resto $idresto)
-    {
-        $this->idCat = $idCat;
-        $this->nomCat = $nomCat;
-        $this->imgCat = $imgCat;
-        $this->idresto = $idresto;
-    }
-
-    /**
-     * @return \Resto
-     */
-    public function getIdresto()
-    {
-        return $this->idresto;
-    }
-
-    /**
-     * @param \Resto $idresto
-     */
-    public function setIdresto($idresto)
-    {
-        $this->idresto = $idresto;
-    }
-
 
     /**
      * @return int
@@ -120,4 +93,22 @@ class Categorie
         $this->imgCat = $imgCat;
     }
 
+    /**
+     * @return \Resto
+     */
+    public function getIdresto()
+    {
+        return $this->idresto;
+    }
+
+    /**
+     * @param \Resto $idresto
+     */
+    public function setIdresto($idresto)
+    {
+        $this->idresto = $idresto;
+    }
+
+
 }
+

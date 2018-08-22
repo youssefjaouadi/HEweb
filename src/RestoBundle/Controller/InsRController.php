@@ -13,7 +13,7 @@ class InsRController extends Controller
      * @Route("/signupr")
      */
     public function DisplayInsRAction()
-    {        $r=$this->getDoctrine()->getRepository("RestoBundle:Resto")->findAll();
+    {       // $r=$this->getDoctrine()->getRepository("RestoBundle:Resto")->findAll();
 
         return $this->render('RestoBundle:InsR:insr.html.twig', array(/*"restos"=>$r*/
             // ...

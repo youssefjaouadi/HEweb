@@ -1,6 +1,14 @@
 var etap=1;
 $('#ouv').clockpicker({ donetext: 'Confirmer'});
 $('#ferm').clockpicker({ donetext: 'Confirmer'});
+$('#confb').click(function () {
+
+
+    $('.ribresto').val($('#rib').val());
+
+
+
+});
 $('#nextb').click(function () {
 
 
@@ -9,11 +17,11 @@ $('#nextb').click(function () {
                 $('#blockmap').hide();
                 $('#blockinfo').fadeIn("fade");
                 $('#backb').show();
-                $('#nomr').val($('#nom').val());
-                $('#adrr').val($('#adr').val());
-                $('#nomstep2').val($('#nomr').val());
-                $('#adrstep2').val($('#adrr').val());
-                alert("nom=     " + $('#nomr').val() + '|adr      ' + $('#adrr').val() + '|num etap  '+etap+'|langr etap  '+$('#langr').val()+'|latr etap  '+$('#latr').val()+'| placeid  '+$('#idplacer').val());
+                $('.nomr').val($('#nom').val());
+                $('.adrr').val($('#adr').val());
+                $('#nomstep2').val($('.nomr').val());
+                $('#adrstep2').val($('.adrr').val());
+                alert("nom=     " + $('.nomr').val() + '|adr      ' + $('.adrr').val() + '|num etap  '+etap+'|langr etap  '+$('.langr').val()+'|latr etap  '+$('.latr').val()+'| placeid  '+$('.idplacer').val());
                 etap++;
                 return true;
             }
@@ -26,12 +34,14 @@ $('#nextb').click(function () {
                     $('#nextb').hide();
                     $('#backb').show();
                     $('#confb').show();
-                    $('#telr').val($('#tel').val());
-                    $('#ouvr').val($('#ouv').val());
-                    $('#fermr').val($('#ferm').val());
-                    $('#typer').val($('#typeresto').val());
+                    $('.desc').val($('#description').val());
+                    $('.telr').val($('#tel').val());
+                    $('.ouvr').val($('#ouv').val());
+                    $('.fermr').val($('#ferm').val());
+                    $('.typer').val($('#typeresto').val());
+
                     etap++;
-                    alert("nom=     " + $('#nomr').val() + '|adr      ' + $('#adrr').val() + '|num etap  '+etap+'|ouv   '+$('#ouvr').val()+'|ferm   '+$('#fermr').val()+'|tel   '+$('#telr').val()+'|type   '+$('#typer').val()+'|typelength   '+$('#typer').val().length);
+                    alert("nom=     " + $('.nomr').val() + '|adr      ' + $('.adrr').val() + '|num etap  '+etap+'|ouv   '+$('.ouvr').val()+'|ferm   '+$('.fermr').val()+'|tel   '+$('.telr').val()+'|type   '+$('.typer').val()+'|typelength   '+$('.typer').val().length);
                     return true;
                 }
           else {return false;}

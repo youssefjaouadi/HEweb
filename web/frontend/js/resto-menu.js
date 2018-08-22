@@ -1,15 +1,36 @@
+
+
+function showspe(display) {
+
+    $('#display-plat'+display).hide();
+    $('#hide-plat'+display).show();
+    $('.menu-items').css('display', 'block');
+    $( "#mitems"+display).slideDown(1000);
+}
+function hidespe(display) {
+
+    $('#hide-plat'+display).hide();
+    $('#display-plat'+display).show();
+    $( "#mitems"+display ).slideUp( "slow" );
+
+}
+
+
 $('#display-plat').click(function () {
   /*  $('#mitems').show();
     alert('display');*/
     $('#display-plat').hide();
     $('#hide-plat').show();
-    $( "#mitems" ).slideDown( "slow" );
+    $( "#mitems" ).slideDown(1000);
+
 
 });
+
 $('#hide-plat').click(function () {
     $('#hide-plat').hide();
     $('#display-plat').show();
     $( "#mitems" ).slideUp( "slow" );
+
     //alert('hide');
 
 });

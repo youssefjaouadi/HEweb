@@ -124,14 +124,13 @@
 }
 
 /*.dropdown-arrow:active .fa-caret-down:before{ content: "\f0d8";}*/
-#display-plat,#new-display-plat{display: none;}
+.fa-caret-up,#new-display-plat{display: none;}
 .nom-menu{
 
     background-color: transparent;
     border: transparent;
     outline: none;
     text-align: center;
-    color: #FFFFFF;
     font-size: 20px;
     font-family:'Roboto';
     text-overflow: ellipsis;

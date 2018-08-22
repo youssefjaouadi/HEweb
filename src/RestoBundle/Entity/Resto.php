@@ -1,13 +1,17 @@
 <?php
 namespace RestoBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
+use FOS\UserBundle\Model\User as BaseUser;
 /**
  * Resto
  *
  * @ORM\Table(name="resto", uniqueConstraints={@ORM\UniqueConstraint(name="id_Place_Resto", columns={"id_Place_Resto"})})
  * @ORM\Entity
+ *
+ * @ORM\Entity(repositoryClass="RestoBundle\Repository\RestoRepository")
+ *
  */
-class Resto
+class Resto extends BaseUser
 {
     /**
      * @return int

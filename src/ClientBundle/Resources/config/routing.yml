@@ -1,0 +1,9 @@
+home:
+    path:     /home
+    defaults: { _controller: ClientBundle:HomePage:DisplayHome }
+resto:
+    path:     /resto/{id}
+    defaults: { _controller: ClientBundle:HomePage:RestoPage }
+listr:
+    path:     /listr
+    defaults: { _controller: ClientBundle:HomePage:GetNearResto }
