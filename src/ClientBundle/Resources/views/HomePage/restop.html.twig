@@ -1,0 +1,267 @@
+{% extends ":template:home.html.twig" %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/button/dist/mdc.button.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/restopage.css') }}"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,300,300italic' rel='stylesheet' type='text/css'>
+
+{% endblock %}
+
+{% block body %}
+    <section class="parallax-window coverr" data-parallax="scroll" data-image-src="img/sub_header_2.jpg" data-natural-width="1400" data-natural-height="470">
+        <div id="subheader">
+            <div id="sub_content">
+                <div id="thumb"><img src="{{ asset('frontend/img/thumb_restaurant.jpg') }}" alt=""></div>
+                <div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i> </div>
+                <h1>{{ resto.nomResto }}</h1>
+                <div><em>{{ resto.typeResto }}</em></div>
+                <div><i class="icon_pin"></i> {{ resto.adresseResto }} - <strong>Delivery charge:</strong> $10, free over $15.</div>
+            </div><!-- End sub_content -->
+        </div><!-- End subheader -->
+    </section><!-- End section -->
+    <div id="position">
+        <div class="container">
+            <ul>
+                <li><a href="#0">Home</a></li>
+                <li><a href="#0">Category</a></li>
+                <li>Page active</li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="container margin_60_35">
+        <div class="row">
+
+
+            <div class="col-md-9 resto-section" >
+
+                    <div class="row"  >
+                    <button class="btn-bar col-md-6 btn-bar-blured" id="menu-btn">Menu</button>
+                    <button class="btn-bar col-md-6" id="info-btn">information</button>
+                    </div>
+                    <div id="mb" class="margin_30 row"> <div class="col-md-3">
+
+                <div class="box_style_1">
+                    <ul id="cat_nav">
+                        {% for key in menu|keys %}
+
+
+                        <li><a href="#{{ key }}" {#class="active"#}>{{ key }} </a></li>
+
+
+                        {% endfor %}
+                    </ul>
+                </div><!-- End box_style_1 -->
+
+
+            </div><!-- End col-md-3 -->
+
+                        <div class="col-md-9">
+
+
+
+
+
+
+                         <div class="box_style_2" id="main_menu">
+                                {% for key, m in menu %}
+                              <div class="cat-cover" id="{{ key }}" style="background: url('{{ asset(m['imc']) }}') no-repeat;background-size: 100% 100%;">
+                                  <span class="menu-title"  >{{ key }}</span>
+                                <div class="menu-description">
+                                    Te ferri iisque aliquando pro, posse nonumes efficiantur in cum. Sensibus reprimique eu pro. Fuisset mentitum deleniti sit ea.
+                                </div>
+                              </div>
+                                <table class="table table-striped cart-list">
+                                    <thead>
+                                    <tr>
+                                        <th>
+                                            Plat
+                                        </th>
+                                        <th>
+                                            Prix
+                                        </th>
+                                        <th>
+                                            Commander
+                                        </th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+
+                                    {% for i in 0..m|length -2  %}
+
+                                    <tr>
+                                        <td id="pn">
+                                            <figure class="thumb_menu_list pimg" ><img src="{{ asset(m[i].ip) }}" alt="thumb"></figure>
+                                            <h5> {{ m[i].np }}</h5>
+                                            <p>
+                                                {{ m[i].dp }}
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <strong>€ {{ m[i].pp }}</strong>
+                                        </td>
+                                        <td class="options">
+                                            <div class="dropdown dropdown-options">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="icon_plus_alt2"></i></a>
+                                                <div class="dropdown-menu">
+                                                    <h5>Select an option</h5>
+                                                    <label>
+                                                        <input type="radio" value="option1" name="options_1" checked>Medium <span>+ $3.30</span>
+                                                    </label>
+                                                    <label>
+                                                        <input type="radio" value="option2" name="options_1" >Large <span>+ $5.30</span>
+                                                    </label>
+                                                    <label>
+                                                        <input type="radio" value="option3" name="options_1" >Extra Large <span>+ $8.30</span>
+                                                    </label>
+                                                    <h5>Add ingredients</h5>
+                                                    <label>
+                                                        <input type="checkbox" value="">Extra Tomato <span>+ $4.30</span>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" value="">Extra Peppers <span>+ $2.50</span>
+                                                    </label>
+                                                    <a href="#0" class="add_to_basket">Add to cart</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+
+
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+                                <hr>
+
+
+
+
+
+
+
+                                {% endfor %}
+                            </div><!-- End box_style_1 -->
+                        </div><!-- End col-md-6 --></div>
+                    <div id="ib">info blcok</div>
+
+
+
+
+            </div>
+            <div class="col-md-3" id="sidebar">
+                <div class="theiaStickySidebar">
+                    <div id="cart_box" >
+                        <h3>Your order <i class="icon_cart_alt pull-right"></i></h3>
+                        <table class="table table_summary">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <a href="#0" class="remove_item"><i class="icon_minus_alt"></i></a> <strong>1x</strong> Enchiladas
+                                </td>
+                                <td>
+                                    <strong class="pull-right">$11</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="#0" class="remove_item"><i class="icon_minus_alt"></i></a> <strong>2x</strong> Burrito
+                                </td>
+                                <td>
+                                    <strong class="pull-right">$14</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="#0" class="remove_item"><i class="icon_minus_alt"></i></a> <strong>1x</strong> Chicken
+                                </td>
+                                <td>
+                                    <strong class="pull-right">$20</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="#0" class="remove_item"><i class="icon_minus_alt"></i></a> <strong>2x</strong> Corona Beer
+                                </td>
+                                <td>
+                                    <strong class="pull-right">$9</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="#0" class="remove_item"><i class="icon_minus_alt"></i></a> <strong>2x</strong> Cheese Cake
+                                </td>
+                                <td>
+                                    <strong class="pull-right">$12</strong>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <hr>
+                        <div class="row" id="options_2">
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                                <label><input type="radio" value="" checked name="option_2" class="icheck">Delivery</label>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                                <label><input type="radio" value="" name="option_2" class="icheck">Take Away</label>
+                            </div>
+                        </div><!-- Edn options 2 -->
+
+                        <hr>
+                        <table class="table table_summary">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    Subtotal <span class="pull-right">$56</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Delivery fee <span class="pull-right">$10</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="total">
+                                    TOTAL <span class="pull-right">$66</span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <hr>
+                        <a class="btn_full" href="cart.html">Order now</a>
+                    </div><!-- End cart_box -->
+                </div><!-- End theiaStickySidebar -->
+            </div><!-- End col-md-3 -->
+
+        </div><!-- End row -->
+    </div>
+
+
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('frontend/externres/node_modules/@material/dialog/dist/mdc.dialog.js') }}" type="text/javascript"></script>
+    <script type="text/javascript" src="{{ asset('frontend/js/restop.js') }}"></script>
+    {#<script  src="{{ asset('frontend/js/cat_nav_mobile.js') }}"></script>#}
+    {#<script>$('#cat_nav').mobileMenu();</script>#}
+    <script src="{{ asset('frontend/js/theia-sticky-sidebar.js') }}"></script>
+    <script>
+        jQuery('#sidebar').theiaStickySidebar({
+            additionalMarginTop: 80
+        });
+    </script>
+    <script>
+        $('#cat_nav a[href^="#"]').on('click', function (e) {
+            e.preventDefault();
+            var target = this.hash;
+            var $target = $(target);
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top - 70
+            }, 900, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+    </script>
+{% endblock %}
